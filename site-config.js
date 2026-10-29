@@ -28,7 +28,7 @@
    ========================================================================== */
 window.SITE_CONFIG = {
   /* Clk.sh API token for account "nelzmd2" — paste from the dashboard. */
-  clkToken: "e62e58c406cf987ba5f8a02310afbf6f328a4860",
+  clkToken: "",
 
   /* Quick Link template verified live against clk.sh on 2026-10-29:
      GET /full?api=<token>&url=<dest> answers "Invalid API token." for a bad
