@@ -1,0 +1,2086 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MOHAMMED AI — PS4 PKG Downloads</title>
+<meta name="description" content="MOHAMMED AI — global PS4 PKG games directory. Verified links, firmware filter, updates, DLC, classics, themes and tools.">
+<script src="site-config.js"></script>
+<style>
+  :root{
+    --bg:#070605; --bg2:#0e0b07; --panel:rgba(27,22,13,.68); --panel2:rgba(40,33,18,.62);
+    --line:rgba(212,175,55,.17); --line2:rgba(212,175,55,.42);
+    --acc:#d4af37; --acc2:#f2cd5e; --star:#f5c518;
+    --text:#f7f1de; --muted:#cdc19e; --muted2:#998c66;
+    --wa:#25d366; --danger:#ff8f8f;
+    --knock:#161106;
+    --shadow:0 16px 40px rgba(0,0,0,.6); --radius:16px;
+    --dockbg:rgba(20,16,8,.55);
+    --sheetbg:rgba(15,12,6,.86);
+  }
+  body.light{
+    --bg:#f3ecd9; --bg2:#ece2c8; --panel:rgba(255,253,246,.72); --panel2:rgba(255,253,246,.85);
+    --line:rgba(150,116,32,.22); --line2:rgba(150,116,32,.45);
+    --acc:#a8821f; --acc2:#8a6420; --star:#b8860b;
+    --text:#241b06; --muted:#6b5c33; --muted2:#998a5c;
+    --knock:#f7f1de;
+    --shadow:0 16px 36px rgba(120,95,30,.18);
+    --dockbg:rgba(255,252,240,.6);
+    --sheetbg:rgba(250,246,232,.9);
+  }
+  *{box-sizing:border-box; -webkit-tap-highlight-color:transparent}
+  html{scroll-behavior:smooth}
+  body{margin:0; color:var(--text); padding-bottom:118px;
+    background:
+      radial-gradient(720px 480px at 12% -6%, rgba(212,175,55,.20), transparent 62%),
+      radial-gradient(640px 460px at 96% 8%, rgba(240,205,110,.12), transparent 60%),
+      radial-gradient(900px 700px at 50% 112%, rgba(150,116,32,.16), transparent 65%),
+      var(--bg);
+    background-attachment:fixed;
+    font-family:"Segoe UI",system-ui,-apple-system,Roboto,"Noto Kufi Arabic","Noto Sans Arabic",Arial,sans-serif;
+    transition:background .25s,color .25s}
+  body.light{
+    background:
+      radial-gradient(720px 480px at 12% -6%, rgba(212,175,55,.35), transparent 62%),
+      radial-gradient(640px 460px at 96% 8%, rgba(245,215,110,.30), transparent 60%),
+      radial-gradient(900px 700px at 50% 112%, rgba(233,220,180,.55), transparent 65%),
+      var(--bg);
+    background-attachment:fixed}
+  a{color:inherit; text-decoration:none}
+  button{font-family:inherit}
+  .wrap{max-width:1120px; margin:0 auto; padding:0 16px}
+
+  /* ---------- header ---------- */
+  header{position:sticky; top:0; z-index:60; background:color-mix(in srgb, var(--bg) 78%, transparent);
+    backdrop-filter:blur(16px) saturate(150%); -webkit-backdrop-filter:blur(16px) saturate(150%); border-bottom:1px solid var(--line)}
+  .hrow{display:flex; align-items:center; gap:10px; padding:10px 0; flex-wrap:wrap}
+  @media (max-width:640px){ .hrow .hsearch{order:3; flex:1 1 100%} }
+  .logo{display:flex; align-items:center; gap:10px; min-width:0}
+  .monogram{width:40px; height:40px; flex:0 0 40px; border-radius:12px; display:flex; align-items:center; justify-content:center;
+    font-family:Georgia,serif; font-size:22px; font-weight:700; color:#fff;
+    background:linear-gradient(140deg,var(--acc),var(--acc2)); box-shadow:0 8px 24px rgba(212,175,55,.45), inset 0 1px 0 rgba(255,255,255,.4)}
+  .brand{line-height:1.12; min-width:0}
+  .brand .en{font-weight:800; letter-spacing:1.3px; font-size:14px; white-space:nowrap}
+  .brand .en b{background:linear-gradient(90deg,var(--acc),var(--acc2)); -webkit-background-clip:text; background-clip:text; color:transparent}
+  .brand .ar{font-size:11px; color:var(--muted); white-space:nowrap}
+  .hsearch{flex:1; position:relative; min-width:0}
+  .hsearch input{width:100%; padding:10px 38px 10px 14px; border-radius:999px; border:1px solid var(--line2);
+    background:var(--panel); color:var(--text); font-size:14.5px; outline:none}
+  [dir=rtl] .hsearch input{padding:10px 14px 10px 38px}
+  .hsearch input:focus{border-color:var(--acc); box-shadow:0 0 0 3px rgba(212,175,55,.25)}
+  .hsearch .mag{position:absolute; inset-inline-end:13px; top:50%; transform:translateY(-50%); font-size:15px; opacity:.7; pointer-events:none}
+  .hbtn{border:1px solid var(--line2); background:var(--panel); color:var(--text);
+    border-radius:999px; padding:8px 13px; font-size:13px; font-weight:700; cursor:pointer; white-space:nowrap}
+  .hbtn:active{transform:scale(.94)}
+  #themeBtn{width:40px; height:40px; padding:0; border-radius:50%; font-size:17px; display:flex; align-items:center; justify-content:center}
+  @media (max-width:560px){ .brand .ar{display:none} .hbtn.lang{padding:8px 10px} }
+  nav.sections{border-top:1px solid var(--line); overflow-x:auto; scrollbar-width:none}
+  nav.sections::-webkit-scrollbar{display:none}
+  .srow{display:flex; gap:8px; padding:9px 0; width:max-content; max-width:100%}
+  .sec{border:1px solid var(--line); background:var(--panel); color:var(--muted);
+    padding:7px 14px; border-radius:999px; font-size:13.5px; font-weight:700; cursor:pointer; white-space:nowrap}
+  .sec .n{color:var(--acc2); font-size:11.5px; font-weight:900}
+  .sec.on{border-color:var(--acc); color:var(--text); background:color-mix(in srgb, var(--acc) 20%, transparent)}
+
+  /* ---------- hero ---------- */
+  .hero{padding:26px 0 2px; text-align:center}
+  .hero .kick{font-size:11.5px; font-weight:800; letter-spacing:3.5px; color:var(--acc2)}
+  .hero h1{margin:7px 0 0; font-size:clamp(27px,6.6vw,46px); line-height:1.16; font-weight:900}
+  .hero h1 .g{background:linear-gradient(92deg,var(--acc),var(--acc2)); -webkit-background-clip:text; background-clip:text; color:transparent}
+
+  /* ---------- fw filter ---------- */
+  .fwbox{margin:18px 0 0}
+  .fwbox .lbl{font-size:11.5px; font-weight:800; letter-spacing:1.6px; color:var(--muted); margin-bottom:8px}
+  .fwrow{display:flex; gap:7px; flex-wrap:wrap}
+  .fw{border:1px solid var(--line); background:var(--panel); color:var(--muted); border-radius:10px;
+    padding:6px 12px; font-size:13px; font-weight:800; cursor:pointer; font-variant-numeric:tabular-nums}
+  .fw.on{border-color:transparent; color:#171106; background:linear-gradient(140deg,var(--acc),var(--acc2)); box-shadow:0 6px 18px rgba(212,175,55,.35)}
+  .fwnote{margin-top:8px; font-size:12.5px; color:var(--muted2)}
+
+  /* ---------- blocks / ranked / cards ---------- */
+  .block{margin:30px 0 4px}
+  .block h2{font-size:19px; margin:0 0 3px; display:flex; align-items:center; gap:9px; font-weight:900}
+  .block h2 .cnt{font-size:13px; color:var(--acc2); font-weight:900; border:1px solid var(--line2); padding:2px 9px; border-radius:999px}
+  .block h2 .flame{filter:drop-shadow(0 3px 8px rgba(217,70,239,.65))}
+  .block .sub{color:var(--muted2); font-size:12.5px; margin:0 0 12px}
+  .rankrow{display:flex; gap:6px; overflow-x:auto; padding:8px 2px 16px; scrollbar-width:none}
+  .rankrow::-webkit-scrollbar{display:none}
+  .ritem{display:flex; align-items:flex-end; flex:0 0 auto; cursor:pointer}
+  .ranknum{font-size:172px; line-height:.74; font-weight:900; letter-spacing:-.05em; color:transparent;
+    -webkit-text-stroke:3px rgba(212,175,55,.6); margin-inline-end:-18px; position:relative; z-index:0;
+    font-family:"Arial Black","Segoe UI",sans-serif; user-select:none}
+  .ritem:first-child .ranknum{background:linear-gradient(180deg,var(--acc),var(--acc2)); -webkit-background-clip:text; background-clip:text; -webkit-text-stroke:0}
+  .ritem .card{flex:0 0 172px; position:relative; z-index:1}
+  @media (min-width:760px){ .ritem .card{flex-basis:190px} .ranknum{font-size:196px} }
+  .strip{display:flex; gap:12px; overflow-x:auto; padding:4px 2px 12px; scrollbar-width:none}
+  .strip::-webkit-scrollbar{display:none}
+  .strip .card{flex:0 0 148px}
+  .grid{display:grid; grid-template-columns:repeat(auto-fill,minmax(148px,1fr)); gap:12px; padding-bottom:8px}
+  @media (min-width:760px){ .strip .card{flex-basis:170px} .grid{grid-template-columns:repeat(auto-fill,minmax(170px,1fr))} }
+  .card{background:var(--panel); border:1px solid var(--line); border-radius:var(--radius); overflow:hidden;
+    cursor:pointer; transition:transform .15s,border-color .15s,box-shadow .15s; box-shadow:var(--shadow);
+    backdrop-filter:blur(10px); -webkit-backdrop-filter:blur(10px)}
+  .card:active{transform:scale(.98)}
+  .card:hover{border-color:var(--acc); transform:translateY(-3px); box-shadow:0 18px 44px rgba(212,175,55,.22)}
+  .cover{position:relative; aspect-ratio:3/4; display:flex; flex-direction:column; align-items:center; justify-content:center;
+    gap:6px; padding:14px; text-align:center; color:#f5f2e9; overflow:hidden}
+  .cover::after{content:""; position:absolute; inset:0; background:
+    radial-gradient(120% 90% at 50% 0%, rgba(255,255,255,.16), transparent 55%),
+    linear-gradient(180deg, transparent 55%, rgba(0,0,0,.55))}
+  .cover .mono{font-family:Georgia,serif; font-size:44px; font-weight:700; color:#fff;
+    border:1.5px solid rgba(255,255,255,.55); width:74px; height:74px; border-radius:16px;
+    display:flex; align-items:center; justify-content:center; background:rgba(0,0,0,.25); z-index:1}
+  .cover .ct{font-weight:800; font-size:14.5px; line-height:1.3; z-index:1; text-shadow:0 2px 8px rgba(0,0,0,.55)}
+  .cover .chip{position:absolute; top:8px; inset-inline-start:8px; z-index:2; background:rgba(0,0,0,.55);
+    border:1px solid rgba(255,255,255,.25); color:#fff; font-size:10.5px; font-weight:800; padding:3px 8px; border-radius:999px; letter-spacing:.6px}
+  .cover .chip.fwok{inset-inline-start:auto; inset-inline-end:8px}
+  .badge{position:absolute; top:34px; inset-inline-start:8px; z-index:2; font-size:9.5px; font-weight:900; letter-spacing:.6px;
+    padding:3px 7px; border-radius:6px; background:linear-gradient(120deg,var(--acc2),var(--acc)); color:#fff}
+  .badge.new{background:linear-gradient(120deg,#0ea47a,#00c853)}
+  .cover .ovl{position:absolute; bottom:8px; inset-inline:8px; z-index:2; display:flex; justify-content:space-between; gap:6px}
+  .pill{background:rgba(0,0,0,.62); border:1px solid rgba(255,255,255,.22); color:#fff; backdrop-filter:blur(4px);
+    font-size:11px; font-weight:800; padding:3.5px 8px; border-radius:999px}
+  .pill .st{color:var(--star)}
+  .cbody{padding:10px 11px 12px}
+  .cbody .t{font-weight:800; font-size:13.5px; line-height:1.35; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; min-height:36px}
+  .cbody .ta{color:var(--muted); font-size:12px; margin-top:1px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis}
+  .cmeta{display:flex; gap:6px; margin-top:8px; flex-wrap:wrap}
+  .tag{font-size:11px; font-weight:700; color:var(--muted); border:1px solid var(--line); border-radius:7px; padding:2.5px 7px; background:var(--panel2)}
+  .tag b{color:var(--text); font-weight:800}
+  .empty{border:1.5px dashed var(--line2); border-radius:var(--radius); padding:34px 18px; text-align:center; color:var(--muted)}
+  .empty .big{font-size:30px; margin-bottom:8px}
+  .empty b{color:var(--text)}
+
+  /* ---------- game page ---------- */
+  .back{display:inline-flex; align-items:center; gap:7px; margin:16px 0 4px; color:var(--muted);
+    font-weight:700; font-size:14px; cursor:pointer; border:0; background:none; padding:6px 0}
+  .back:hover{color:var(--acc2)}
+  .ghead{display:grid; grid-template-columns:1fr; gap:18px; margin-top:6px}
+  @media (min-width:720px){ .ghead{grid-template-columns:250px 1fr} }
+  .ghead .cover{border-radius:var(--radius); border:1px solid var(--line2); aspect-ratio:3/4}
+  .ghead .cover .mono{width:96px; height:96px; font-size:56px}
+  .ghead .cover .ct{font-size:19px}
+  .gtitles .en{font-size:clamp(22px,5.4vw,32px); font-weight:900; line-height:1.2; margin:2px 0}
+  .gtitles .ar{font-size:clamp(17px,4.4vw,23px); font-weight:800; color:var(--muted); margin:0 0 8px}
+  .stars{font-size:19px; letter-spacing:3px; color:var(--star)}
+  .stars .off{color:var(--line2)}
+  .stars .cnt{font-size:12.5px; color:var(--muted); letter-spacing:0; font-weight:600}
+  .gdesc{color:var(--muted); line-height:1.75; font-size:15px; margin:10px 0 0; max-width:640px}
+  .edition{display:inline-block; margin-top:12px; border:1px solid var(--acc); color:var(--acc2);
+    background:color-mix(in srgb, var(--acc) 12%, transparent); border-radius:10px; padding:7px 12px; font-size:13px; font-weight:700}
+  .srcrow{display:flex; gap:8px; flex-wrap:wrap; margin-top:14px}
+  .panel{background:var(--panel); border:1px solid var(--line); border-radius:var(--radius); padding:16px; margin-top:18px; box-shadow:var(--shadow);
+    backdrop-filter:blur(10px); -webkit-backdrop-filter:blur(10px)}
+  .panel h3{margin:0 0 12px; font-size:15.5px}
+  table.info{width:100%; border-collapse:collapse; font-size:14px}
+  table.info td{padding:8.5px 6px; border-bottom:1px solid var(--line); vertical-align:top}
+  table.info tr:last-child td{border-bottom:0}
+  table.info td.k{color:var(--muted); width:42%; font-weight:600}
+  table.info td.v{font-weight:700}
+  .file{border:1px solid var(--line); border-radius:12px; padding:13px; margin-bottom:12px; background:var(--panel2)}
+  .file:last-child{margin-bottom:0}
+  .file .fh{display:flex; align-items:baseline; gap:9px; flex-wrap:wrap; margin-bottom:10px}
+  .file .fk{font-weight:900; font-size:15px}
+  .file .fm{color:var(--muted); font-size:12.5px; font-weight:600}
+  .hosts{display:flex; gap:8px; flex-wrap:wrap}
+  .host-btn{display:inline-flex; align-items:center; gap:7px; background:linear-gradient(140deg,var(--acc),var(--acc2));
+    color:#171106; font-weight:900; font-size:13.5px; padding:10px 15px; border-radius:11px; box-shadow:0 6px 20px rgba(212,175,55,.35)}
+  .host-btn:active{transform:scale(.97)}
+  .host-badge{display:inline-flex; align-items:center; gap:6px; border:1.5px dashed var(--line2); color:var(--muted);
+    font-weight:800; font-size:13px; padding:9px 13px; border-radius:11px}
+  .fnote{margin-top:10px; font-size:12.5px; color:var(--muted2); line-height:1.6}
+  .bundle{border:1.5px solid var(--line2)}
+  .bundle ul{margin:6px 0 12px; padding-inline-start:20px; color:var(--muted); line-height:1.9; font-size:14px}
+  .bundle ul b{color:var(--text)}
+  .src-btn{display:inline-flex; align-items:center; gap:7px; border:1.5px solid var(--acc); color:var(--acc2);
+    font-weight:900; font-size:13.5px; padding:10px 15px; border-radius:11px}
+  .src-btn:active{transform:scale(.97)}
+  .wa-btn{display:flex; align-items:center; justify-content:center; gap:10px; width:100%;
+    background:var(--wa); color:#0b2417; font-weight:900; font-size:16px; padding:15px; border-radius:13px; margin-top:4px}
+  .wa-btn:active{transform:scale(.98)}
+  .wa-note{text-align:center; color:var(--muted); font-size:12.5px; margin-top:9px}
+
+  /* ---------- services / legal / footer ---------- */
+  .svc-grid{display:grid; grid-template-columns:1fr; gap:12px}
+  @media (min-width:720px){ .svc-grid{grid-template-columns:1fr 1fr} }
+  .svc{background:var(--panel); border:1px solid var(--line); border-radius:var(--radius); padding:18px; box-shadow:var(--shadow)}
+  .svc .ic{font-size:26px}
+  .svc h3{margin:8px 0 5px; font-size:16px}
+  .svc p{margin:0; color:var(--muted); font-size:13.5px; line-height:1.7}
+  .legal p{color:var(--muted); line-height:1.85; font-size:14.5px; max-width:680px}
+  .legal h1{font-size:26px; font-weight:900}
+  footer{margin:48px 0 0; border-top:1px solid var(--line); padding:24px 0 10px; color:var(--muted2); font-size:12.5px; line-height:1.85}
+  .fcols{display:grid; grid-template-columns:1.4fr 1fr 1fr; gap:20px}
+  @media (max-width:640px){ .fcols{grid-template-columns:1fr 1fr} .fcols .fc:first-child{grid-column:1/-1} }
+  .fc h4{margin:0 0 9px; font-size:13px; color:var(--text); letter-spacing:.6px}
+  .fc a{display:block; padding:3px 0; color:var(--muted); font-weight:600; cursor:pointer}
+  .fc a:hover{color:var(--acc2)}
+  .fc .fb{color:var(--muted)}
+  .err{margin:40px auto; max-width:520px; text-align:center; color:var(--danger); line-height:1.8; padding:0 16px}
+  .hidden{display:none !important}
+  ::view-transition-old(root),::view-transition-new(root){animation:none; mix-blend-mode:normal}
+  ::view-transition-new(root){z-index:1}
+
+  /* ---------- platform shelves / coming soon ---------- */
+  body{--pacc:var(--acc)}
+  .shelf-head{display:flex; align-items:center; gap:14px; margin:24px 0 2px}
+  .shelf-ic{width:58px; height:58px; flex:0 0 58px; border-radius:18px; display:flex; align-items:center; justify-content:center; background:var(--panel); border:1px solid var(--line); color:var(--pacc); box-shadow:var(--shadow)}
+  .shelf-ic svg{width:34px; height:34px}
+  .shelf-head h1{margin:0; font-size:clamp(24px,6vw,34px); font-weight:900}
+  .shelf-head p{color:var(--muted); margin:3px 0 0; font-size:13.5px; line-height:1.6}
+  .shelf-cnt{margin-inline-start:auto; font-weight:900; color:var(--pacc); font-size:14px; white-space:nowrap}
+  .shelf-tools{display:grid; gap:11px; margin:16px 0 8px}
+  .pb-search{position:relative; max-width:520px}
+  .pb-search input{width:100%; padding:12px 42px 12px 16px; border-radius:999px; border:1px solid var(--line2); background:var(--panel); color:var(--text); font-size:14.5px; outline:none; font-family:inherit}
+  [dir=rtl] .pb-search input{padding:12px 16px 12px 42px}
+  .pb-search input:focus{border-color:var(--pacc)}
+  .pb-search .mag{position:absolute; inset-inline-end:15px; top:50%; transform:translateY(-50%); opacity:.7; pointer-events:none}
+  .sortrow{display:flex; gap:7px; flex-wrap:wrap}
+  .sort{border:1px solid var(--line); background:var(--panel); color:var(--muted); border-radius:999px; padding:6px 13px; font-size:12.5px; font-weight:800; cursor:pointer; font-family:inherit}
+  .sort.on{background:var(--pacc); border-color:var(--pacc); color:#fff}
+  .shelf-empty{margin-top:16px; padding:36px 18px; border:1px dashed var(--line2); border-radius:var(--radius); text-align:center}
+  .shelf-empty .big{font-size:34px}
+  .shelf-empty b{font-size:16px}
+  .shelf-empty p{color:var(--muted); line-height:1.7; max-width:440px; margin:8px auto 16px; font-size:14px}
+  .pb-btn{display:inline-flex; align-items:center; gap:8px; background:linear-gradient(140deg,var(--acc),var(--acc2)); color:#171106; border:0; font-weight:800; font-size:14px; padding:12px 22px; border-radius:999px; cursor:pointer; box-shadow:var(--shadow); font-family:inherit}
+  .pb-btn:active{transform:scale(.97)}
+  .soon-card{max-width:520px; margin:36px auto; text-align:center; background:var(--panel); border:1px solid var(--line); border-radius:var(--radius); padding:38px 24px; box-shadow:var(--shadow)}
+  .soon-ic{display:inline-flex; width:84px; height:84px; border-radius:24px; align-items:center; justify-content:center; background:color-mix(in srgb, var(--pacc) 16%, transparent); color:var(--pacc)}
+  .soon-ic svg{width:48px; height:48px}
+  .soon-tag{display:table; margin:16px auto 0; padding:4px 13px; border-radius:999px; border:1px solid var(--pacc); color:var(--pacc); font-size:12px; font-weight:800}
+  .soon-card h1{margin:10px 0 6px; font-size:27px; font-weight:900}
+  .soon-card p{color:var(--muted); line-height:1.75; margin:0 0 20px; font-size:14.5px}
+
+  /* ---------- FLOATING DOCK — liquid glass (reel style 01) ---------- */
+  .dock-wrap{position:fixed; left:0; right:0; bottom:calc(10px + env(safe-area-inset-bottom)); z-index:80;
+    display:flex; justify-content:center; pointer-events:none; padding:0 10px}
+  .dock{pointer-events:auto; position:relative; display:flex; align-items:stretch; gap:1px;
+    max-width:100%; overflow-x:auto; scrollbar-width:none; padding:7px 8px;
+    border-radius:30px; border:1px solid rgba(255,255,255,.16);
+    background:linear-gradient(165deg, color-mix(in srgb, var(--dockbg) 100%, transparent), var(--dockbg));
+    backdrop-filter:blur(22px) saturate(170%); -webkit-backdrop-filter:blur(22px) saturate(170%);
+    box-shadow:0 22px 50px rgba(3,0,16,.55), 0 0 34px rgba(212,175,55,.16),
+      inset 0 1px 0 rgba(255,255,255,.28), inset 0 -10px 22px rgba(212,175,55,.10)}
+  .dock::-webkit-scrollbar{display:none}
+  .dock-blob{position:absolute; top:6px; height:calc(100% - 12px); left:0; width:52px; z-index:0;
+    border-radius:21px; opacity:0;
+    background:linear-gradient(150deg, rgba(250,230,160,.55), rgba(212,175,55,.32) 70%);
+    border:1px solid rgba(255,255,255,.38);
+    box-shadow:inset 0 1px 0 rgba(255,255,255,.55), inset 0 -6px 14px rgba(212,175,55,.3), 0 8px 24px rgba(212,175,55,.3);
+    transition:left .55s cubic-bezier(.3,1.35,.35,1), width .55s cubic-bezier(.3,1.35,.35,1), opacity .25s}
+  .dock-blob.noanim{transition:none}
+  .dbtn{position:relative; z-index:1; flex:1 0 auto; min-width:44px; display:flex; flex-direction:column; align-items:center; justify-content:center;
+    gap:2px; padding:5px 4px 6px; background:none; border:0; border-radius:21px; cursor:pointer; color:var(--muted2); font-family:inherit}
+  .dbtn .pic{display:flex; transition:transform .3s}
+  .dbtn svg{width:24px; height:24px; display:block; filter:grayscale(1); opacity:.5; transition:filter .3s, opacity .3s}
+  .dbtn .pl{font-size:9.5px; font-weight:700; line-height:1.15; white-space:nowrap; color:var(--muted2); transition:color .3s}
+  .dbtn.on svg{filter:none; opacity:1}
+  .dbtn.on .pl{color:var(--text); font-weight:800}
+  .dbtn:active .pic{transform:scale(.88)}
+
+  /* ---------- MORE SHEET — glass ---------- */
+  .scrim{position:fixed; inset:0; background:rgba(4,1,14,.6); backdrop-filter:blur(3px); z-index:90;
+    opacity:0; pointer-events:none; transition:opacity .3s}
+  body.sheet-open .scrim{opacity:1; pointer-events:auto}
+  .sheet{position:fixed; left:50%; bottom:0; transform:translate(-50%,106%); z-index:95;
+    width:min(560px,100vw); max-height:88dvh; overflow-y:auto; overscroll-behavior:contain;
+    border-radius:28px 28px 0 0; border:1px solid rgba(255,255,255,.16); border-bottom:0;
+    background:var(--sheetbg); backdrop-filter:blur(26px) saturate(160%); -webkit-backdrop-filter:blur(26px) saturate(160%);
+    box-shadow:0 -18px 60px rgba(3,0,16,.5), inset 0 1px 0 rgba(255,255,255,.25);
+    padding:8px 18px calc(20px + env(safe-area-inset-bottom));
+    transition:transform .5s cubic-bezier(.3,1.12,.3,1)}
+  body.sheet-open .sheet{transform:translate(-50%,0)}
+  .grip{width:44px; height:5px; border-radius:99px; background:var(--line2); margin:6px auto 10px}
+  .sheet-head{display:flex; align-items:center; gap:10px; margin-bottom:4px}
+  .sheet-head .st{font-size:19px; font-weight:900}
+  .sheet-head .x{margin-inline-start:auto; width:34px; height:34px; border-radius:50%; border:1px solid var(--line2);
+    background:var(--panel); color:var(--text); cursor:pointer; font-size:14px}
+  .sheet-note{font-size:12.5px; color:var(--muted2); margin:0 0 6px; line-height:1.6}
+  .sheet-sec{margin-top:16px}
+  .sheet-sec h4{margin:0 0 9px; font-size:11.5px; font-weight:800; letter-spacing:1.8px; color:var(--muted)}
+  .sheet-plats{display:grid; grid-template-columns:repeat(4,1fr); gap:8px}
+  .spchip{display:flex; flex-direction:column; align-items:center; gap:5px; padding:11px 4px 9px; border-radius:16px;
+    border:1px solid var(--line); background:var(--panel); color:var(--muted); cursor:pointer; font-family:inherit}
+  .spchip svg{width:27px; height:27px; filter:grayscale(1); opacity:.55}
+  .spchip span{font-size:10.5px; font-weight:800; white-space:nowrap}
+  .spchip.on{border-color:var(--acc); color:var(--text)}
+  .spchip.on svg{filter:none; opacity:1}
+  .spchip:active{transform:scale(.95)}
+  .sheet-list{display:grid; grid-template-columns:1fr 1fr; gap:8px}
+  @media (max-width:420px){ .sheet-list{grid-template-columns:1fr} }
+  .sitem{display:flex; align-items:center; gap:9px; padding:12px 13px; border-radius:14px; text-align:start;
+    border:1px solid var(--line); background:var(--panel); color:var(--text); font-size:13.5px; font-weight:700; cursor:pointer; font-family:inherit}
+  .sitem .cnt{margin-inline-start:auto; font-size:11px; font-weight:900; color:var(--acc2)}
+  .sitem:active{transform:scale(.97)}
+  .sheet-cta{display:grid; grid-template-columns:1fr 1fr; gap:9px}
+  .cta{display:flex; align-items:center; justify-content:center; gap:8px; padding:14px 10px; border-radius:15px;
+    font-size:14.5px; font-weight:900; cursor:pointer; border:0; font-family:inherit; color:#fff; text-align:center}
+  .cta.svc{background:linear-gradient(140deg,var(--acc),var(--acc2)); color:#171106; box-shadow:0 8px 22px rgba(212,175,55,.3)}
+  .cta.wa{background:var(--wa); color:#0b2417}
+  .cta:active{transform:scale(.97)}
+  .sheet-toggles{display:grid; grid-template-columns:1fr 1fr; gap:9px}
+  .tgl{padding:12px 10px; border-radius:14px; border:1px solid var(--line2); background:var(--panel);
+    color:var(--text); font-size:13.5px; font-weight:800; cursor:pointer; font-family:inherit}
+  .tgl:active{transform:scale(.97)}
+  .sheet-legal{display:flex; gap:8px; justify-content:center; flex-wrap:wrap; margin-top:18px}
+  .sheet-legal a{font-size:12.5px; font-weight:700; color:var(--muted); border:1px solid var(--line);
+    padding:7px 14px; border-radius:999px; cursor:pointer; background:var(--panel)}
+  /* handheld glyphs (PSP/Vita) — lift body tone so they read on glass */
+  .dbtn[data-pb="psp"] svg path:first-of-type,.dbtn[data-pb="vita"] svg path:first-of-type,
+  .spchip[data-sp="psp"] svg path:first-of-type,.spchip[data-sp="vita"] svg path:first-of-type{fill:#83838d}
+
+  /* ================= FOCUSED — identity / stage / stats / PTR / dock gallery ================= */
+  /* per-game cover identity: cards glow with their own cover colour (--gc) */
+  .card{--gc:var(--acc)}
+  .card .cbody{border-top:2px solid color-mix(in srgb, var(--gc) 55%, transparent)}
+  .card:hover{border-color:color-mix(in srgb, var(--gc) 70%, transparent);
+    box-shadow:0 18px 44px color-mix(in srgb, var(--gc) 38%, transparent)}
+  .block h2{font-size:clamp(23px,6.4vw,31px)}
+  .mascot-big svg{width:56px; height:56px}
+
+  /* ---------- hero stage — #1 game, huge type over its art ---------- */
+  .stage{--gc:#d4af37; position:relative; margin:0 -16px; padding:20px 16px 26px; overflow:hidden;
+    border-radius:0 0 28px 28px;
+    background:
+      radial-gradient(120% 130% at 88% -10%, color-mix(in srgb, var(--gc) 58%, transparent), transparent 62%),
+      linear-gradient(160deg, color-mix(in srgb, var(--gc) 36%, #0a0618), #07040f 80%)}
+  body.light .stage{
+    background:
+      radial-gradient(120% 130% at 88% -10%, color-mix(in srgb, var(--gc) 42%, transparent), transparent 62%),
+      linear-gradient(160deg, color-mix(in srgb, var(--gc) 30%, #ffffff), var(--bg2) 82%)}
+  .stage-mono{position:absolute; inset-inline-end:-10px; top:-46px; font-family:Georgia,serif; font-weight:700;
+    font-size:238px; line-height:1; color:rgba(255,255,255,.13); user-select:none; pointer-events:none}
+  .stage-brand{position:absolute; top:14px; inset-inline-end:16px; z-index:2; display:flex; align-items:center; gap:9px}
+  .stage-mascot svg{width:47px; height:47px; display:block; filter:drop-shadow(0 6px 14px rgba(0,0,0,.45))}
+  .stage-in{position:relative; z-index:1; max-width:660px}
+  .stage-kick{font-size:11.5px; font-weight:800; letter-spacing:3.5px; color:var(--acc2)}
+  .stage-feat{display:inline-block; margin-top:13px; font-size:10.5px; font-weight:900; letter-spacing:2px;
+    color:#171106; background:linear-gradient(90deg,#f5c518,#ffdc66); padding:4px 11px; border-radius:999px;
+    box-shadow:0 6px 16px rgba(245,197,24,.35)}
+  .stage-title{margin:11px 0 0; font-size:clamp(40px,11.5vw,68px); font-weight:900; line-height:.99;
+    letter-spacing:-.01em; color:#fff; text-shadow:0 12px 36px rgba(0,0,0,.55)}
+  body.light .stage-title{color:#17102b; text-shadow:0 8px 26px rgba(255,255,255,.35)}
+  .stage-title2{font-size:clamp(19px,5.4vw,27px); font-weight:800; color:var(--muted); margin-top:7px}
+  .stage-chips{display:flex; gap:7px; flex-wrap:wrap; margin-top:17px}
+  .schip{background:rgba(5,2,16,.5); border:1px solid rgba(255,255,255,.28); color:#fff; backdrop-filter:blur(4px);
+    font-size:12px; font-weight:800; padding:5px 11px; border-radius:999px}
+  .schip b{color:#ffd95e}
+  body.light .schip{background:rgba(255,255,255,.55); color:#241a45; border-color:rgba(30,16,70,.25)}
+  body.light .schip b{color:#8a5a00}
+  .stage-cta{margin-top:21px; border:0; cursor:pointer; color:#fff; font-family:inherit; font-weight:900;
+    font-size:16.5px; padding:15px 30px; border-radius:999px;
+    background:linear-gradient(120deg, var(--gc), var(--acc2));
+    box-shadow:0 14px 34px color-mix(in srgb, var(--gc) 55%, transparent)}
+  .stage-cta:active{transform:scale(.97)}
+
+  /* ---------- real-numbers stats strip ---------- */
+  .stats{display:grid; grid-template-columns:repeat(4,1fr); gap:8px; margin:16px 0 0}
+  .stat{background:var(--panel); border:1px solid var(--line); border-radius:14px; padding:12px 5px 10px;
+    text-align:center; backdrop-filter:blur(8px); -webkit-backdrop-filter:blur(8px)}
+  .stat .sv{font-size:clamp(19px,5.6vw,26px); font-weight:900; font-variant-numeric:tabular-nums;
+    background:linear-gradient(90deg,var(--acc),var(--acc2)); -webkit-background-clip:text; background-clip:text; color:transparent}
+  .stat .sl{font-size:10.5px; font-weight:700; color:var(--muted); margin-top:2px; letter-spacing:.3px}
+
+  /* ---------- liquid pull-to-refresh droplet ---------- */
+  #ptr{position:fixed; top:0; left:50%; margin-left:-19px; width:38px; height:38px; z-index:130;
+    pointer-events:none; opacity:0; will-change:transform}
+  #ptr .drop{width:100%; height:100%; display:flex; align-items:center; justify-content:center;
+    font-family:Georgia,serif; font-weight:700; font-size:17px; color:#171106;
+    background:radial-gradient(120% 120% at 32% 26%, rgba(255,240,190,.98), rgba(212,175,55,.92) 55%, rgba(150,116,32,.95));
+    border:1px solid rgba(255,255,255,.5); border-radius:52% 48% 55% 45% / 58% 56% 44% 42%;
+    box-shadow:inset 0 2px 5px rgba(255,255,255,.55), inset 0 -6px 10px rgba(120,90,20,.45), 0 10px 22px rgba(120,90,20,.4)}
+
+  /* ---------- dock gallery — sheet list ---------- */
+  .sheet-docks{display:grid; grid-template-columns:1fr 1fr; gap:8px}
+  .ditem{display:flex; align-items:center; gap:10px; padding:11px 12px; border-radius:14px; text-align:start;
+    border:1px solid var(--line); background:var(--panel); color:var(--text);
+    font-size:13px; font-weight:700; cursor:pointer; font-family:inherit}
+  .ditem .num{font-weight:900; color:var(--acc2); font-size:11.5px; border:1px solid var(--line2);
+    border-radius:8px; padding:2.5px 7px; font-variant-numeric:tabular-nums}
+  .ditem.on{border-color:var(--acc); background:color-mix(in srgb, var(--acc) 16%, transparent)}
+  .ditem:active{transform:scale(.96)}
+
+  /* ---------- dock styles 02–10 (01 = base liquid glass above) ---------- */
+  /* 02 Magnetic — snapping solid pill, fast spring */
+  body[data-dock="02"] .dock{box-shadow:0 18px 44px rgba(3,0,16,.5), inset 0 1px 0 rgba(255,255,255,.2)}
+  body[data-dock="02"] .dock-blob{background:linear-gradient(140deg,var(--acc),var(--acc2));
+    border-color:rgba(255,255,255,.25); box-shadow:0 8px 22px rgba(212,175,55,.4);
+    transition:left .24s cubic-bezier(.25,1.35,.35,1), width .24s cubic-bezier(.25,1.35,.35,1), opacity .2s}
+  /* 03 Glass Capsule — frosted pastel capsule, soft white indicator */
+  body[data-dock="03"] .dock{border-radius:999px; border-color:rgba(255,255,255,.45);
+    background:linear-gradient(165deg, rgba(255,255,255,.32), rgba(255,255,255,.12));
+    box-shadow:0 20px 46px rgba(60,30,120,.35), inset 0 1px 0 rgba(255,255,255,.6)}
+  body.light[data-dock="03"] .dock{background:linear-gradient(165deg, rgba(255,255,255,.78), rgba(255,255,255,.45))}
+  body[data-dock="03"] .dock-blob{background:rgba(255,255,255,.88); border-color:#ffffff;
+    box-shadow:0 6px 18px rgba(120,95,30,.25), inset 0 1px 0 #fff}
+  /* 04 Segmented Dynamic — inset track, sliding segment */
+  body[data-dock="04"] .dock{gap:3px; padding:5px; border-radius:20px;
+    background:color-mix(in srgb, var(--bg2) 88%, transparent);
+    box-shadow:inset 0 2px 10px rgba(0,0,0,.35), 0 18px 40px rgba(3,0,16,.45)}
+  body[data-dock="04"] .dock-blob{top:5px; height:calc(100% - 10px); border-radius:13px;
+    background:var(--panel2); border:1px solid var(--line2); box-shadow:0 4px 14px rgba(0,0,0,.3)}
+  body[data-dock="04"] .dbtn{border-radius:13px}
+  /* 05 Orbit — ring + rotating satellites around the selected icon */
+  body[data-dock="05"] .dock-blob{top:calc(50% - 24px); height:48px; border-radius:50%;
+    background:transparent; border:2px solid var(--acc2);
+    box-shadow:0 0 14px rgba(212,175,55,.35), inset 0 0 10px rgba(212,175,55,.18)}
+  body[data-dock="05"] .dock-blob .orb{position:absolute; inset:-2px; animation:orbSpin 5.5s linear infinite}
+  body[data-dock="05"] .dock-blob .orb i{position:absolute; width:7px; height:7px; border-radius:50%;
+    background:var(--acc2); box-shadow:0 0 8px var(--acc2)}
+  body[data-dock="05"] .dock-blob .orb .d1{top:-4.5px; left:calc(50% - 3.5px)}
+  body[data-dock="05"] .dock-blob .orb .d2{bottom:-4.5px; left:calc(50% - 3.5px); background:var(--acc); box-shadow:0 0 8px var(--acc)}
+  @keyframes orbSpin{to{transform:rotate(360deg)}}
+  /* 06 Wave Indicator — an SVG crest travelling under the selected icon */
+  body[data-dock="06"] .dock-blob{top:auto; bottom:1px; height:14px; background:none; border:0;
+    box-shadow:none; color:var(--acc2)}
+  body[data-dock="06"] .dock-blob svg{width:100%; height:100%; display:block; animation:waveBob 2.6s ease-in-out infinite}
+  @keyframes waveBob{0%,100%{transform:translateY(0)}50%{transform:translateY(-1.6px)}}
+  /* 07 Cyber Neon — dark dock, neon ring + scanlines */
+  body[data-dock="07"] .dock{background:rgba(2,6,14,.85); border-color:rgba(34,211,238,.5);
+    box-shadow:0 0 24px rgba(34,211,238,.28), 0 22px 50px rgba(0,0,0,.6), inset 0 0 18px rgba(34,211,238,.08)}
+  body[data-dock="07"] .dock-blob{
+    background:repeating-linear-gradient(0deg, rgba(34,211,238,.16) 0 2px, rgba(34,211,238,.05) 2px 4px);
+    border:1.5px solid #22d3ee; box-shadow:0 0 16px rgba(34,211,238,.55), inset 0 0 12px rgba(34,211,238,.35)}
+  body[data-dock="07"] .dbtn.on svg{filter:drop-shadow(0 0 6px rgba(34,211,238,.85))}
+  /* 08 Morphing Blob — organic wobbling indicator */
+  body[data-dock="08"] .dock-blob{
+    background:linear-gradient(150deg, rgba(245,215,110,.55), rgba(212,175,55,.4));
+    border-color:rgba(255,255,255,.4);
+    border-radius:58% 42% 55% 45% / 52% 55% 45% 48%;
+    animation:blobMorph 4.2s ease-in-out infinite}
+  @keyframes blobMorph{
+    0%,100%{border-radius:58% 42% 55% 45% / 52% 55% 45% 48%}
+    33%{border-radius:45% 55% 48% 52% / 58% 44% 56% 42%}
+    66%{border-radius:52% 48% 42% 58% / 45% 58% 42% 55%}}
+  /* 09 Layered Card — selected card lifts, deep stacked shadow */
+  body[data-dock="09"] .dock-blob{top:3px; height:calc(100% - 6px); border-radius:16px;
+    background:var(--panel2); border:1px solid var(--line2);
+    box-shadow:0 12px 24px rgba(3,0,16,.5), 0 26px 30px -8px rgba(3,0,16,.4)}
+  body[data-dock="09"] .dbtn{transition:transform .35s cubic-bezier(.3,1.3,.35,1)}
+  body[data-dock="09"] .dbtn.on{transform:translateY(-5px)}
+  /* 10 Minimal Luxury — thin gold-line dock, serif labels, hairline indicator */
+  body[data-dock="10"] .dock{background:color-mix(in srgb, var(--bg) 80%, transparent);
+    border:1px solid #c9a227; border-radius:16px;
+    box-shadow:0 18px 40px rgba(3,0,16,.4), inset 0 1px 0 rgba(201,162,39,.35);
+    backdrop-filter:blur(14px) saturate(130%); -webkit-backdrop-filter:blur(14px) saturate(130%)}
+  body[data-dock="10"] .dock-blob{top:auto; bottom:6px; height:2px; border-radius:2px; border:0;
+    background:linear-gradient(90deg,#a8821f,#f5d76e,#a8821f); box-shadow:0 0 8px rgba(245,215,110,.5);
+    transition:left .45s ease, width .45s ease, opacity .25s}
+  body[data-dock="10"] .dbtn .pl{font-family:Georgia,serif; letter-spacing:.4px}
+  body[data-dock="10"] .dbtn.on .pl{color:#c9a227}
+
+  @media (prefers-reduced-motion: reduce){
+    body[data-dock="05"] .dock-blob .orb{animation:none}
+    body[data-dock="06"] .dock-blob svg{animation:none}
+    body[data-dock="08"] .dock-blob{animation:none}
+  }
+  /* ================= PSPKG-SPIRIT — reference chrome ================= */
+  .ticker{display:flex; align-items:center; gap:10px; flex-wrap:wrap; margin:14px 0 0;
+    border:1px solid var(--line2); border-radius:12px; padding:10px 14px; font-size:13px; font-weight:700;
+    background:linear-gradient(120deg, color-mix(in srgb, var(--acc) 16%, transparent), transparent 70%)}
+  .ticker a{color:var(--acc2); font-weight:900; white-space:nowrap}
+  .demo-tag{font-style:normal; display:inline-block; background:#f5c518; color:#171106; font-size:8.5px;
+    font-weight:900; letter-spacing:.7px; padding:1.5px 5px; border-radius:5px; margin-inline-start:5px; vertical-align:2px}
+  .vall{margin-inline-start:auto; font-size:13px; font-weight:900; color:var(--acc2); cursor:pointer; letter-spacing:.2px}
+  .vall:active{opacity:.6}
+  .badge.upd{background:linear-gradient(120deg,#a8821f,#f5d76e); color:#171106}
+  body[data-dock="02"] .dbtn.on .pl{color:#171106}
+  .publine{color:var(--muted2); font-size:12.5px; font-weight:700; margin:0 0 6px}
+  .gstats{display:flex; gap:8px; flex-wrap:wrap; margin:12px 0 2px}
+  .gstat{display:inline-flex; flex-direction:column; gap:1px; background:var(--panel2); border:1px solid var(--line);
+    border-radius:12px; padding:8px 13px}
+  .gstat .n{font-size:17px; font-weight:900; font-variant-numeric:tabular-nums}
+  .gstat .l{font-size:10px; color:var(--muted); font-weight:800; letter-spacing:.8px}
+  .gstat .demo-tag{align-self:flex-start; margin:4px 0 0}
+  .rbar{display:flex; align-items:center; gap:9px; font-size:12px; color:var(--muted); margin-top:6px; font-weight:700}
+  .rbar .tr{flex:1; height:7px; border-radius:99px; background:var(--panel2); overflow:hidden; display:block}
+  .rbar .fl{display:block; height:100%; background:linear-gradient(90deg,var(--acc),var(--acc2))}
+  .faq{border-top:1px solid var(--line); padding:11px 0 3px}
+  .faq:first-of-type{border-top:0; padding-top:2px}
+  .faq .q{font-weight:800; font-size:14.5px}
+  .faq .a{color:var(--muted); font-size:13.5px; line-height:1.75; margin-top:4px}
+  .shots{display:flex; gap:10px; overflow-x:auto; padding-bottom:8px; scrollbar-width:none}
+  .shots::-webkit-scrollbar{display:none}
+  .shots .sh{flex:0 0 230px; width:230px; aspect-ratio:16/9; border-radius:12px; border:1px solid var(--line); object-fit:cover}
+  .twrap{position:relative; padding-top:56.25%; border-radius:12px; overflow:hidden; background:#000}
+  .twrap iframe{position:absolute; inset:0; width:100%; height:100%; border:0}
+  .crown{display:flex; align-items:center; justify-content:center; gap:9px; width:100%; padding:14px; border:0;
+    border-radius:15px; font-size:15px; font-weight:900; cursor:pointer; font-family:inherit; color:#171106;
+    background:linear-gradient(120deg,#a8821f,#f5d76e 55%,#d4af37); box-shadow:0 10px 26px rgba(212,175,55,.35)}
+  .crown:active{transform:scale(.97)}
+  .vcard{display:flex; gap:12px; align-items:center; border:1px solid var(--line2); border-radius:16px; padding:13px;
+    background:linear-gradient(150deg, color-mix(in srgb, var(--acc) 14%, transparent), var(--panel))}
+  .vcard .vt{font-weight:900; font-size:14.5px}
+  .vcard .vs{color:var(--muted); font-size:12px; line-height:1.65; margin-top:2px}
+  .acc{border:1px solid var(--line); border-radius:14px; background:var(--panel); margin-bottom:8px; overflow:hidden}
+  .acc-head{display:flex; align-items:center; gap:9px; width:100%; padding:12px 13px; background:none; border:0;
+    color:var(--text); font-size:14px; font-weight:900; cursor:pointer; font-family:inherit; text-align:start}
+  .acc-head .car{margin-inline-start:auto; transition:transform .3s; color:var(--acc2)}
+  .acc.open .acc-head .car{transform:rotate(180deg)}
+  .gstats>.demo-tag{align-self:center; margin:0}
+  .ritem .cover{padding-bottom:58px}
+  .ritem .cover .ovl{flex-direction:column; align-items:flex-start; gap:4px}
+  .ritem .pill{font-size:10px; padding:2.5px 6px}
+  .ritem .pill .demo-tag{font-size:7px; padding:1px 3px; margin-inline-start:3px}
+  .acc-body{display:none; padding:2px 8px 10px}
+  .acc.open .acc-body{display:block}
+  .arow{display:flex; align-items:center; gap:8px; width:100%; padding:9px 8px; border-radius:10px; background:none;
+    border:0; color:var(--muted); font-size:13.5px; font-weight:700; cursor:pointer; font-family:inherit; text-align:start}
+  .arow:hover{background:var(--panel2); color:var(--text)}
+  .arow .cnt{margin-inline-start:auto; font-size:11px; font-weight:900; color:var(--acc2)}
+  .cover .cvimg{position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:0}
+  .cover.hasimg .mono,.cover.hasimg .ct{display:none}
+  /* ================= launch wiring — download transition ================= */
+  button.host-btn,button.src-btn{border:0; font-family:inherit; cursor:pointer; text-align:start}
+  .tscrim{position:fixed; inset:0; z-index:200; display:none; align-items:center; justify-content:center;
+    padding:18px; background:rgba(5,4,2,.74); backdrop-filter:blur(9px) saturate(140%); -webkit-backdrop-filter:blur(9px) saturate(140%)}
+  .tscrim.open{display:flex}
+  .tbox{background:var(--sheetbg); border:1px solid var(--line2); border-radius:22px; width:100%; max-width:420px;
+    padding:24px 22px 18px; text-align:center; box-shadow:var(--shadow)}
+  .tbrand{display:flex; align-items:center; justify-content:center; gap:10px}
+  .tbrand .ben{font-weight:800; letter-spacing:1.3px; font-size:14px}
+  .tbrand .ben b{background:linear-gradient(90deg,var(--acc),var(--acc2)); -webkit-background-clip:text; background-clip:text; color:transparent}
+  .tbrand .bar2{font-size:11px; color:var(--muted)}
+  .tmascot{width:54px; height:54px; margin:14px auto 2px}
+  .tmascot svg{width:100%; height:100%}
+  .ttitle{margin:8px 0 2px; font-size:18px; font-weight:900}
+  .tgame{color:var(--acc2); font-weight:800; font-size:14.5px}
+  .tspin{width:42px; height:42px; margin:16px auto 4px; border-radius:50%;
+    border:3px solid var(--line); border-top-color:var(--acc); animation:trot .85s linear infinite}
+  @keyframes trot{to{transform:rotate(360deg)}}
+  .tmsg{color:var(--muted); font-size:13px; line-height:1.65; margin:8px 0 0}
+  .tbar{height:7px; border-radius:99px; background:var(--panel2); overflow:hidden; margin:14px 0 16px}
+  .tfill{height:100%; width:0; border-radius:99px; background:linear-gradient(90deg,var(--acc),var(--acc2))}
+  .tbtn{display:flex; align-items:center; justify-content:center; gap:8px; width:100%; padding:14px; border:0;
+    border-radius:14px; font-size:15.5px; font-weight:900; cursor:pointer; font-family:inherit; color:#171106;
+    background:linear-gradient(120deg,#a8821f,#f5d76e 55%,#d4af37); box-shadow:0 10px 26px rgba(212,175,55,.35)}
+  .tbtn:active{transform:scale(.97)}
+  .tbtn[disabled]{opacity:.42; filter:grayscale(.5); pointer-events:none}
+  .tcancel{background:none; border:0; color:var(--muted); font-size:13.5px; font-weight:800; cursor:pointer;
+    font-family:inherit; margin-top:12px; padding:6px 12px}
+  .tnote{color:var(--muted2); font-size:12px; line-height:1.65; margin:10px 0 0}
+  @media (prefers-reduced-motion: reduce){ .tspin{animation:none} }
+  .more-wrap{text-align:center; margin:20px 0 8px}
+  .more-btn{background:var(--panel2); color:var(--text); border:1px solid var(--line2); border-radius:999px; padding:12px 26px; font:inherit; font-weight:800; cursor:pointer}
+</style>
+</head>
+<body>
+<div class="tscrim" id="tScrim">
+  <div class="tbox" role="dialog" aria-modal="true" aria-label="Download">
+    <div class="tbrand"><span class="monogram">M</span><span style="text-align:start"><span class="ben">MOHAMMED <b>AI</b></span><br><span class="bar2">متجر محمد AI الإلكتروني</span></span></div>
+    <div class="tmascot" id="tMascot"></div>
+    <h3 class="ttitle" id="tTitle"></h3>
+    <div class="tgame" id="tGame"></div>
+    <div class="tspin" id="tSpin"></div>
+    <p class="tmsg" id="tMsg"></p>
+    <div class="tbar"><div class="tfill" id="tFill"></div></div>
+    <button type="button" class="tbtn" id="tGo" disabled></button>
+    <button type="button" class="tcancel" id="tCancel"></button>
+    <p class="tnote" id="tNote"></p>
+  </div>
+</div>
+<div class="scrim" id="sheetScrim"></div>
+<div class="sheet" id="sheet" role="dialog" aria-label="More">
+  <div class="grip"></div>
+  <div class="sheet-head">
+    <span class="st" id="sheetTitle"></span>
+    <button class="x" id="sheetClose" type="button" aria-label="Close">✕</button>
+  </div>
+  <p class="sheet-note" id="sheetNote"></p>
+  <div class="sheet-sec">
+    <button type="button" class="crown" id="sheetCrown"></button>
+  </div>
+  <div class="sheet-sec">
+    <div class="vcard"><span class="mascot-big" id="sheetMascot"></span><div><div class="vt" id="sheetVisitorT"></div><div class="vs" id="sheetVisitorS"></div></div></div>
+  </div>
+  <div class="sheet-sec">
+    <h4 id="sheetPlatH"></h4>
+    <div class="sheet-plats" id="sheetPlats"></div>
+  </div>
+  <div class="sheet-sec">
+    <h4 id="sheetAccH"></h4>
+    <div id="sheetAccs"></div>
+  </div>
+  <div class="sheet-sec">
+    <div class="sheet-cta">
+      <button type="button" class="cta svc" id="sheetSvc"></button>
+      <a class="cta wa" id="sheetWa" target="_blank" rel="noopener"></a>
+    </div>
+  </div>
+  <div class="sheet-sec">
+    <h4 id="sheetDockH"></h4>
+    <div class="sheet-docks" id="sheetDocks"></div>
+  </div>
+  <div class="sheet-sec">
+    <div class="sheet-toggles">
+      <button type="button" class="tgl" id="sheetLang"></button>
+      <button type="button" class="tgl" id="sheetTheme"></button>
+    </div>
+  </div>
+  <div class="sheet-legal" id="sheetLegal"></div>
+</div>
+
+<header>
+  <div class="wrap">
+    <div class="hrow">
+      <a class="logo" href="#/">
+        <span class="monogram">M</span>
+        <span class="brand"><span class="en">MOHAMMED <b>AI</b></span><br><span class="ar">متجر محمد AI الإلكتروني</span></span>
+      </a>
+      <div class="hsearch">
+        <input id="search" type="search" autocomplete="off" spellcheck="false">
+        <span class="mag">🔍</span>
+      </div>
+      <button class="hbtn lang" id="langBtn" type="button"></button>
+      <button class="hbtn" id="themeBtn" type="button" aria-label="Toggle theme"></button>
+    </div>
+  </div>
+  <nav class="sections"><div class="wrap"><div class="srow" id="secRow"></div></div></nav>
+</header>
+
+<main id="view-home">
+  <div class="wrap">
+    <div class="ticker" id="ticker"></div>
+    <div id="heroWrap">
+      <section class="hero">
+        <div class="kick" id="kick"></div>
+        <h1><span id="heroA"></span><br><span class="g" id="heroB"></span></h1>
+      </section>
+      <div class="stats" id="statsStrip"></div>
+    </div>
+    <div class="fwbox">
+      <div class="lbl" id="fwLabel"></div>
+      <div class="fwrow" id="fwRow"></div>
+      <div class="fwnote" id="fwNote"></div>
+    </div>
+
+    <div id="homeBlocks">
+      <section class="block" id="rankBlock">
+        <h2><span class="flame">🔥</span><span data-i18n="mostViewed"></span><span class="cnt">TOP 10</span></h2>
+        <p class="sub" data-i18n="mostViewedSub"></p>
+        <div class="rankrow" id="rankRow"></div>
+      </section>
+      <section class="block" id="arabicBlock">
+        <h2><span>🌐</span><span data-i18n="arabicTitle"></span><span class="cnt" id="arabicCnt"></span><span class="vall" data-goto="arabic"></span></h2>
+        <p class="sub" data-i18n="arabicSub"></p>
+        <div class="strip" id="arabicStrip"></div>
+      </section>
+      <section class="block" id="latestBlock">
+        <h2><span data-i18n="latest"></span><span class="cnt" id="latestCnt"></span><span class="vall" data-goto="games"></span></h2>
+        <p class="sub" data-i18n="latestSub"></p>
+        <div class="grid" id="latestGrid"></div>
+      </section>
+      <section class="block" id="updatesBlock">
+        <h2><span>⬆️</span><span data-i18n="updatesTitle"></span><span class="cnt" id="updatesCnt"></span><span class="vall" data-goto="updates"></span></h2>
+        <p class="sub" data-i18n="updatesSub"></p>
+        <div class="strip" id="updatesStrip"></div>
+      </section>
+      <section class="block" id="dlcBlock">
+        <h2><span>🧩</span><span data-i18n="dlcTitle"></span><span class="cnt" id="dlcCnt"></span><span class="vall" data-goto="dlc"></span></h2>
+        <p class="sub" data-i18n="dlcSub"></p>
+        <div class="strip" id="dlcStrip"></div>
+      </section>
+    </div>
+
+    <section class="block" id="gridBlock">
+      <h2><span id="gridTitle"></span><span class="cnt" id="gridCnt"></span></h2>
+      <p class="sub" id="gridSub"></p>
+      <div class="grid" id="grid"></div>
+      <div id="gridEmpty"></div>
+      <div id="gridMore"></div>
+    </section>
+
+    <section class="block hidden" id="servicesBlock">
+      <h2><span data-i18n="servicesTitle"></span></h2>
+      <p class="sub" data-i18n="servicesSub"></p>
+      <div class="svc-grid" id="svcGrid"></div>
+    </section>
+  </div>
+</main>
+
+<main id="view-game" class="hidden"><div class="wrap" id="gameRoot"></div></main>
+<main id="view-legal" class="hidden"><div class="wrap legal" id="legalRoot"></div></main>
+
+<main id="view-shelf" class="hidden">
+  <div class="wrap">
+    <div class="shelf-head">
+      <span class="shelf-ic" id="shelfIcon"></span>
+      <div><h1 id="shelfTitle"></h1><p id="shelfSub"></p></div>
+      <span class="shelf-cnt" id="shelfCnt"></span>
+    </div>
+    <div class="shelf-tools">
+      <div class="pb-search"><input id="shelfSearch" type="search" autocomplete="off" spellcheck="false"><span class="mag">🔍</span></div>
+      <div class="sortrow" id="shelfSorts"></div>
+    </div>
+    <div class="grid" id="shelfGrid"></div>
+    <div id="shelfEmpty"></div>
+  </div>
+</main>
+
+<main id="view-soon" class="hidden">
+  <div class="wrap">
+    <div class="soon-card">
+      <span class="soon-ic" id="soonIcon"></span>
+      <span class="soon-tag" id="soonTag"></span>
+      <h1 id="soonTitle"></h1>
+      <p id="soonBody"></p>
+      <button type="button" class="pb-btn" id="soonBack"></button>
+    </div>
+  </div>
+</main>
+
+<div class="err hidden" id="loadErr"></div>
+
+<footer>
+  <div class="wrap">
+    <div class="fcols">
+      <div class="fc">
+        <div class="fb" id="footBrand"></div>
+        <div id="footNote"></div>
+        <div id="footAddr"></div>
+      </div>
+      <div class="fc">
+        <h4 id="footBrowse"></h4>
+        <div id="footSections"></div>
+      </div>
+      <div class="fc">
+        <h4 id="footLegalH"></h4>
+        <a data-legal="dmca">DMCA</a>
+        <a data-legal="privacy" id="footPrivacy"></a>
+        <a data-legal="contact" id="footContact"></a>
+        <a id="footWa" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div id="ptr" aria-hidden="true"><div class="drop">M</div></div>
+
+<div class="dock-wrap">
+  <nav class="dock" id="dock" aria-label="Platforms">
+    <span class="dock-blob noanim" id="dockBlob"></span>
+  </nav>
+</div>
+
+<script>
+"use strict";
+/* ================= concept config ================= */
+/* dock style (01-10) lives in state.dock — More-sheet gallery */
+const DEF_THEME = "dark";           /* this concept's default theme */
+
+/* ================= i18n ================= */
+const STR = {
+  en:{ kick:"GLOBAL PKG DIRECTORY", heroA:"Download PS4 games.", heroB:"Verified. Filtered. Fast.",
+    searchPh:"Search a game… try “spider” or “سبايدرمان”",
+    fwLabel:"YOUR PS4 FIRMWARE — TAP TO FILTER", fwAny:"All",
+    fwNoteAll:"Showing everything. Pick your firmware and the grid keeps only what runs on it (backports included).",
+    fwNoteSel:"Showing titles confirmed for firmware {fw} and below. Titles with unconfirmed firmware stay visible and are flagged.",
+    fwUnknown:"FW ?", latest:"Latest additions", latestSub:"Newest verified entries in the directory",
+    mostViewed:"Most Viewed", mostViewedSub:"The chart everyone is watching — ranked by views",
+    arabicTitle:"Arabic Games — المعربة", arabicSub:"Full Arabic translation editions, ready for jailbroken consoles",
+    allGames:"All PS4 Games", results:"results", noResults:"No games match",
+    emptyTitle:"Nothing here yet", emptyBody:"This section opens with the next data drop. Verified links only — we would rather show an empty shelf than a dead link.",
+    size:"Size", ver:"Version", back:"All games", trending:"TRENDING", newB:"NEW",
+    sheetNote:"Every platform, every section — one tap away.",
+    tickerTxt:"PS4 jailbreak news: firmware 9.00–13.52 mods, GoldHEN updates and new drops — straight from the shop desk.",
+    tickerLink:"💬 Ask on WhatsApp",
+    viewAll:"View all ›",
+    updatesTitle:"Latest Updates", updatesSub:"New update files, verified and ready",
+    dlcTitle:"DLC & Add-ons", dlcSub:"Extra content for your library",
+    updB:"UPDATED", published:"Published",
+    viewsL:"views", downloadsL:"downloads", ratingsL:"ratings",
+    reviewsH:"Ratings & reviews", faqH:"Frequently asked questions",
+    followH:"Follow MOHAMMED AI", followB:"New drops, updates and jailbreak news — message us on WhatsApp and never miss a release.",
+    alsoLike:"You may also like", trailerL:"Trailer", shotsL:"Screenshots",
+    readyQ:"Ready to download the game?",
+    helpQ:"Problem with a download or install?",
+    helpA:"Message us on WhatsApp with the game name and your firmware — we will walk you through it, or install it for you at the shop.",
+    visitorT:"Welcome, visitor",
+    visitorS:"Library: 4,968 PS4 games · 440 Arabic editions · 256 platform titles — all links verified.",
+    crownBtn:"👑 MOHAMMED AI — Shop Services",
+    accH:"Browse the library",
+    deviceL:"Device", nameL:"Game name", addedL:"Added",
+    faq:[["PKG vs FPKG — what is the difference?","A PKG is Sony's official package format. An FPKG is a repacked copy that runs only on a jailbroken console with GoldHEN — every file listed here is an FPKG for jailbroken PS4s."],
+         ["Why does firmware matter?","A game only runs if your console firmware is at or above its required version, or if a backport exists for your firmware. Use the firmware filter at the top of the library to see exactly what runs on your console."],
+         ["Is the jailbreak permanent?","No. The PS4 jailbreak is temporary — it is lost when the console fully powers off and must be re-activated on the next boot. Your games and saves stay untouched."],
+         ["What is GoldHEN?","GoldHEN is the homebrew enabler that runs the jailbreak on firmware 9.00–13.52. It unlocks package installation, debug settings and homebrew apps."],
+         ["Can I play online with these games?","No — and you should not try. A jailbroken console must stay offline and away from PSN; signing in risks a console ban. All titles here are for offline play."]],
+    statGames:"PS4 games", statArabic:"Arabic editions", statPlat:"platform titles", statSec:"sections",
+    featTag:"FEATURED TITLE", heroCta:"⬇ View & Download", dockH:"Dock style",
+    gameInfo:"Game information", cusa:"CUSA ID", region:"Region", version:"Version", editionsH:"Available editions", showMore:"Show more",
+    reqFw:"Required firmware", genre:"Genre", publisher:"Publisher", platform:"Platform",
+    downloadsH:"Download", bundle:"Complete bundle", bundleNote:"Everything for this game in one place — take the game first, then its latest update and DLC.",
+    viaSource:"Open source page", directSoon:"Direct host links are being collected and verified — for now, use the source page above.",
+    prepT:"Your download is being prepared…", prepMsg:"One short stop keeps this directory free, verified and alive — thank you.",
+    prepBtn:"Continue to download ⬇", prepCancel:"Cancel",
+    prepNote:"Next stop: the source download page — pick any mirror host there and your file starts right away.",
+    hostsLabel:"Available on", shopBtn:"🛠️ Install it at our shop — WhatsApp us",
+    shopNote:"In Iraq? Skip the 40 GB download. We install it for you at MOHAMMED AI — Basra, Khor Al-Zubair, Souq Al-Asmida.",
+    notRated:"Not rated yet", privacy:"Privacy Policy", contact:"Contact", browse:"Browse", legalH:"Legal & help",
+    servicesTitle:"Shop Services", servicesSub:"The local side of MOHAMMED AI — Basra, Khor Al-Zubair",
+    footNote:"A directory of links. Files stay with their original hosts; we verify, organise and keep them alive.",
+    footAddr:"MOHAMMED AI Store — Basra · Khor Al-Zubair · Souq Al-Asmida · Bird Street — +964 770 708 9760",
+    sec:{home:"Home", games:"PS4 Games", updates:"Updates", dlc:"DLC", classics:"Classics", themes:"Themes", tools:"Tools", ps3:"PS3", psp:"PSP & Vita", arabic:"Arabic Games", services:"Shop Services"},
+    gridSub:{games:"Full verified PS4 library", updates:"Games with a verified update file", dlc:"Games with verified DLC", classics:"PS1 · PS2 · PSP classics repacked for PS4", themes:"PS4 themes, ready to install", tools:"Trusted homebrew & jailbreak tools only", ps3:"PS3 games library", psp:"PSP & PS Vita library", arabic:"PS4 games with a full Arabic translation edition"},
+    svc:[["🎮","PS4 jailbreak & setup","Firmware 9.00–13.52 modding, GoldHEN setup and full configuration — done while you wait."],
+         ["⬇️","Game installs","Any game from this directory installed at the shop, with its update and DLC — no home download needed."],
+         ["📱","Phones: sales & repair","Phones, accessories and repairs, plus SIM activation (Atheer · Asiacell) and e-services."],
+         ["💬","Ask us anything","Message us on WhatsApp +964 770 708 9760 — if a game is not listed, ask and we will hunt it down."]],
+    legal:{ dmca:["DMCA","We are a directory of links only. All files are hosted by third-party services and remain the property of their respective owners. If you are a rights holder and believe a listing infringes your copyright, contact us with the game title and the page URL and we will remove the listing promptly."],
+            privacy:["Privacy Policy","This site keeps no accounts and collects no personal data. Your language, theme and firmware choices are stored only in your own browser (localStorage). Download counters are aggregate and anonymous."],
+            contact:["Contact","Fastest: WhatsApp +964 770 708 9760. In person: MOHAMMED AI Store — Basra, Khor Al-Zubair, Souq Al-Asmida, Bird Street."]}},
+  ar:{ kick:"دليل PKG العالمي", heroA:"حمّل ألعاب PS4.", heroB:"موثقة. مفلترة. سريعة.",
+    searchPh:"ابحث عن لعبة… جرّب “spider” أو “سبايدرمان”",
+    fwLabel:"فيرموير جهازك PS4 — اضغط للفلترة", fwAny:"الكل",
+    fwNoteAll:"نعرض كل شيء. اختر فيرمويرك وستبقي الشبكة فقط ما يعمل عليه (بما فيها النسخ المهيأة).",
+    fwNoteSel:"نعرض العناوين المؤكدة لفيرموير {fw} وما دونه. العناوين غير المؤكدة الفيرموير تبقى ظاهرة ومُعلَّمة.",
+    fwUnknown:"الفيرموير ؟", latest:"أحدث الإضافات", latestSub:"أجدد العناوين الموثقة في الدليل",
+    mostViewed:"الأكثر مشاهدة", mostViewedSub:"الترتيب الذي يتابعه الجميع — مرتب حسب المشاهدات",
+    arabicTitle:"الألعاب المعربة — Arabic Games", arabicSub:"نسخ معربة بالكامل، جاهزة للأجهزة المهكرة",
+    allGames:"كل ألعاب PS4", results:"نتيجة", noResults:"لا توجد ألعاب مطابقة",
+    emptyTitle:"لا شيء هنا بعد", emptyBody:"يُفتتح هذا القسم مع دفعة البيانات القادمة. روابط موثقة فقط — نفضّل رفاً فارغاً على رابط ميت.",
+    size:"الحجم", ver:"النسخة", back:"كل الألعاب", trending:"رائج", newB:"جديد",
+    sheetNote:"كل المنصات وكل الأقسام — بنقرة واحدة.",
+    tickerTxt:"أخبار تهكير PS4: تعديلات فيرموير 9.00–13.52 وتحديثات GoldHEN وأحدث الإصدارات — مباشرة من المحل.",
+    tickerLink:"💬 اسألنا واتساب",
+    viewAll:"عرض الكل ›",
+    updatesTitle:"أحدث التحديثات", updatesSub:"ملفات تحديث جديدة، موثقة وجاهزة",
+    dlcTitle:"الإضافات والمحتوى الإضافي", dlcSub:"محتوى إضافي لمكتبتك",
+    updB:"مُحدّثة", published:"نُشرت في",
+    viewsL:"مشاهدة", downloadsL:"تحميل", ratingsL:"تقييم",
+    reviewsH:"التقييمات والآراء", faqH:"الأسئلة الشائعة",
+    followH:"تابع متجر محمد AI", followB:"أحدث الإصدارات والتحديثات وأخبار التهكير — راسلنا واتساب ولا يفوتك أي إصدار.",
+    alsoLike:"قد يعجبك أيضاً", trailerL:"المقطع الدعائي", shotsL:"لقطات الشاشة",
+    readyQ:"جاهز لتحميل اللعبة؟",
+    helpQ:"مشكلة في التحميل أو التثبيت؟",
+    helpA:"راسلنا واتساب باسم اللعبة وفيرموير جهازك — سنرشدك خطوة بخطوة، أو نثبّتها لك في المحل.",
+    visitorT:"أهلاً بك أيها الزائر",
+    visitorS:"المكتبة: 4,968 لعبة PS4 · 440 نسخة معربة · 256 عنواناً للمنصات — كل الروابط موثقة.",
+    crownBtn:"👑 متجر محمد AI — خدمات المحل",
+    accH:"تصفح المكتبة",
+    deviceL:"الجهاز", nameL:"اسم اللعبة", addedL:"أُضيفت في",
+    faq:[["ما الفرق بين PKG وFPKG؟","صيغة PKG هي حزمة سوني الرسمية، أما FPKG فهي نسخة معادة التغليف تعمل فقط على جهاز مهكّر بنظام GoldHEN — كل الملفات هنا من نوع FPKG لأجهزة PS4 المهكّرة."],
+         ["لماذا يهمّ الفيرموير؟","اللعبة تعمل فقط إذا كان فيرموير جهازك مساوياً للإصدار المطلوب أو أعلى، أو إذا وُجدت نسخة مهيأة (باكبورت) لفيرمويرك. استخدم فلتر الفيرموير أعلى المكتبة لترى ما يعمل على جهازك بدقة."],
+         ["هل التهكير دائم؟","لا. تهكير PS4 مؤقت — يزول عند إطفاء الجهاز بالكامل ويجب تفعيله من جديد عند التشغيل التالي. ألعابك وحفظك يبقيان كما هما."],
+         ["ما هو GoldHEN؟","هو أداة تفعيل الهومبرو التي تشغّل التهكير على فيرموير 9.00–13.52، ويفتح تثبيت الحزم وإعدادات التصحيح وتطبيقات الهومبرو."],
+         ["هل أستطيع اللعب أونلاين بهذه الألعاب؟","لا — ولا تحاول. الجهاز المهكّر يجب أن يبقى بعيداً عن الإنترنت وشبكة PSN؛ تسجيل الدخول قد يعرّض جهازك للحظر. كل العناوين هنا للعب دون اتصال."]],
+    statGames:"لعبة PS4", statArabic:"نسخة معربة", statPlat:"عنوان للمنصات", statSec:"أقسام",
+    featTag:"العنوان المميز", heroCta:"⬇ عرض وتحميل", dockH:"ستايل الشريط",
+    gameInfo:"معلومات اللعبة", cusa:"معرف CUSA", region:"المنطقة", version:"النسخة", editionsH:"النسخ المتوفرة", showMore:"عرض المزيد",
+    reqFw:"الفيرموير المطلوب", genre:"النوع", publisher:"الناشر", platform:"المنصة",
+    downloadsH:"التحميل", bundle:"الحزمة الكاملة", bundleNote:"كل ما يخص هذه اللعبة في مكان واحد — خذ اللعبة أولاً ثم أحدث تحديث وإضافاتها.",
+    viaSource:"افتح صفحة المصدر", directSoon:"الروابط المباشرة للمستضيفين قيد الجمع والتوثيق — استخدم صفحة المصدر أعلاه الآن.",
+    prepT:"جارٍ تجهيز التحميل…", prepMsg:"وقفة قصيرة واحدة تُبقي هذا الدليل مجانياً وموثّقاً وحياً — شكراً لك.",
+    prepBtn:"متابعة إلى التحميل ⬇", prepCancel:"إلغاء",
+    prepNote:"المحطة التالية: صفحة التحميل عند المصدر — اختر أي مستضيف هناك وسيبدأ ملفك فوراً.",
+    hostsLabel:"متوفرة على", shopBtn:"🛠️ ثبّتها عندنا بالمحل — راسلنا واتساب",
+    shopNote:"داخل العراق؟ اختصر تحميل 40 غيغا. نثبّتها لك في متجر محمد AI — البصرة، خور الزبير، سوق الأسمدة.",
+    notRated:"لا تقييم بعد", privacy:"سياسة الخصوصية", contact:"اتصل بنا", browse:"تصفح", legalH:"قانوني ومساعدة",
+    servicesTitle:"خدمات المحل", servicesSub:"الجانب المحلي لمتجر محمد AI — البصرة، خور الزبير",
+    footNote:"دليل روابط. الملفات تبقى عند مستضيفيها الأصليين؛ نحن نوثّق وننظّم ونبقيها حية.",
+    footAddr:"متجر محمد AI — البصرة · خور الزبير · سوق الأسمدة · شارع الطيور — ‎+964 770 708 9760",
+    sec:{home:"الرئيسية", games:"ألعاب PS4", updates:"التحديثات", dlc:"الإضافات", classics:"كلاسيك", themes:"الثيمات", tools:"الأدوات", ps3:"PS3", psp:"PSP وVita", arabic:"الألعاب المعربة", services:"خدمات المحل"},
+    gridSub:{games:"مكتبة PS4 الموثقة كاملة", updates:"ألعاب لها ملف تحديث موثق", dlc:"ألعاب لها إضافات موثقة", classics:"كلاسيك PS1 وPS2 وPSP معادة التغليف للـPS4", themes:"ثيمات PS4 جاهزة للتثبيت", tools:"أدوات هومبرو وتهكير موثوقة فقط", ps3:"مكتبة ألعاب PS3", psp:"مكتبة PSP وPS Vita", arabic:"ألعاب PS4 بنسخة معربة كاملة"},
+    svc:[["🎮","تهكير وإعداد PS4","تعديل فيرموير 9.00–13.52 وإعداد GoldHEN وضبط كامل — يُنجز وأنت تنتظر."],
+         ["⬇️","تثبيت الألعاب","أي لعبة من هذا الدليل تُثبّت في المحل مع تحديثها وإضافاتها — بلا تحميل منزلي."],
+         ["📱","هواتف: بيع وصيانة","هواتف وإكسسوارات وصيانة، مع تفعيل خطوط (أثير · آسياسيل) وخدمات إلكترونية."],
+         ["💬","اسألنا عن أي شيء","راسلنا واتساب ‎+964 770 708 9760 — إن لم تجد لعبة، اسأل وسنبحث عنها لك."]],
+    legal:{ dmca:["حقوق النشر DMCA","نحن دليل روابط فقط. جميع الملفات مستضافة لدى خدمات خارجية وتبقى ملكاً لأصحابها. إن كنت صاحب حق وتعتقد أن إدراجاً ينتهك حقوقك، راسلنا بعنوان اللعبة ورابط الصفحة وسنحذف الإدراج فوراً."],
+            privacy:["سياسة الخصوصية","هذا الموقع لا يفتح حسابات ولا يجمع بيانات شخصية. اختيارات اللغة والمظهر والفيرموير تُحفظ في متصفحك فقط (localStorage). عدادات التحميل إجمالية ومجهولة."],
+            contact:["اتصل بنا","الأسرع: واتساب ‎+964 770 708 9760. شخصياً: متجر محمد AI — البصرة، خور الزبير، سوق الأسمدة، شارع الطيور."]}}
+};
+const FWS = [5.05, 6.72, 7.02, 7.55, 9.00, 11.00, 12.02, 13.52];
+const SECTIONS = ["home","games","updates","dlc","classics","themes","tools","ps3","psp","arabic","services"];
+const COVERS = [
+  ["#3b1d6e","#150a30"],["#4a145a","#1c0726"],["#1d2a6e","#0a1030"],["#5a1440","#26071c"],
+  ["#241456","#0d0726"],["#3d1163","#170a2e"],["#14245e","#080f2a"],["#51185e","#200a2a"]
+];
+/* ================= per-game cover identity =================
+   Dominant box-art colours, hand-mapped per launch title. If a game ever
+   carries a real cover URL (g.cover), sampleCoverColor() extracts the
+   dominant colour at runtime via canvas and caches it (memory +
+   localStorage) — tainted/failed loads silently keep the mapped colour. */
+const GAME_COLORS = {
+  "gta-v-ps4":"#20776a", "miles-morales-ps4":"#c0272d", "red-dead-redemption-2-ps4":"#a51f26",
+  "god-of-war-2018-ps4":"#6f96ad", "god-of-war-ragnarok-ps4":"#3f74a6", "elden-ring-ps4":"#a87f35",
+  "the-last-of-us-part-ii-ps4":"#59634d", "the-last-of-us-remastered-ps4":"#6e6353",
+  "marvels-spider-man-ps4":"#9e2b25", "fifa-23-ps4":"#31449e", "efootball-pes-2021-ps4":"#1c4b96",
+  "call-of-duty-modern-warfare-ii-ps4":"#55682c", "call-of-duty-black-ops-cold-war-ps4":"#93392a",
+  "resident-evil-4-remake-ps4":"#4d5f73", "resident-evil-village-ps4":"#66788a",
+  "hogwarts-legacy-ps4":"#77592c", "mortal-kombat-11-ps4":"#bd871c", "tekken-7-ps4":"#9c2420",
+  "gran-turismo-7-ps4":"#1e4c88", "horizon-forbidden-west-ps4":"#c05f1e", "uncharted-4-ps4":"#77664f",
+  "dark-souls-3-ps4":"#87491d", "cyberpunk-2077-ps4":"#c9ad1a", "assassins-creed-valhalla-ps4":"#3a6572",
+  "wwe-2k24-ps4":"#771e29", "nba-2k24-ps4":"#5e2c86", "crash-team-racing-nitro-fueled-ps4":"#cf5c17",
+  "it-takes-two-ps4":"#2b7a68"
+};
+const COLOR_CACHE = {};
+try{ const saved = JSON.parse(localStorage.getItem("pkgColors") || "{}");
+  for (const k in saved) COLOR_CACHE[k] = saved[k]; }catch(e){}
+const COLOR_TRIED = {};
+function gameColor(g){
+  if (COLOR_CACHE[g.id]) return COLOR_CACHE[g.id];
+  let c = GAME_COLORS[g.id];
+  if (!c){ let h = 0; for (const ch of g.id) h = (h*31 + ch.charCodeAt(0)) >>> 0; c = "hsl(" + (h % 360) + ",58%,40%)"; }
+  COLOR_CACHE[g.id] = c; return c;
+}
+function sampleCoverColor(g){
+  if (!g.cover || COLOR_TRIED[g.id]) return;
+  COLOR_TRIED[g.id] = 1;
+  const img = new Image();
+  img.crossOrigin = "anonymous";
+  img.onload = () => { try{
+    const cv = document.createElement("canvas"); cv.width = 24; cv.height = 24;
+    const cx = cv.getContext("2d"); cx.drawImage(img, 0, 0, 24, 24);
+    const px = cx.getImageData(0, 0, 24, 24).data;
+    let r = 0, gg = 0, b = 0, n = 0;
+    for (let i = 0; i < px.length; i += 16){
+      if (px[i+3] < 200) continue;
+      const mx = Math.max(px[i], px[i+1], px[i+2]), mn = Math.min(px[i], px[i+1], px[i+2]);
+      if (mx < 28 || (mx > 242 && mn > 200)) continue;
+      r += px[i]; gg += px[i+1]; b += px[i+2]; n++;
+    }
+    if (!n) return;
+    const col = "rgb(" + Math.round(r/n) + "," + Math.round(gg/n) + "," + Math.round(b/n) + ")";
+    COLOR_CACHE[g.id] = col;
+    try{ const all = JSON.parse(localStorage.getItem("pkgColors") || "{}");
+      all[g.id] = col; localStorage.setItem("pkgColors", JSON.stringify(all)); }catch(e){}
+    document.querySelectorAll('[data-open="' + g.id + '"]').forEach(el => {
+      el.style.setProperty("--gc", col);
+      const cvEl = el.querySelector(".cover"); if (cvEl) cvEl.style.cssText = coverStyle(g);
+    });
+  }catch(e){} };
+  img.src = g.cover;
+}
+/* عفريت — the store's oni mascot mark (gold horns, violet face) */
+const MASCOT_SVG = '<svg viewBox="0 0 48 48" aria-hidden="true">' +
+  '<path d="M11 15C8.2 10.4 8.2 5 11.2 1.6c.9 4.2 2.9 7.4 5.8 9.6z" fill="#f5c518"/>' +
+  '<path d="M37 15c2.8-4.6 2.8-10-.2-13.4-.9 4.2-2.9 7.4-5.8 9.6z" fill="#f5c518"/>' +
+  '<path d="M24 7.5c9.4 0 15.5 6.3 15.5 15.2 0 10-6.4 17.3-15.5 17.3S8.5 32.7 8.5 22.7C8.5 13.8 14.6 7.5 24 7.5z" fill="#b08a24"/>' +
+  '<path d="M24 7.5c9.4 0 15.5 6.3 15.5 15.2 0 1-.1 2-.2 3C36 18.4 30.4 14.5 24 14.5s-12 3.9-15.3 8.2c-.1-1-.2-2-.2-3C8.5 13.8 14.6 7.5 24 7.5z" fill="#e3c566" opacity=".55"/>' +
+  '<path d="M14.5 21.5l6.5 2.6M33.5 21.5l-6.5 2.6" stroke="#241a06" stroke-width="2.3" stroke-linecap="round" fill="none"/>' +
+  '<circle cx="18" cy="27.5" r="2.1" fill="#fff"/><circle cx="30" cy="27.5" r="2.1" fill="#fff"/>' +
+  '<circle cx="18.4" cy="27.9" r="1" fill="#241a06"/><circle cx="29.6" cy="27.9" r="1" fill="#241a06"/>' +
+  '<path d="M17.5 33.2c2 1.9 11 1.9 13 0-.7 2.4-1.6 3.6-3 3.6-1.2 0-2-.8-3.5-.8s-2.3.8-3.5.8c-1.4 0-2.3-1.2-3-3.6z" fill="#241a06"/>' +
+  '<path d="M19.5 33.6h2.8l-1.4 2.8zM25.7 33.6h2.8l-1.4 2.8z" fill="#fff"/>' +
+  "</svg>";
+
+/* More-sheet section rows — [labelEN, labelAR, targetSection, countKey|null] */
+const SHEET_SECS = [
+  ["Games","الألعاب","games","games"],
+  ["Updates","التحديثات","updates","updates"],
+  ["DLC","الإضافات","dlc","dlc"],
+  ["Classics","كلاسيك","classics","classics"],
+  ["Arabic Games","الألعاب المعربة","arabic","arabic"],
+  ["Themes","الثيمات","themes",null],
+  ["Tools","الأدوات","tools",null],
+  ["Save files","ملفات الحفظ","games",null],
+  ["Tutorials","الشروحات","tools",null],
+  ["Errors & fixes","الأخطاء والحلول","tools",null],
+  ["Converters","المحولات","classics",null]
+];
+
+/* ================= state ================= */
+const qs = new URLSearchParams(location.search);
+const state = {
+  lang: qs.get("lang") || localStorage.getItem("pkgLang") || "en",
+  theme: qs.get("theme") || localStorage.getItem("pkgTheme") || DEF_THEME,
+  fw: parseFloat(qs.get("fw") || localStorage.getItem("pkgFw") || "0") || 0,
+  section: "home", query: "", data: null,
+  platform: "ps", shelfQuery: "", shelfSort: "new", dock: "01"
+};
+if (!STR[state.lang]) state.lang = "en";
+if (state.theme !== "light" && state.theme !== "dark") state.theme = DEF_THEME;
+(function(){
+  const v = qs.get("dock") || localStorage.getItem("pkgDock") || "01";
+  state.dock = ["01","02","03","04","05","06","07","08","09","10"].indexOf(v) >= 0 ? v : "01";
+  document.body.setAttribute("data-dock", state.dock);
+})();
+const t = k => STR[state.lang][k];
+const L = (o, k) => o[k + "_" + state.lang] || o[k + "_en"] || "";
+
+/* ================= helpers ================= */
+const $ = s => document.querySelector(s);
+function esc(s){ return String(s==null?"":s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
+function norm(s){
+  return String(s||"").toLowerCase()
+    .replace(/[ً-ْـ]/g,"")
+    .replace(/[إأآ]/g,"ا").replace(/ة/g,"ه").replace(/ى/g,"ي").replace(/ؤ/g,"و").replace(/ئ/g,"ي")
+    .replace(/['’\-_]/g," ").replace(/\s+/g," ").trim();
+}
+function squash(s){ return norm(s).replace(/ /g,""); }
+function matches(g, q){
+  if (!q) return true;
+  const nq = norm(q), sq = squash(q);
+  const fields = [g.title_en, g.title_ar].concat(g.aliases || []);
+  return fields.some(f => { const nf = norm(f); return nf.includes(nq) || squash(f).includes(sq); });
+}
+function fwVisible(g){ return !state.fw || g.min_fw == null || g.min_fw <= state.fw; }
+function initials(title){
+  const words = String(title||"").replace(/[^A-Za-z0-9 ]/g," ").split(/\s+/).filter(w => /^[A-Za-z0-9]/.test(w));
+  if (!words.length) return "M";
+  if (words.length === 1) return words[0].slice(0,2).toUpperCase();
+  return (words[0][0] + words[words.length-1][0]).toUpperCase();
+}
+function coverStyle(g){
+  const c = gameColor(g);
+  return "background:linear-gradient(155deg," + c + ", rgba(7,4,16,.92) 82%)";
+}
+
+function fmt(n){ n = n||0; return n >= 1000 ? (n/1000).toFixed(1).replace(/\.0$/,"") + "K" : String(n); }
+function fmtFull(n){ return (n||0).toLocaleString("en-US"); }
+const DEMO_TAG = '<i class="demo-tag">DEMO</i>';
+/* Seeded demo engagement stats — deterministic per game id. Placeholder
+   numbers ONLY: every render site tags them with a DEMO chip. Real data
+   (sizes, versions, CUSA, library counts) is never tagged. */
+const _dsCache = {};
+function demoStats(g){
+  if (_dsCache[g.id]) return _dsCache[g.id];
+  let h = 7;
+  for (const ch of g.id) h = (h * 33 + ch.charCodeAt(0)) >>> 0;
+  const rating = Math.round((3.1 + (h % 20) / 10) * 10) / 10;
+  const rc = 40 + (h % 860);
+  const views = 900 + ((h * 7919) % 240000);
+  const downloads = Math.round(views * (1.4 + (h % 10) / 10));
+  const d5 = 48 + (h % 25);
+  const d4 = Math.round((100 - d5) * 0.55);
+  const d3 = Math.round((100 - d5 - d4) * 0.6);
+  const d2 = Math.round((100 - d5 - d4 - d3) * 0.55);
+  const d1 = 100 - d5 - d4 - d3 - d2;
+  const _out = { rating: rating, rc: rc, views: views, downloads: downloads, dist: [d5, d4, d3, d2, d1] };
+  _dsCache[g.id] = _out; return _out;
+}
+/* ================= launch wiring — live counters + profit hop =================
+   LIVE.counts[id] = {views, downloads, exists, ts} — filled from Firestore
+   (project ai-khor-alzubair, collection pkg_counters) by the transport code
+   in the last script block. Display rule everywhere below: a game WITH a
+   live counter doc shows REAL numbers with NO demo tag; a game without one
+   keeps the seeded DEMO numbers, tagged. Ratings are never live (no ratings
+   backend exists) and stay DEMO-tagged by design. */
+const LIVE = { counts: {}, fetched: {}, ready: false, byId: null, railed: false };
+const SITE_CFG = (typeof window !== "undefined" && window.SITE_CONFIG) || {};
+function effViews(g){ const lv = LIVE.counts[g.id]; return (lv && lv.exists) ? lv.views : demoStats(g).views; }
+function effDownloads(g){ const lv = LIVE.counts[g.id]; return (lv && lv.exists) ? lv.downloads : demoStats(g).downloads; }
+function dlPillHTML(g){
+  const lv = LIVE.counts[g.id];
+  if (lv && lv.exists) return '⬇ ' + fmt(lv.downloads);
+  return '⬇ ' + fmt(demoStats(g).downloads) + ' ' + DEMO_TAG;
+}
+function gameStatsHTML(g){
+  const ds = demoStats(g);
+  const lv = LIVE.counts[g.id];
+  const has = !!(lv && lv.exists);
+  const tag = has ? "" : DEMO_TAG;
+  return '<div class="gstat"><span class="n">👁 ' + fmtFull(has ? lv.views : ds.views) + '</span><span class="l">' + esc(t("viewsL")) + '</span>' + tag + '</div>' +
+    '<div class="gstat"><span class="n">⬇ ' + fmtFull(has ? lv.downloads : ds.downloads) + '</span><span class="l">' + esc(t("downloadsL")) + '</span>' + tag + '</div>' +
+    '<div class="gstat"><span class="n">★ ' + ds.rating.toFixed(1) + '</span><span class="l">' + fmtFull(ds.rc) + ' ' + esc(t("ratingsL")) + '</span>' + DEMO_TAG + '</div>';
+}
+/* Destination upgrade (verified live 2026-10-29 against pspkg.com): a
+   listing URL /{ps4|arabic-games|ps3|ps5}/<slug>.html has a download page at
+   /{section}/download-<slug>.html. The enrichment fetchers harvested the
+   edition headings from exactly those pages; HTTP 200 re-verified today for
+   all four sections. Non-PSPKG sources keep their listing URL (their
+   listing page carries the download entry itself). */
+const DL_RE = /^(https:\/\/pspkg\.com\/(?:ps4|arabic-games|ps3|ps5)\/)(?!download-)([^\/]+\.html)$/;
+function dlDest(url){ if (!url) return url; return String(url).replace(DL_RE, "$1download-$2"); }
+/* ONE Clk.sh hop. Template + token come from site-config.js (SITE_CFG).
+   With no token configured the hop is OFF and the raw destination is used —
+   downloads keep working, they just don't earn yet. */
+function hopURL(dest){
+  const tpl = SITE_CFG.hopTemplate || "", tok = SITE_CFG.clkToken || "";
+  if (!tpl || !tok) return dest;
+  return tpl.split("{token}").join(encodeURIComponent(tok)).split("{url}").join(encodeURIComponent(dest));
+}
+function isArabicEd(g){ return (g.files||[]).some(f => f.kind === "game_ar" || /arabic/i.test(f.kind_label_en||"")); }
+function fwChip(g){
+  if (g.min_fw == null) return '<span class="chip fwok">' + esc(t("fwUnknown")) + '</span>';
+  return '<span class="chip fwok">FW ' + g.min_fw.toFixed(2) + '+</span>';
+}
+function starsHTML(g){
+  const ds = demoStats(g);
+  const full = Math.round(ds.rating);
+  return "★".repeat(full) + '<span class="off">' + "☆".repeat(Math.max(0, 5 - full)) + '</span>' +
+         ' <span class="cnt">' + ds.rating.toFixed(1) + ' (' + fmtFull(ds.rc) + ' ' + esc(t("ratingsL")) + ')</span> ' + DEMO_TAG;
+}
+let _badgeCache = null;
+function badgeData(){
+  if (_badgeCache) return _badgeCache;
+  const gs = state.data.games;
+  const top = gs.slice().sort((a,b) => effViews(b) - effViews(a))[0];
+  _badgeCache = { topId: top ? top.id : null,
+    latest: gs.slice().sort((a,b) => (b.added || "").localeCompare(a.added || "")).slice(0,8).map(g => g.id) };
+  return _badgeCache;
+}
+function latestIds(){ return badgeData().latest; }
+function badgeHTML(g){
+  if ((g.files||[]).some(f => f.kind === "update")) return '<span class="badge upd">' + esc(t("updB")) + '</span>';
+  if (badgeData().topId === g.id) return '<span class="badge">🔥 ' + esc(t("trending")) + '</span>';
+  if (latestIds().includes(g.id)) return '<span class="badge new">' + esc(t("newB")) + '</span>';
+  return "";
+}
+function cardHTML(g){
+  return '<article class="card" style="--gc:' + gameColor(g) + '" data-open="' + g.id + '">' +
+    '<div class="cover' + (g.cover ? ' hasimg' : '') + '" style="' + coverStyle(g) + '">' +
+      (g.cover ? '<img class="cvimg" src="' + esc(g.cover) + '" alt="" loading="lazy" onerror="this.parentNode.classList.remove(\'hasimg\');this.remove()">' : '') +
+      '<span class="chip">' + esc(g.platform) + '</span>' + fwChip(g) + badgeHTML(g) +
+      '<span class="mono">' + esc(initials(g.title_en)) + '</span>' +
+      '<span class="ct">' + esc(g.title_en) + '</span>' +
+      '<span class="ovl"><span class="pill"><span class="st">★</span> ' + demoStats(g).rating.toFixed(1) + ' ' + DEMO_TAG + '</span>' +
+      '<span class="pill" data-dl-pill="' + g.id + '">' + dlPillHTML(g) + '</span></span>' +
+    '</div>' +
+    '<div class="cbody"><div class="t">' + esc(L(g,"title")) + '</div>' +
+    '<div class="ta">' + esc(state.lang === "en" ? g.title_ar : g.title_en) + '</div>' +
+    '<div class="cmeta">' + (isArabicEd(g) ? '<span class="tag">🌐 <b>AR</b></span>' : "") +
+    (g.size && g.size !== "—" ? '<span class="tag">' + esc(t("size")) + ' <b>' + esc(g.size) + '</b></span>' : "") +
+    (g.version && g.version !== "—" ? '<span class="tag">' + esc(t("ver")) + ' <b>' + esc(g.version) + '</b></span>' : "") +
+    '</div></div></article>';
+}
+function bindCards(root){
+  root.querySelectorAll("[data-open]").forEach(el => {
+    el.addEventListener("click", () => { location.hash = "#/game/" + el.getAttribute("data-open"); });
+    if (state.data){
+      const g = state.data.games.find(x => x.id === el.getAttribute("data-open"));
+      if (g) sampleCoverColor(g);
+    }
+  });
+}
+</script>
+
+<script>
+"use strict";
+/* ================= click sound — PS1-boot inspired chime =================
+   WebAudio synth, NO file. Deep bell-like base (G3 196 Hz) + a two-note
+   fifth shimmer (G4 392 Hz → D5 587.33 Hz) with a soft attack and a
+   ~180ms bell decay, plus a faint octave sparkle. Lazy context, created
+   inside the tap handler (user gesture), wrapped in try/catch. */
+let actx = null;
+function playChime(){
+  try{
+    const AC = window.AudioContext || window.webkitAudioContext;
+    if (!AC) return;
+    actx = actx || new AC();
+    if (actx.state === "suspended") actx.resume();
+    const t0 = actx.currentTime;
+    function bell(freq, gainPeak, dur, type){
+      const o = actx.createOscillator(); o.type = type || "sine";
+      o.frequency.setValueAtTime(freq, t0);
+      const g = actx.createGain();
+      g.gain.setValueAtTime(0.0001, t0);
+      g.gain.exponentialRampToValueAtTime(gainPeak, t0 + 0.008);
+      g.gain.exponentialRampToValueAtTime(0.0001, t0 + dur);
+      o.connect(g); g.connect(actx.destination);
+      o.start(t0); o.stop(t0 + dur + 0.03);
+    }
+    bell(196.00, 0.055, 0.26, "triangle");   /* deep base */
+    bell(392.00, 0.075, 0.19);              /* fifth root */
+    bell(587.33, 0.05, 0.15);               /* fifth shimmer */
+    bell(1174.66, 0.016, 0.09);             /* sparkle */
+  }catch(e){}
+}
+
+/* ================= theme toggle — circular wipe + chime ================= */
+function syncThemeBtn(){
+  $("#themeBtn").textContent = state.theme === "dark" ? "☀️" : "🌙";
+  const st = $("#sheetTheme");
+  if (st) st.textContent = state.theme === "dark" ? "☀️ " + (state.lang === "ar" ? "الوضع النهاري" : "Light mode") : "🌙 " + (state.lang === "ar" ? "الوضع الليلي" : "Dark mode");
+}
+function applyTheme(){ document.body.classList.toggle("light", state.theme === "light"); syncThemeBtn(); }
+function toggleTheme(){
+  const next = state.theme === "dark" ? "light" : "dark";
+  playChime();
+  const apply = () => { state.theme = next; localStorage.setItem("pkgTheme", next); applyTheme(); setTimeout(() => placeBlob(false), 60); };
+  const reduced = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (reduced || !document.startViewTransition){ apply(); return; }
+  let x = innerWidth - 40, y = 30;
+  const btn = $("#themeBtn");
+  if (btn){ const r = btn.getBoundingClientRect(); x = r.left + r.width / 2; y = r.top + r.height / 2; }
+  try{
+    const vt = document.startViewTransition(apply);
+    vt.ready.then(() => {
+      const rad = Math.hypot(Math.max(x, innerWidth - x), Math.max(y, innerHeight - y));
+      document.documentElement.animate(
+        { clipPath: ["circle(0px at " + x + "px " + y + "px)", "circle(" + rad + "px at " + x + "px " + y + "px)"] },
+        { duration: 600, easing: "cubic-bezier(.22,.9,.28,1)", pseudoElement: "::view-transition-new(root)" });
+    }).catch(() => {});
+  }catch(e){ apply(); }
+}
+</script>
+
+<script>
+"use strict";
+/* ================= sections / counts ================= */
+function sectionGames(key){
+  const all = state.data.games;
+  if (key === "ps3") return all.filter(g => g.platform === "PS3");
+  if (key === "psp") return all.filter(g => g.platform === "PSP");
+  if (key === "updates") return all.filter(g => (g.files||[]).some(f => f.kind === "update"));
+  if (key === "dlc")     return all.filter(g => (g.files||[]).some(f => f.kind === "dlc"));
+  if (key === "arabic")  return all.filter(isArabicEd);
+  return all.filter(g => g.section === key);
+}
+function countOf(key){
+  if (!key || !state.data) return null;
+  if (key === "games") return sectionGames("games").length;
+  return sectionGames(key).length;
+}
+function goSection(k){
+  closeSheet();
+  const h = (k === "home") ? "#/" : "#/s/" + k;
+  if ((location.hash || "#/") === h) route(); else location.hash = h;
+}
+function renderNav(){
+  $("#secRow").innerHTML = SECTIONS.map(k => {
+    const c = state.data && k !== "home" && k !== "services" ? countOf(k) : null;
+    return '<button type="button" class="sec' + (state.section === k ? " on" : "") + '" data-sec="' + k + '">' +
+      esc(STR[state.lang].sec[k]) + (c != null ? ' <span class="n">' + c + '</span>' : "") + '</button>';
+  }).join("");
+  document.querySelectorAll("[data-sec]").forEach(b =>
+    b.addEventListener("click", () => goSection(b.getAttribute("data-sec"))));
+}
+function renderFw(){
+  const row = $("#fwRow");
+  row.innerHTML = '<button type="button" class="fw' + (state.fw === 0 ? " on" : "") + '" data-fw="0">' + esc(t("fwAny")) + '</button>' +
+    FWS.map(v => '<button type="button" class="fw' + (state.fw === v ? " on" : "") + '" data-fw="' + v + '">' + v.toFixed(2) + '</button>').join("");
+  row.querySelectorAll("[data-fw]").forEach(b =>
+    b.addEventListener("click", () => {
+      state.fw = parseFloat(b.getAttribute("data-fw")) || 0;
+      localStorage.setItem("pkgFw", String(state.fw));
+      renderFw(); renderGrid();
+    }));
+  $("#fwNote").textContent = state.fw === 0 ? t("fwNoteAll") : t("fwNoteSel").replace("{fw}", state.fw.toFixed(2));
+}
+
+function renderHomeBlocks(){
+  const games = state.data.games;
+  const viewed = games.slice().sort((a,b) => effViews(b) - effViews(a));
+  $("#rankRow").innerHTML = viewed.slice(0, 10).map((g, i) =>
+    '<div class="ritem" data-open="' + g.id + '"><span class="ranknum">' + (i + 1) + '</span>' + cardHTML(g) + '</div>').join("");
+  bindCards($("#rankRow"));
+  const arab = games.filter(isArabicEd);
+  $("#arabicCnt").textContent = arab.length;
+  $("#arabicStrip").innerHTML = arab.slice(0, 30).map(cardHTML).join("");
+  bindCards($("#arabicStrip"));
+  const latest = games.slice().sort((a,b) => (b.added || "").localeCompare(a.added || ""));
+  $("#latestCnt").textContent = latest.length;
+  $("#latestGrid").innerHTML = latest.slice(0, 8).map(cardHTML).join("");
+  bindCards($("#latestGrid"));
+  const upd = sectionGames("updates");
+  $("#updatesCnt").textContent = upd.length;
+  $("#updatesStrip").innerHTML = upd.slice(0, 30).map(cardHTML).join("");
+  bindCards($("#updatesStrip"));
+  $("#updatesBlock").classList.toggle("hidden", !upd.length);
+  const dlc = sectionGames("dlc");
+  $("#dlcCnt").textContent = dlc.length;
+  $("#dlcStrip").innerHTML = dlc.map(cardHTML).join("");
+  bindCards($("#dlcStrip"));
+  $("#dlcBlock").classList.toggle("hidden", !dlc.length);
+}
+function renderGrid(){
+  const grid = $("#grid"), empty = $("#gridEmpty");
+  if (state.section === "services"){
+    $("#gridBlock").classList.add("hidden");
+    $("#servicesBlock").classList.remove("hidden");
+    $("#svcGrid").innerHTML = STR[state.lang].svc.map(s =>
+      '<div class="svc"><div class="ic">' + s[0] + '</div><h3>' + esc(s[1]) + '</h3><p>' + esc(s[2]) + '</p></div>').join("");
+    return;
+  }
+  $("#gridBlock").classList.remove("hidden");
+  $("#servicesBlock").classList.add("hidden");
+  const base = state.section === "home" ? state.data.games : sectionGames(state.section);
+  const list = base.filter(g => fwVisible(g) && matches(g, state.query));
+  $("#gridTitle").textContent = state.section === "home" && !state.query ? t("allGames") : STR[state.lang].sec[state.section];
+  $("#gridCnt").textContent = list.length;
+  $("#gridSub").textContent = state.query
+    ? list.length + " " + t("results") + " — “" + state.query + "”"
+    : (STR[state.lang].gridSub[state.section] || "");
+  const gkey = state.section + "|" + state.query + "|" + state.fw;
+  if (state._gkey !== gkey){ state._gkey = gkey; state._gshown = 60; }
+  const shown = Math.min(state._gshown || 60, list.length);
+  grid.innerHTML = list.slice(0, shown).map(cardHTML).join("");
+  bindCards(grid);
+  const gm = $("#gridMore");
+  if (gm){
+    gm.innerHTML = list.length > shown ? '<div class="more-wrap"><button type="button" class="more-btn" id="gridMoreBtn">' + esc(t("showMore")) + ' (' + shown + ' / ' + list.length + ')</button></div>' : "";
+    const mb = $("#gridMoreBtn");
+    if (mb) mb.addEventListener("click", () => { state._gshown = shown + 60; renderGrid(); });
+  }
+  empty.innerHTML = list.length ? "" :
+    '<div class="empty"><div class="big mascot-big">' + MASCOT_SVG + '</div><b>' +
+    esc(state.query ? t("noResults") : t("emptyTitle")) + '</b><br>' +
+    esc(state.query ? "" : t("emptyBody")) + '</div>';
+}
+function renderHome(){
+  const plain = state.section === "home" && !state.query;
+  $("#homeBlocks").classList.toggle("hidden", !plain);
+  const hwEl = $("#heroWrap"); if (hwEl) hwEl.classList.toggle("hidden", !plain);
+  const tkEl = $("#ticker"); if (tkEl) tkEl.classList.toggle("hidden", !plain);
+  if (plain) renderHomeBlocks();
+  renderNav(); renderGrid();
+}
+function hostHTML(h){
+  if (h.url){
+    /* Download buttons no longer link straight out: they carry the raw
+       source URL in data-dl and renderGame binds them to startDownload()
+       (branded transition → one Clk.sh hop → source page). The destination
+       is upgraded to the source DOWNLOAD page where derivable, and the
+       label says so honestly. */
+    const up = dlDest(h.url) !== h.url;
+    const label = up ? h.name.replace("listing page", "download page") : h.name;
+    return '<button type="button" class="host-btn" data-dl="' + esc(h.url) + '">⬇ ' + esc(label) + '</button>';
+  }
+  return '<span class="host-badge">⬇ ' + esc(h.name) + '</span>';
+}
+function fileHTML(f){
+  const anyDirect = (f.hosts||[]).some(h => h.url);
+  return '<div class="file"><div class="fh"><span class="fk">' + esc(L(f,"kind_label")) + '</span>' +
+    '<span class="fm">' + esc(t("ver")) + ' ' + esc(f.version) + ' · ' + esc(t("size")) + ' ' + esc(f.size) + '</span></div>' +
+    '<div class="hosts">' + (f.hosts||[]).map(hostHTML).join("") + '</div>' +
+    (anyDirect ? "" : '<div class="fnote">' + esc(t("hostsLabel")) + ': ' + (f.hosts||[]).map(h => esc(h.name)).join(" · ") + '<br>' + esc(t("directSoon")) + '</div>') +
+    '</div>';
+}
+function fmtDate(iso){
+  try{
+    const d = new Date((iso || "") + "T00:00:00");
+    if (isNaN(d)) return iso || "";
+    return d.toLocaleDateString(state.lang === "ar" ? "ar-IQ" : "en-GB", { day:"numeric", month:"short", year:"numeric" });
+  }catch(e){ return iso || ""; }
+}
+const DEVICES = {"PS4":"PlayStation 4 (PS4)","PS5":"PlayStation 5 (PS5)","PS3":"PlayStation 3 (PS3)","PSP":"PlayStation Portable (PSP)","PSVita":"PlayStation Vita","Switch":"Nintendo Switch","PC":"PC (Windows)","Xbox 360":"Xbox 360 (JTAG/RGH)"};
+function renderGame(id){
+  const g = state.data.games.find(x => x.id === id);
+  const root = $("#gameRoot");
+  if (!g){ location.hash = "#/"; return; }
+  const ds = demoStats(g);
+  const waText = encodeURIComponent("Hi MOHAMMED AI, please install " + g.title_en + " (" + g.platform + ") for me at the shop.");
+  const wa = "https://wa.me/" + state.data.site.whatsapp + "?text=" + waText;
+  const info = [
+    [t("nameL"), g.title_en], [t("platform"), g.platform], [t("deviceL"), DEVICES[g.platform] || g.platform],
+    [t("cusa"), g.cusa], [t("region"), g.region], [t("version"), g.version],
+    [t("size"), g.size], [t("reqFw"), L(g,"fw_label")], [t("genre"), L(g,"genre")],
+    [t("publisher"), g.publisher], [t("addedL"), fmtDate(g.added)]
+  ];
+  const others = state.data.games.filter(x => x.id !== g.id);
+  const sameGenre = g.genre_en ? others.filter(x => (x.genre_en || "") === g.genre_en) : [];
+  const also = sameGenre.concat(others.filter(x => sameGenre.indexOf(x) < 0)).slice(0, 4);
+  const faq = STR[state.lang].faq || STR.en.faq;
+  root.innerHTML =
+    '<button type="button" class="back" id="backBtn">← ' + esc(t("back")) + '</button>' +
+    '<div class="ghead">' +
+      '<div class="cover' + (g.cover ? ' hasimg' : '') + '" style="' + coverStyle(g) + '">' + (g.cover ? '<img class="cvimg" src="' + esc(g.cover) + '" alt="" loading="lazy" onerror="this.parentNode.classList.remove(\'hasimg\');this.remove()">' : '') + '<span class="chip">' + esc(g.platform) + '</span>' + fwChip(g) +
+        '<span class="mono">' + esc(initials(g.title_en)) + '</span><span class="ct">' + esc(g.title_en) + '</span></div>' +
+      '<div><div class="gtitles"><div class="en">' + esc(g.title_en) + '</div><div class="ar">' + esc(g.title_ar) + '</div></div>' +
+        '<div class="publine">📅 ' + esc(t("published")) + ': ' + esc(fmtDate(g.added)) + '</div>' +
+        '<div class="stars">' + starsHTML(g) + '</div>' +
+        '<div class="gstats" id="gStatsBox">' + gameStatsHTML(g) + '</div>' +
+        '<p class="gdesc">' + esc(L(g,"desc")) + '</p>' +
+        (g.edition_en ? '<span class="edition">✦ ' + esc(L(g,"edition")) + '</span>' : "") +
+        '<div class="srcrow">' + (g.source_pages||[]).map(s =>
+          '<button type="button" class="src-btn" data-dl="' + esc(s.url) + '">🔗 ' + esc(L(s,"label")) + '</button>').join("") + '</div>' +
+      '</div>' +
+    '</div>' +
+    '<section class="panel"><h3>' + esc(t("gameInfo")) + '</h3>' +
+      '<table class="info">' + info.map(r => '<tr><td class="k">' + esc(r[0]) + '</td><td class="v">' + esc(r[1]) + '</td></tr>').join("") + '</table></section>' +
+    (g.editions && g.editions.length ? '<section class="panel"><h3>' + esc(t("editionsH")) + '</h3>' +
+      '<table class="info"><tr><td class="k">' + esc(t("cusa")) + '</td><td class="k">' + esc(t("region")) + '</td><td class="k">' + esc(t("version")) + '</td></tr>' +
+      g.editions.map(e => '<tr><td class="v">' + esc(e.cusa || "—") + '</td><td class="v">' + esc(e.region || "—") + '</td><td class="v">' + esc(e.version || "—") + '</td></tr>').join("") + '</table></section>' : "") +
+    (g.trailer ? '<section class="panel"><h3>▶ ' + esc(t("trailerL")) + '</h3><div class="twrap"><iframe src="' + esc(g.trailer) + '" title="Trailer" loading="lazy" allowfullscreen></iframe></div></section>' : "") +
+    (g.screenshots && g.screenshots.length ? '<section class="panel"><h3>🖼 ' + esc(t("shotsL")) + '</h3><div class="shots">' + g.screenshots.map(u => '<img src="' + esc(u) + '" alt="" loading="lazy">').join("") + '</div></section>' : "") +
+    '<section class="panel"><h3>' + esc(t("readyQ")) + '</h3>' +
+      (g.files||[]).map(fileHTML).join("") +
+      '<div class="file bundle"><div class="fh"><span class="fk">📦 ' + esc(t("bundle")) + '</span></div>' +
+        '<div style="color:var(--muted);font-size:13.5px;line-height:1.7">' + esc(t("bundleNote")) + '</div>' +
+        '<ul>' + (g.files||[]).map(f => '<li><b>' + esc(L(f,"kind_label")) + '</b> — ' + esc(f.size) + ' · v' + esc(f.version) + '</li>').join("") + '</ul>' +
+        (g.source_pages && g.source_pages.length ? '<button type="button" class="host-btn" data-dl="' + esc(g.source_pages[0].url) + '">⬇ ' + esc(t("viaSource")) + '</button>' : "") +
+      '</div>' +
+      '<div class="wa-note" style="margin-top:12px"><b>' + esc(t("helpQ")) + '</b><br>' + esc(t("helpA")) + '</div>' +
+      '<a class="wa-btn" href="' + wa + '" target="_blank" rel="noopener">' + esc(t("shopBtn")) + '</a>' +
+      '<div class="wa-note">' + esc(t("shopNote")) + '</div>' +
+    '</section>' +
+    '<section class="panel"><h3>' + esc(t("reviewsH")) + '</h3>' +
+      '<div class="gstats"><div class="gstat"><span class="n">★ ' + ds.rating.toFixed(1) + '</span><span class="l">' + fmtFull(ds.rc) + ' ' + esc(t("ratingsL")) + '</span></div>' + DEMO_TAG + '</div>' +
+      ds.dist.map((p, i) => '<div class="rbar"><span>' + (5 - i) + '★</span><div class="tr"><div class="fl" style="width:' + p + '%"></div></div><span>' + p + '%</span></div>').join("") +
+    '</section>' +
+    '<section class="panel"><h3>' + esc(t("faqH")) + '</h3>' +
+      faq.map(qa => '<div class="faq"><b>' + esc(qa[0]) + '</b><p>' + esc(qa[1]) + '</p></div>').join("") +
+    '</section>' +
+    '<section class="panel"><h3>' + esc(t("followH")) + '</h3>' +
+      '<p class="gdesc">' + esc(t("followB")) + '</p>' +
+      '<a class="wa-btn" href="https://wa.me/' + state.data.site.whatsapp + '" target="_blank" rel="noopener">💬 WhatsApp — +964 770 708 9760</a>' +
+    '</section>' +
+    '<section class="block"><h2><span>' + esc(t("alsoLike")) + '</span></h2><div class="strip" id="alsoStrip">' + also.map(cardHTML).join("") + '</div></section>';
+  $("#backBtn").addEventListener("click", () => { history.back(); });
+  bindCards($("#alsoStrip"));
+  sampleCoverColor(g);
+  state._gameId = g.id;
+  root.querySelectorAll("[data-dl]").forEach(b =>
+    b.addEventListener("click", () => startDownload(g, b.getAttribute("data-dl"))));
+  countView(g);
+  window.scrollTo(0, 0);
+}
+
+function renderLegal(page){
+  const item = (STR[state.lang].legal[page] || STR[state.lang].legal.dmca);
+  $("#legalRoot").innerHTML =
+    '<button type="button" class="back" id="backBtn2">← ' + esc(t("back")) + '</button>' +
+    '<h1>' + esc(item[0]) + '</h1><p>' + esc(item[1]) + '</p>' +
+    (page === "contact" ? '<p><a class="host-btn" href="https://wa.me/' + state.data.site.whatsapp + '" target="_blank" rel="noopener">💬 WhatsApp</a></p>' : "");
+  $("#backBtn2").addEventListener("click", () => { history.back(); });
+  window.scrollTo(0, 0);
+}
+</script>
+
+<script>
+"use strict";
+/* ================= brand icons — faithful marks, real colors =================
+   Unselected icons are greyed by CSS (grayscale + fade); the selected one
+   shows its true brand colors. Knockouts use var(--knock) = dock surface. */
+const PB_ICONS = {
+  ps:'<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#0070D1" d="M10.9 21.9V2.1h4.4c3 0 5 2.1 5 4.9 0 2.9-2 4.9-5 4.9h-2.5v10h-1.9zm1.9-11.8h2.4c1.7 0 2.8-1.3 2.8-3.1s-1.1-3.1-2.8-3.1h-2.4v6.2z"/><path fill="#0070D1" opacity=".85" d="M3.2 19.6c2.4-1.1 5.5-1.7 8.9-1.7 2.6 0 5 .4 7 1.1.5.2.5.7-.1.9-1.9.8-4.4 1.2-7.1 1.2-3.4 0-6.5-.5-9-1.5-.4-.1-.3-.8.3-1z"/></svg>',
+  switch:'<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="#E60012" stroke-width="1.7" d="M9.3 3.2h.9c.5 0 .9.4.9.9v15.8c0 .5-.4.9-.9.9h-.9c-2.9 0-5.2-2.3-5.2-5.2V8.4c0-2.9 2.3-5.2 5.2-5.2z"/><circle cx="7.6" cy="8" r="1.4" fill="#E60012"/><path fill="#E60012" d="M13.8 3.2h.9c2.9 0 5.2 2.3 5.2 5.2v7.2c0 2.9-2.3 5.2-5.2 5.2h-.9c-.5 0-.9-.4-.9-.9V4.1c0-.5.4-.9.9-.9z"/><circle cx="16.4" cy="16" r="1.4" style="fill:var(--knock)"/></svg>',
+  xbox:'<svg viewBox="0 0 24 24" aria-hidden="true"><defs><clipPath id="xbc"><circle cx="12" cy="12" r="9.2"/></clipPath></defs><circle cx="12" cy="12" r="9.2" fill="#107C10"/><g clip-path="url(#xbc)" stroke="#fff" stroke-width="2.1" fill="none" stroke-linecap="round"><path d="M4.5 5.5c3 2.4 5.6 5.3 7.5 8.6 1.9-3.3 4.5-6.2 7.5-8.6"/><path d="M4.5 18.5c3-2.4 5.6-5.3 7.5-8.6 1.9 3.3 4.5 6.2 7.5 8.6"/></g></svg>',
+  android:'<svg viewBox="0 0 24 24" aria-hidden="true"><path stroke="#3DDC84" stroke-width="1.3" stroke-linecap="round" d="M8.4 5.2 7.2 3.4M15.6 5.2l1.2-1.8"/><g fill="#3DDC84"><path d="M6.1 10.2a5.9 5.9 0 0 1 11.8 0z"/><rect x="6.1" y="11" width="11.8" height="6.4" rx="1.4"/><rect x="3.6" y="11" width="1.9" height="5" rx=".95"/><rect x="18.5" y="11" width="1.9" height="5" rx=".95"/><rect x="8.3" y="18.1" width="2.1" height="3.1" rx="1.05"/><rect x="13.6" y="18.1" width="2.1" height="3.1" rx="1.05"/></g><circle cx="9.5" cy="7.6" r=".95" style="fill:var(--knock)"/><circle cx="14.5" cy="7.6" r=".95" style="fill:var(--knock)"/></svg>',
+  psp:'<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#33343c" d="M5.4 6.6h13.2c2 0 3.6 1.6 3.6 3.6v3.6c0 2-1.6 3.6-3.6 3.6H5.4c-2 0-3.6-1.6-3.6-3.6v-3.6c0-2 1.6-3.6 3.6-3.6z"/><rect x="8.7" y="8.9" width="6.6" height="6.2" rx=".7" style="fill:var(--knock)"/><path style="fill:var(--knock)" d="M5.1 10h.9v-.9h1.1v.9h.9v1.1h-.9v.9H6v-.9h-.9z"/><g style="fill:var(--knock)"><circle cx="17.6" cy="9.9" r=".72"/><circle cx="18.9" cy="11.2" r=".72"/><circle cx="17.6" cy="12.5" r=".72"/><circle cx="16.3" cy="11.2" r=".72"/></g></svg>',
+  vita:'<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#33343c" d="M4.9 5.9h14.2c2.2 0 3.9 1.8 3.9 3.9v4.4c0 2.2-1.8 3.9-3.9 3.9H4.9C2.7 18.1 1 16.3 1 14.2V9.8c0-2.2 1.8-3.9 3.9-3.9z"/><rect x="7.6" y="8.3" width="8.8" height="7.4" rx=".8" style="fill:var(--knock)"/><circle cx="4.6" cy="10.6" r="1.05" style="fill:var(--knock)"/><circle cx="19.4" cy="13.4" r="1.05" style="fill:var(--knock)"/><g style="fill:var(--knock)"><circle cx="19.4" cy="9.2" r=".62"/><circle cx="20.5" cy="10.6" r=".62"/><circle cx="18.3" cy="10.6" r=".62"/></g><path style="fill:var(--knock)" d="M3.4 13.9h.7v-.7h.9v.7h.7v.9H5v.7h-.9v-.7h-.7z"/></svg>',
+  pc:'<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#64748b" d="M3.2 4.6h17.6c.6 0 1 .4 1 1v9.8c0 .6-.4 1-1 1H3.2c-.6 0-1-.4-1-1V5.6c0-.6.4-1 1-1z"/><rect x="4.4" y="6.6" width="15.2" height="7.8" style="fill:var(--knock)"/><path fill="#64748b" d="M10.6 17.6h2.8l.7 2.6H9.9z"/></svg>',
+  more:'<svg viewBox="0 0 24 24" aria-hidden="true"><g style="fill:var(--acc)"><rect x="4" y="4" width="7" height="7" rx="2"/><rect x="13" y="4" width="7" height="7" rx="2"/><rect x="4" y="13" width="7" height="7" rx="2"/><rect x="13" y="13" width="7" height="7" rx="2"/></g></svg>'
+};
+const PB_T = {
+  en:{ more:"More", platforms:"Platforms", sections:"Sections", results:"titles",
+    shelfSub:"The {name} shelf — every verified title, growing with each new drop.",
+    shelfEmpty:"First titles are being added",
+    shelfEmptySub:"This is a real shelf, freshly opened — the first verified {name} titles are on their way. No filler, no fake listings.",
+    browsePs:"Browse the PlayStation library", searchShelf:"Search this shelf…",
+    sortNew:"Newest", sortViewed:"Most viewed", sortRated:"Top rated", sortAZ:"A–Z",
+    soonTag:"Coming soon", soonBody:"This shelf is being stocked — the PlayStation library is live now.",
+    backPs:"Back to PlayStation", whatsapp:"WhatsApp us" },
+  ar:{ more:"المزيد", platforms:"المنصات", sections:"الأقسام", results:"عنوان",
+    shelfSub:"رف {name} — كل عنوان موثّق، ويكبر مع كل دفعة جديدة.",
+    shelfEmpty:"تُضاف أول العناوين الآن",
+    shelfEmptySub:"هذا رف حقيقي افتُتح للتو — أول عناوين {name} الموثقة في الطريق. بلا حشو وبلا قوائم وهمية.",
+    browsePs:"تصفح مكتبة بلايستيشن", searchShelf:"ابحث في هذا الرف…",
+    sortNew:"الأحدث", sortViewed:"الأكثر مشاهدة", sortRated:"الأعلى تقييماً", sortAZ:"أ – ي",
+    soonTag:"قريباً", soonBody:"هذا الرف يُجهّز الآن — مكتبة بلايستيشن متاحة حالياً.",
+    backPs:"عودة إلى بلايستيشن", whatsapp:"راسلنا واتساب" }
+};
+const PB_LABEL = { vita:"PSVita", psp:"PSP", ps:"PlayStation", switch:"Switch", pc:"PC", android:"Android", xbox:"Xbox" };
+const PB_ORDER = ["vita","psp","ps","switch","pc","android","xbox","more"];
+const PB_PLATS = {
+  psp:{ name:"PSP", match:["psp"] },
+  vita:{ name:"PS Vita", match:["psvita"] },
+  switch:{ name:"Switch", match:["switch"] },
+  pc:{ name:"PC", match:["pc"] },
+  xbox:{ name:"Xbox", match:["xbox","xbox360"] }
+};
+const PB_ACC = { ps:"#0070D1", psp:"#a08c5a", vita:"#a08c5a", switch:"#E60012", pc:"#64748b", xbox:"#107C10", android:"#3DDC84" };
+/* ================= the 10-dock gallery (reel 71) ================= */
+const DOCKS = [
+  ["01","Liquid Floating","السائل العائم"],
+  ["02","Magnetic Dock","الحوض المغناطيسي"],
+  ["03","Glass Capsule","الكبسولة الزجاجية"],
+  ["04","Segmented Dynamic","المقطّع الديناميكي"],
+  ["05","Orbit","المداري"],
+  ["06","Wave Indicator","مؤشر الموجة"],
+  ["07","Cyber Neon","النيون السيبراني"],
+  ["08","Morphing Blob","الفقاعة المتحوّلة"],
+  ["09","Layered Card","البطاقة الطبقية"],
+  ["10","Minimal Luxury","الفاخر البسيط"]
+];
+function setDock(id){
+  if (!DOCKS.some(d => d[0] === id)) return;
+  state.dock = id;
+  try{ localStorage.setItem("pkgDock", id); }catch(e){}
+  document.body.setAttribute("data-dock", id);
+  playChime();
+  renderDock(true);
+  renderSheet();
+  setTimeout(closeSheet, 340);
+}
+function pbT(k){ return PB_T[state.lang][k]; }
+function normPlat(p){ const s = String(p || "").toLowerCase().replace(/[\s\-]/g, ""); if (s === "vita" || s === "psvita") return "psvita"; if (s === "nintendoswitch") return "switch"; return s; }
+
+/* ================= floating dock ================= */
+let blobX = null;
+function renderDock(force){
+  const bar = $("#dock"); if (!bar) return;
+  const cur = state.platform || "ps";
+  if (!force && bar.dataset.cur === cur && bar.dataset.ds === state.dock && bar.querySelectorAll(".dbtn").length === PB_ORDER.length){
+    placeBlob(true); return;
+  }
+  bar.dataset.cur = cur; bar.dataset.ds = state.dock;
+  const indInner = state.dock === "05" ? '<span class="orb"><i class="d1"></i><i class="d2"></i></span>'
+    : state.dock === "06" ? '<svg viewBox="0 0 64 14" preserveAspectRatio="none" aria-hidden="true"><path d="M0 9 Q8 2.5 16 7.5 T32 7.5 T48 7.5 T64 9 V14 H0 Z" fill="currentColor"/></svg>' : "";
+  bar.innerHTML = '<span class="dock-blob noanim" id="dockBlob">' + indInner + '</span>' + PB_ORDER.map(k =>
+    '<button type="button" class="dbtn' + (k === cur ? " on" : "") + '" data-pb="' + k + '">' +
+    '<span class="pic">' + PB_ICONS[k] + '</span><span class="pl">' + (k === "more" ? esc(pbT("more")) : PB_LABEL[k]) + "</span></button>").join("");
+  const nb = $("#dockBlob");
+  if (nb && blobX !== null){ nb.style.left = blobX + "px"; nb.style.opacity = "1"; }
+  bar.querySelectorAll("[data-pb]").forEach(b => b.addEventListener("click", () => pbGo(b.getAttribute("data-pb"))));
+  if (state.dock === "02") bindMagnet(bar);
+  requestAnimationFrame(() => requestAnimationFrame(() => placeBlob(true)));
+}
+
+function placeBlob(anim){
+  const bar = $("#dock"), blob = $("#dockBlob");
+  if (!bar || !blob) return;
+  const btn = bar.querySelector(".dbtn.on");
+  if (!btn){ blob.style.opacity = "0"; return; }
+  let x = btn.offsetLeft, w = btn.offsetWidth;
+  const st = state.dock;
+  if (st === "05"){ const nw = 48; x += (w - nw) / 2; w = nw; }
+  else if (st === "06"){ const nw = 64; x += (w - nw) / 2; w = nw; }
+  else if (st === "10"){ x += 10; w = Math.max(12, w - 20); }
+  const glide = anim && blobX !== null;
+  blob.classList.remove("noanim");
+  if (!glide) blob.classList.add("noanim");
+  blob.style.left = x + "px"; blob.style.width = w + "px"; blob.style.opacity = "1";
+  if (!glide){ void blob.offsetWidth; blob.classList.remove("noanim"); }
+  if (glide && blobX !== x){
+    try{
+      if (st === "01"){
+        const dist = Math.abs(x - blobX);
+        const sc = 1 + Math.min(0.45, dist / 240);
+        blob.animate([{ transform:"scaleX(1)" }, { transform:"scaleX(" + sc + ")", offset:0.35 }, { transform:"scaleX(1)" }],
+          { duration:460, easing:"ease-out" });
+      } else if (st === "08"){
+        blob.animate([{ transform:"scale(1,1)" }, { transform:"scale(1.16,.8)", offset:0.35 },
+                      { transform:"scale(.94,1.1)", offset:0.65 }, { transform:"scale(1,1)" }],
+          { duration:520, easing:"ease-out" });
+      }
+    }catch(e){}
+    const pic = btn.querySelector(".pic");
+    if (pic) try{ pic.animate(
+      [{ transform:"scale(1)" }, { transform:"scale(1.22)", offset:0.4 }, { transform:"scale(1)" }],
+      { duration:380, easing:"ease-out" }); }catch(e){}
+  }
+  blobX = x;
+}
+
+function bindMagnet(bar){
+  const btns = Array.prototype.slice.call(bar.querySelectorAll(".dbtn"));
+  function reset(){ btns.forEach(b => { const p = b.querySelector(".pic"); if (p) p.style.transform = ""; }); }
+  bar.addEventListener("pointermove", e => {
+    btns.forEach(b => {
+      const r = b.getBoundingClientRect();
+      const d = Math.abs(e.clientX - (r.left + r.width / 2));
+      const s = Math.max(1, 1.38 - (d / 110) * 0.38);
+      const p = b.querySelector(".pic");
+      if (p) p.style.transform = "scale(" + s.toFixed(3) + ") translateY(" + (-(s - 1) * 7).toFixed(1) + "px)";
+    });
+  });
+  bar.addEventListener("pointerleave", reset);
+}
+function pbHash(h){ if ((location.hash || "#/") === h) route(); else location.hash = h; }
+function pbGo(k){
+  playChime();
+  if (k === "more"){ openSheet(); return; }
+  pbHash(k === "ps" ? "#/" : k === "android" ? "#/soon/android" : "#/p/" + k);
+}
+function shelfItems(key){
+  const want = PB_PLATS[key].match;
+  return state.data.games.filter(g => want.indexOf(normPlat(g.platform)) >= 0);
+}
+function renderShelfSorts(){
+  const sorts = [["new","sortNew"],["viewed","sortViewed"],["rated","sortRated"],["az","sortAZ"]];
+  const cur = state.shelfSort || "new";
+  $("#shelfSorts").innerHTML = sorts.map(s =>
+    '<button type="button" class="sort' + (cur === s[0] ? " on" : "") + '" data-sort="' + s[0] + '">' + esc(pbT(s[1])) + "</button>").join("");
+  $("#shelfSorts").querySelectorAll("[data-sort]").forEach(b =>
+    b.addEventListener("click", () => { state.shelfSort = b.getAttribute("data-sort"); renderShelfSorts(); renderShelfGrid(); }));
+}
+function renderShelfGrid(){
+  const key = state.platform, grid = $("#shelfGrid"), empty = $("#shelfEmpty");
+  const base = shelfItems(key);
+  let list = base.filter(g => matches(g, state.shelfQuery || ""));
+  const srt = state.shelfSort || "new";
+  if (srt === "viewed") list = list.slice().sort((a,b) => effViews(b) - effViews(a));
+  else if (srt === "rated") list = list.slice().sort((a,b) => demoStats(b).rating - demoStats(a).rating);
+  else if (srt === "az") list = list.slice().sort((a,b) => (a.title_en || "").localeCompare(b.title_en || ""));
+  else list = list.slice().sort((a,b) => (b.added || "").localeCompare(a.added || ""));
+  grid.innerHTML = list.map(cardHTML).join("");
+  bindCards(grid);
+  if (list.length){ empty.innerHTML = ""; return; }
+  empty.innerHTML = base.length
+    ? '<div class="shelf-empty"><div class="big">🔍</div><b>' + esc(t("noResults")) + "</b></div>"
+    : '<div class="shelf-empty"><div class="big mascot-big">' + MASCOT_SVG + '</div><b>' + esc(pbT("shelfEmpty")) + "</b><p>" +
+      esc(pbT("shelfEmptySub").replace("{name}", PB_PLATS[key].name)) + '</p>' +
+      '<button type="button" class="pb-btn" id="shelfBrowse">' + esc(pbT("browsePs")) + "</button></div>";
+  const bb = $("#shelfBrowse");
+  if (bb) bb.addEventListener("click", () => pbGo("ps"));
+}
+function renderShelf(key){
+  document.body.style.setProperty("--pacc", PB_ACC[key] || "var(--acc)");
+  $("#shelfIcon").innerHTML = PB_ICONS[key];
+  $("#shelfTitle").textContent = PB_PLATS[key].name;
+  $("#shelfSub").textContent = pbT("shelfSub").replace("{name}", PB_PLATS[key].name);
+  $("#shelfCnt").textContent = shelfItems(key).length + " " + pbT("results");
+  $("#shelfSearch").placeholder = pbT("searchShelf");
+  if ($("#shelfSearch").value !== (state.shelfQuery || "")) $("#shelfSearch").value = state.shelfQuery || "";
+  renderShelfSorts(); renderShelfGrid();
+}
+function renderSoon(){
+  document.body.style.setProperty("--pacc", PB_ACC.android);
+  $("#soonIcon").innerHTML = PB_ICONS.android;
+  $("#soonTag").textContent = pbT("soonTag");
+  $("#soonTitle").textContent = PB_LABEL.android;
+  $("#soonBody").textContent = pbT("soonBody");
+  $("#soonBack").textContent = pbT("backPs");
+}
+
+function renderTicker(){
+  const tk = $("#ticker"); if (!tk) return;
+  const waNum = state.data ? state.data.site.whatsapp : "9647707089760";
+  tk.innerHTML = '<span>📣 ' + esc(t("tickerTxt")) + '</span><a href="https://wa.me/' + waNum + '" target="_blank" rel="noopener">' + esc(t("tickerLink")) + '</a>';
+}
+
+/* ================= More sheet ================= */
+function openSheet(){ renderSheet(); document.body.classList.add("sheet-open"); }
+function closeSheet(){ document.body.classList.remove("sheet-open"); }
+function renderSheet(){
+  const ar = state.lang === "ar";
+  $("#sheetTitle").textContent = pbT("more");
+  $("#sheetNote").textContent = t("sheetNote");
+  const crown = $("#sheetCrown"); if (crown) crown.textContent = t("crownBtn");
+  const mas = $("#sheetMascot"); if (mas && !mas.innerHTML) mas.innerHTML = MASCOT_SVG;
+  const vt = $("#sheetVisitorT"); if (vt) vt.textContent = t("visitorT");
+  const vs = $("#sheetVisitorS"); if (vs) vs.textContent = t("visitorS");
+  $("#sheetPlatH").textContent = pbT("platforms").toUpperCase();
+  $("#sheetAccH").textContent = t("accH").toUpperCase();
+  const cur = state.platform || "ps";
+  $("#sheetPlats").innerHTML = PB_ORDER.filter(k => k !== "more").map(k =>
+    '<button type="button" class="spchip' + (k === cur ? " on" : "") + '" data-sp="' + k + '">' +
+    PB_ICONS[k] + "<span>" + PB_LABEL[k] + "</span></button>").join("");
+  document.querySelectorAll("[data-sp]").forEach(b =>
+    b.addEventListener("click", () => { closeSheet(); pbGo(b.getAttribute("data-sp")); }));
+  const secRow = (label, target) => {
+    const c = countOf(target);
+    return '<button type="button" class="arow" data-acc-sec="' + target + '"><span>' + esc(label) + "</span>" +
+      (c != null ? '<span class="cnt">' + c + "</span>" : "") + '<span class="chev">›</span></button>';
+  };
+  const lbl = k => STR[state.lang].sec[k];
+  const accs = [
+    ["🎮 PlayStation", true,
+      secRow(lbl("games"), "games") + secRow(lbl("updates"), "updates") + secRow(lbl("dlc"), "dlc") +
+      secRow(lbl("classics"), "classics") + secRow(lbl("themes"), "themes") + secRow(lbl("tools"), "tools") +
+      secRow(ar ? "ملفات الحفظ" : "Save files", "games") +
+      secRow(ar ? "الشروحات" : "Tutorials", "tools") +
+      secRow(ar ? "الأخطاء والحلول" : "Errors & fixes", "tools") +
+      secRow(ar ? "المحولات" : "Converters", "classics")],
+    ["🌐 " + lbl("arabic"), false,
+      secRow(ar ? "كل النسخ المعربة" : "All Arabic editions", "arabic") +
+      secRow("PS4 " + (ar ? "معربة" : "Arabic"), "arabic")],
+    ["🕹 " + (ar ? "منصات أخرى" : "More platforms"), false,
+      [["psp","PSP"],["vita","PS Vita"],["switch","Switch"],["pc","PC"],["xbox","Xbox"]].map(p =>
+        '<button type="button" class="arow" data-acc-plat="' + p[0] + '"><span>' + p[1] + '</span><span class="chev">›</span></button>').join("") +
+      '<button type="button" class="arow" data-acc-soon="android"><span>Android</span><span class="cnt">' + esc(pbT("soonTag")) + '</span><span class="chev">›</span></button>']
+  ];
+  $("#sheetAccs").innerHTML = accs.map((a, i) =>
+    '<div class="acc' + (a[1] ? " open" : "") + '"><button type="button" class="acc-head" data-acc="' + i + '"><span>' + esc(a[0]) + '</span><span class="car">▾</span></button>' +
+    '<div class="acc-body">' + a[2] + "</div></div>").join("");
+  document.querySelectorAll("[data-acc]").forEach(b =>
+    b.addEventListener("click", () => b.parentElement.classList.toggle("open")));
+  document.querySelectorAll("[data-acc-sec]").forEach(b =>
+    b.addEventListener("click", () => goSection(b.getAttribute("data-acc-sec"))));
+  document.querySelectorAll("[data-acc-plat]").forEach(b =>
+    b.addEventListener("click", () => { closeSheet(); pbGo(b.getAttribute("data-acc-plat")); }));
+  document.querySelectorAll("[data-acc-soon]").forEach(b =>
+    b.addEventListener("click", () => { closeSheet(); pbHash("#/soon/android"); }));
+  const svc = $("#sheetSvc");
+  svc.textContent = "🛠️ " + STR[state.lang].sec.services;
+  const wa = $("#sheetWa");
+  wa.textContent = "💬 " + pbT("whatsapp");
+  if (state.data) wa.href = "https://wa.me/" + state.data.site.whatsapp;
+  $("#sheetLang").textContent = state.lang === "en" ? "🌐 العربية" : "🌐 English";
+  syncThemeBtn();
+  $("#sheetDockH").textContent = t("dockH");
+  $("#sheetDocks").innerHTML = DOCKS.map(d =>
+    '<button type="button" class="ditem' + (state.dock === d[0] ? " on" : "") + '" data-ds="' + d[0] + '"><span class="num">' + d[0] + '</span><span>' +
+    esc(state.lang === "ar" ? d[2] : d[1]) + "</span></button>").join("");
+  $("#sheetDocks").querySelectorAll("[data-ds]").forEach(b =>
+    b.addEventListener("click", () => setDock(b.getAttribute("data-ds"))));
+  $("#sheetLegal").innerHTML =
+    '<a data-sl="dmca">DMCA</a><a data-sl="privacy">' + esc(t("privacy")) + '</a><a data-sl="contact">' + esc(t("contact")) + "</a>";
+  document.querySelectorAll("[data-sl]").forEach(a =>
+    a.addEventListener("click", () => { closeSheet(); pbHash("#/legal/" + a.getAttribute("data-sl")); }));
+}
+
+/* ================= chrome / routing / init ================= */
+function libStats(){
+  const fmtN = n => n.toLocaleString("en-US");
+  if (!state.data) return [["4,968","statGames"],["440","statArabic"],["256","statPlat"],["9","statSec"]];
+  const gs = state.data.games;
+  return [[fmtN(gs.filter(g => g.platform === "PS4").length), "statGames"],
+          [fmtN(gs.filter(isArabicEd).length), "statArabic"],
+          [fmtN(gs.filter(g => g.platform !== "PS4").length), "statPlat"],
+          [String(SECTIONS.length - 2), "statSec"]];
+}
+function applyLang(){
+  document.documentElement.lang = state.lang;
+  document.documentElement.dir = state.lang === "ar" ? "rtl" : "ltr";
+  document.title = state.lang === "ar" ? "متجر محمد AI — تحميل ألعاب PS4 PKG" : "MOHAMMED AI — PS4 PKG Downloads";
+  $("#langBtn").innerHTML = state.lang === "en" ? "🌐 العربية" : "🌐 English";
+  $("#search").placeholder = t("searchPh");
+  $("#kick").textContent = t("kick");
+  const hA = $("#heroA"); if (hA) hA.textContent = t("heroA");
+  const hB = $("#heroB"); if (hB) hB.textContent = t("heroB");
+  document.querySelectorAll(".vall").forEach(el => { el.textContent = t("viewAll"); });
+  renderTicker();
+  const ssEl = $("#statsStrip");
+  if (ssEl) ssEl.innerHTML = libStats().map(function(sv){
+    return '<div class="stat"><div class="sv">' + sv[0] + '</div><div class="sl">' + esc(t(sv[1])) + "</div></div>";
+  }).join("");
+  $("#fwLabel").textContent = "🎛 " + t("fwLabel");
+  document.querySelectorAll("[data-i18n]").forEach(el => { el.textContent = t(el.getAttribute("data-i18n")); });
+  $("#footBrand").textContent = state.lang === "ar" ? "متجر محمد AI الإلكتروني — MOHAMMED AI" : "MOHAMMED AI — متجر محمد AI الإلكتروني";
+  $("#footNote").textContent = t("footNote");
+  $("#footAddr").textContent = t("footAddr");
+  $("#footPrivacy").textContent = t("privacy");
+  $("#footContact").textContent = t("contact");
+  $("#footBrowse").textContent = t("browse");
+  $("#footLegalH").textContent = t("legalH");
+  $("#footSections").innerHTML = ["games","updates","arabic","classics","services"].map(k =>
+    '<a data-fsec="' + k + '">' + esc(STR[state.lang].sec[k]) + '</a>').join("");
+  document.querySelectorAll("[data-fsec]").forEach(a =>
+    a.addEventListener("click", () => goSection(a.getAttribute("data-fsec"))));
+  renderSheet();
+  renderDock(true);
+}
+function show(view){
+  ["home","game","legal","shelf","soon"].forEach(v => $("#view-" + v).classList.toggle("hidden", v !== view));
+}
+function route(){
+  const h = location.hash || "#/";
+  const gm = h.match(/^#\/game\/([a-z0-9\-]+)/i);
+  if (gm && state.data){ state.section = "games"; state.platform = "ps"; show("game"); renderNav(); renderGame(gm[1]); renderDock(); return; }
+  const lm = h.match(/^#\/legal\/([a-z]+)/);
+  if (lm && state.data){ show("legal"); renderLegal(lm[1]); renderDock(); return; }
+  const pm = h.match(/^#\/p\/([a-z]+)/);
+  if (pm && state.data && PB_PLATS[pm[1]]){ if (state.platform !== pm[1]) state.shelfQuery = ""; state.platform = pm[1]; show("shelf"); renderShelf(pm[1]); renderDock(); window.scrollTo(0, 0); return; }
+  const am = h.match(/^#\/soon\/([a-z]+)/);
+  if (am && state.data){ state.platform = "android"; show("soon"); renderSoon(); renderDock(); window.scrollTo(0, 0); return; }
+  const sm = h.match(/^#\/s\/([a-z]+)/);
+  state.platform = "ps";
+  state.section = sm && SECTIONS.includes(sm[1]) ? sm[1] : "home";
+  show("home");
+  if (state.data) renderHome();
+  renderDock();
+}
+$("#sheetScrim").addEventListener("click", closeSheet);
+$("#sheetClose").addEventListener("click", closeSheet);
+$("#sheetSvc").addEventListener("click", () => goSection("services"));
+$("#sheetCrown").addEventListener("click", () => goSection("services"));
+document.querySelectorAll("[data-goto]").forEach(el =>
+  el.addEventListener("click", () => goSection(el.getAttribute("data-goto"))));
+$("#sheetLang").addEventListener("click", () => {
+  state.lang = state.lang === "en" ? "ar" : "en";
+  localStorage.setItem("pkgLang", state.lang);
+  applyLang(); route();
+});
+$("#sheetTheme").addEventListener("click", toggleTheme);
+$("#shelfSearch").addEventListener("input", e => { state.shelfQuery = e.target.value.trim(); renderShelfGrid(); });
+$("#soonBack").addEventListener("click", () => pbGo("ps"));
+$("#langBtn").addEventListener("click", () => {
+  state.lang = state.lang === "en" ? "ar" : "en";
+  localStorage.setItem("pkgLang", state.lang);
+  applyLang(); route();
+});
+$("#themeBtn").addEventListener("click", toggleTheme);
+document.querySelectorAll("[data-legal]").forEach(a =>
+  a.addEventListener("click", () => { location.hash = "#/legal/" + a.getAttribute("data-legal"); }));
+$("#search").addEventListener("input", e => {
+  state.query = e.target.value.trim();
+  if (!$("#view-game").classList.contains("hidden") || !$("#view-legal").classList.contains("hidden") || !$("#view-shelf").classList.contains("hidden") || !$("#view-soon").classList.contains("hidden")) { location.hash = "#/"; return; }
+  renderHome();
+});
+window.addEventListener("hashchange", route);
+window.addEventListener("resize", () => placeBlob(false));
+if (document.fonts && document.fonts.ready) document.fonts.ready.then(() => placeBlob(false));
+applyTheme(); applyLang(); renderFw(); renderDock(true);
+fetch("games.json").then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
+  .then(d => {
+    state.data = d;
+    applyLang();
+    renderTicker();
+    $("#footWa").href = "https://wa.me/" + d.site.whatsapp;
+    renderSheet();
+    route();
+    if (window.initLive) initLive();
+    if (qs.get("sheet")) setTimeout(() => {
+      openSheet();
+      if (qs.get("sheet") === "docks") setTimeout(() => {
+        const sh = document.getElementById("sheet");
+        const el = document.getElementById("sheetDocks");
+        if (sh && el) sh.scrollTop = Math.max(0, el.offsetTop - 96);
+      }, 700);
+    }, 350);
+  })
+  .catch(() => {
+    const e = $("#loadErr");
+    e.classList.remove("hidden");
+    e.innerHTML = "⚠️ Could not load <b>games.json</b>.<br>Serve the folder over HTTP, or open with file-access enabled.<br>تعذّر تحميل ملف البيانات games.json";
+  });
+</script>
+
+<script>
+"use strict";
+/* ================= launch wiring — Firestore counters + transition =================
+   Counters live in the owner's Firebase project "ai-khor-alzubair",
+   collection "pkg_counters", one doc per game id: {views, downloads,
+   updated_at}. Accessed ONLY through the Firestore REST API (no SDK, the
+   site is static) and WITHOUT any apiKey — the project's rules currently
+   allow unauthenticated read + write (verified live 2026-10-29: public
+   read of app_config, and an increment commit on a scratch doc succeeded
+   and was cleaned up). Every call is wrapped: if Firestore is slow or
+   unreachable the page simply keeps its DEMO numbers — counters can never
+   break the site.
+   Read cost control: counts are fetched in ONE :batchGet POST per chunk of
+   100 game ids, only for games actually rendered (plus the demo-top-30
+   rail candidates), cached in memory + localStorage, refetched at most
+   every 10 minutes per game. */
+const FS_DOCS = "https://firestore.googleapis.com/v1/projects/ai-khor-alzubair/databases/(default)/documents";
+const FS_PREFIX = "projects/ai-khor-alzubair/databases/(default)/documents/pkg_counters/";
+const LIVE_FRESH_MS = 10 * 60 * 1000;
+function fsName(id){ return FS_PREFIX + id; }
+function fsFetch(url, opts, ms){
+  const ctl = new AbortController();
+  const to = setTimeout(() => ctl.abort(), ms || 7000);
+  return fetch(url, Object.assign({}, opts, { signal: ctl.signal })).finally(() => clearTimeout(to));
+}
+function saveLiveCache(){
+  try{
+    const slim = {};
+    for (const id in LIVE.counts){ const c = LIVE.counts[id]; slim[id] = [c.views, c.downloads, c.exists ? 1 : 0, c.ts]; }
+    localStorage.setItem("pkgLiveV1", JSON.stringify(slim));
+  }catch(e){}
+}
+function loadLiveCache(){
+  try{
+    const raw = JSON.parse(localStorage.getItem("pkgLiveV1") || "{}");
+    for (const id in raw){ const a = raw[id]; LIVE.counts[id] = { views: a[0]||0, downloads: a[1]||0, exists: !!a[2], ts: a[3]||0 }; LIVE.fetched[id] = a[3]||0; }
+  }catch(e){}
+}
+async function fsBatchGet(ids){
+  const res = await fsFetch(FS_DOCS + ":batchGet", { method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ documents: ids.map(fsName) }) }, 8000);
+  if (!res.ok) throw new Error("batchGet " + res.status);
+  const arr = await res.json();
+  (arr || []).forEach(item => {
+    if (item.found){
+      const f = item.found.fields || {};
+      const id = item.found.name.split("/").pop();
+      LIVE.counts[id] = { views: parseInt((f.views || {}).integerValue || "0", 10),
+        downloads: parseInt((f.downloads || {}).integerValue || "0", 10), exists: true, ts: Date.now() };
+      LIVE.fetched[id] = Date.now();
+    } else if (item.missing){
+      LIVE.fetched[item.missing.split("/").pop()] = Date.now();
+    }
+  });
+}
+let liveSaveT = null;
+function scheduleSave(){ clearTimeout(liveSaveT); liveSaveT = setTimeout(saveLiveCache, 800); }
+async function fetchCounts(ids){
+  const want = [];
+  const seen = {};
+  (ids || []).forEach(id => {
+    if (!id || seen[id]) return; seen[id] = 1;
+    const f = LIVE.fetched[id];
+    if (!f || (Date.now() - f) > LIVE_FRESH_MS) want.push(id);
+  });
+  if (!want.length) return;
+  for (let i = 0; i < want.length; i += 100){
+    try{
+      await fsBatchGet(want.slice(i, i + 100));
+      if (!LIVE.ready){ LIVE.ready = true; try{ _badgeCache = null; }catch(e){} }
+      paintLive();
+      if (!LIVE.railed && LIVE.ready && state.section === "home" && !state.query &&
+          !$("#view-home").classList.contains("hidden")){
+        LIVE.railed = true; renderHomeBlocks();
+      }
+      scheduleSave();
+    }catch(e){ /* offline / rules changed: DEMO numbers stay, nothing breaks */ }
+  }
+}
+function renderedIds(){
+  const out = [];
+  document.querySelectorAll("[data-open]").forEach(el => out.push(el.getAttribute("data-open")));
+  if (state._gameId) out.push(state._gameId);
+  return out;
+}
+function paintLive(){
+  if (!state.data) return;
+  if (!LIVE.byId){ LIVE.byId = {}; state.data.games.forEach(g => { LIVE.byId[g.id] = g; }); }
+  document.querySelectorAll("[data-dl-pill]").forEach(el => {
+    const g = LIVE.byId[el.getAttribute("data-dl-pill")];
+    if (g) el.innerHTML = dlPillHTML(g);
+  });
+  const box = $("#gStatsBox");
+  if (box && state._gameId && LIVE.byId[state._gameId]) box.innerHTML = gameStatsHTML(LIVE.byId[state._gameId]);
+}
+async function fsIncrement(id, field){
+  const body = { writes: [{ update: { name: fsName(id),
+      fields: { updated_at: { timestampValue: new Date().toISOString() } } },
+    updateTransforms: [{ fieldPath: field, increment: { integerValue: "1" } }] }] };
+  const res = await fsFetch(FS_DOCS + ":commit", { method: "POST",
+    headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) }, 10000);
+  if (!res.ok) throw new Error("commit " + res.status);
+  const j = await res.json();
+  try{
+    const tr = j.writeResults[0].transformResults[0];
+    return parseInt(tr.integerValue || "0", 10);
+  }catch(e){ return null; }
+}
+function bumpLocal(id, field, authoritative){
+  const c = LIVE.counts[id] || (LIVE.counts[id] = { views: 0, downloads: 0, exists: false, ts: Date.now() });
+  if (typeof authoritative === "number") c[field] = authoritative;
+  else c[field] = (c[field] || 0) + 1;
+  c.exists = true; c.ts = Date.now(); LIVE.fetched[id] = Date.now();
+  paintLive(); scheduleSave();
+}
+const VIEWED_KEY = "pkgViewedV1";
+function alreadyViewed(id){
+  try{ return (JSON.parse(sessionStorage.getItem(VIEWED_KEY) || "[]")).indexOf(id) >= 0; }catch(e){ return false; }
+}
+function markViewed(id){
+  try{
+    const a = JSON.parse(sessionStorage.getItem(VIEWED_KEY) || "[]");
+    if (a.indexOf(id) < 0){ a.push(id); sessionStorage.setItem(VIEWED_KEY, JSON.stringify(a.slice(-400))); }
+  }catch(e){}
+}
+function countView(g){
+  if (!g) return;
+  fetchCounts([g.id]);
+  if (alreadyViewed(g.id)) return;
+  markViewed(g.id);
+  bumpLocal(g.id, "views", null);
+  fsIncrement(g.id, "views").then(v => { if (typeof v === "number") bumpLocal(g.id, "views", v); }).catch(() => {});
+}
+function countDownload(g){
+  if (!g) return;
+  bumpLocal(g.id, "downloads", null);
+  fsIncrement(g.id, "downloads").then(v => { if (typeof v === "number") bumpLocal(g.id, "downloads", v); }).catch(() => {});
+}
+function initLive(){
+  loadLiveCache();
+  if (state.data && !LIVE.byId){ LIVE.byId = {}; state.data.games.forEach(g => { LIVE.byId[g.id] = g; }); }
+  paintLive();
+  const top = state.data.games.slice().sort((a,b) => demoStats(b).views - demoStats(a).views).slice(0, 30).map(g => g.id);
+  fetchCounts(top.concat(renderedIds()));
+}
+/* keep counters flowing as the visitor navigates: after every route change,
+   fetch whatever games are now on screen (deduped + freshness-gated). */
+const _routeLive = route;
+route = function(){ _routeLive(); setTimeout(() => { try{ fetchCounts(renderedIds()); }catch(e){} }, 80); };
+
+/* ================= branded transition → one hop → source ================= */
+let tDest = null, tEnableTimer = null;
+function closeTransition(){
+  $("#tScrim").classList.remove("open");
+  if (tEnableTimer){ clearTimeout(tEnableTimer); tEnableTimer = null; }
+  tDest = null;
+}
+function startDownload(g, rawUrl){
+  if (!g || !rawUrl) return;
+  countDownload(g);
+  tDest = hopURL(dlDest(rawUrl));
+  $("#tMascot").innerHTML = MASCOT_SVG;
+  $("#tTitle").textContent = t("prepT");
+  $("#tGame").textContent = L(g, "title");
+  $("#tMsg").textContent = t("prepMsg");
+  $("#tNote").textContent = t("prepNote");
+  const go = $("#tGo");
+  go.textContent = t("prepBtn");
+  go.disabled = true;
+  $("#tCancel").textContent = t("prepCancel");
+  const fill = $("#tFill");
+  fill.style.transition = "none"; fill.style.width = "0";
+  $("#tScrim").classList.add("open");
+  playChime();
+  requestAnimationFrame(() => requestAnimationFrame(() => {
+    fill.style.transition = "width 2.4s cubic-bezier(.25,.8,.35,1)";
+    fill.style.width = "100%";
+  }));
+  tEnableTimer = setTimeout(() => { go.disabled = false; try{ go.focus(); }catch(e){} }, 2400);
+}
+$("#tCancel").addEventListener("click", closeTransition);
+$("#tScrim").addEventListener("click", e => { if (e.target === e.currentTarget) closeTransition(); });
+$("#tGo").addEventListener("click", () => {
+  if (!tDest) return;
+  const dest = tDest;
+  closeTransition();
+  window.open(dest, "_blank", "noopener");
+});
+</script>
+
+<script>
+"use strict";
+/* ================= liquid pull-to-refresh =================
+   Pull down at scroll-top: a viscous droplet stretches from the top with
+   springy squash-and-stretch, detaches and bounces while "refreshing"
+   (~900ms), then contracts away, re-renders the current view and plays
+   the PS1 tick softly. Transform-only (GPU) — no blur loops.
+   prefers-reduced-motion: no show, still refreshes. */
+(function(){
+  const ptr = document.getElementById("ptr");
+  if (!ptr) return;
+  const reduced = window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
+  let startY = null, eff = 0, refreshing = false;
+  const THRESH = 64, MAXP = 120;
+  function killAnims(){ try{ ptr.getAnimations().forEach(a => a.cancel()); }catch(e){} }
+  function draw(p){
+    const sc = Math.min(p / MAXP, 1);
+    const y = -44 + p * 0.9;
+    ptr.style.opacity = p > 3 ? "1" : "0";
+    ptr.style.transform = "translateY(" + y.toFixed(1) + "px) scale(" + (1 - sc * 0.28).toFixed(3) + "," + (1 + sc * 0.75).toFixed(3) + ")";
+  }
+  function hide(){ ptr.style.opacity = "0"; ptr.style.transform = "translateY(-52px) scale(.6,.6)"; }
+  hide();
+  window.addEventListener("touchstart", e => {
+    if (refreshing) return;
+    killAnims(); hide();
+    startY = (window.scrollY <= 0 && e.touches.length === 1) ? e.touches[0].clientY : null;
+    eff = 0;
+  }, { passive:true });
+  window.addEventListener("touchmove", e => {
+    if (startY === null || refreshing) return;
+    const dy = e.touches[0].clientY - startY;
+    if (dy > 0 && window.scrollY <= 0){ eff = Math.min(dy * 0.55, MAXP); if (!reduced) draw(eff); }
+    else { eff = 0; if (!reduced) hide(); }
+  }, { passive:true });
+  window.addEventListener("touchend", () => {
+    if (startY === null) return;
+    const go = eff >= THRESH;
+    startY = null; eff = 0;
+    if (!go){
+      if (!reduced && ptr.animate) try{
+        ptr.animate([{ transform: ptr.style.transform || "translateY(0px)", opacity: 1 },
+                     { transform: "translateY(-52px) scale(.6,.6)", opacity: 0 }],
+          { duration: 260, easing: "ease-in", fill: "forwards" });
+      }catch(e){}
+      setTimeout(() => { killAnims(); hide(); }, 300);
+      return;
+    }
+    refreshing = true;
+    ptr.style.opacity = "1";
+    if (!reduced && ptr.animate) try{
+      ptr.animate([
+        { transform: "translateY(" + (-44 + THRESH * 0.9).toFixed(1) + "px) scale(.82,1.5)" },
+        { transform: "translateY(30px) scale(1.12,.86)", offset: .45 },
+        { transform: "translateY(20px) scale(.94,1.08)", offset: .7 },
+        { transform: "translateY(24px) scale(1,1)" }
+      ], { duration: 520, easing: "ease-out", fill: "forwards" });
+    }catch(e){}
+    setTimeout(() => {
+      route();
+      playChime();
+      if (!reduced && ptr.animate) try{
+        ptr.animate([
+          { transform: "translateY(24px) scale(1,1)", opacity: 1 },
+          { transform: "translateY(-52px) scale(.35,.35)", opacity: 0 }
+        ], { duration: 380, easing: "ease-in", fill: "forwards" });
+      }catch(e){}
+      setTimeout(() => { killAnims(); hide(); refreshing = false; }, 430);
+    }, 900);
+  }, { passive:true });
+})();
+</script>
+</body>
+</html>
