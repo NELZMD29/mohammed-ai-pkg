@@ -28,12 +28,12 @@
    ========================================================================== */
 window.SITE_CONFIG = {
   /* Clk.sh API token for account "nelzmd2" — paste from the dashboard. */
-  clkToken: "",
+  clkToken: "Tg6e3BdW",
 
   /* Quick Link template verified live against clk.sh on 2026-10-29:
      GET /full?api=<token>&url=<dest> answers "Invalid API token." for a bad
      token and routes a valid one through the monetised interstitial to the
      destination. {token} and {url} are substituted (URL-encoded) at click
      time. If Clk.sh ever changes the format, this is the only line to fix. */
-  hopTemplate: "https://clk.sh/full?api={token}&url={url}"
+  hopTemplate: "https://ouo.io/qs/{token}?s={url}"
 };
