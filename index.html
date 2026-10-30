@@ -1281,7 +1281,7 @@ function renderHomeBlocks(){
 }
 function renderGrid(){
   const grid = $("#grid"), empty = $("#gridEmpty");
-  if (state.section === "services"){
+  if (state.section === "services" && !state.query){
     $("#gridBlock").classList.add("hidden");
     $("#servicesBlock").classList.remove("hidden");
     $("#svcGrid").innerHTML = STR[state.lang].svc.map(s =>
@@ -1290,9 +1290,10 @@ function renderGrid(){
   }
   $("#gridBlock").classList.remove("hidden");
   $("#servicesBlock").classList.add("hidden");
-  const base = state.section === "home" ? state.data.games : sectionGames(state.section);
+  const searching = !!state.query;
+  const base = searching || state.section === "home" ? state.data.games : sectionGames(state.section);
   const list = base.filter(g => fwVisible(g) && matches(g, state.query));
-  $("#gridTitle").textContent = state.section === "home" && !state.query ? t("allGames") : STR[state.lang].sec[state.section];
+  $("#gridTitle").textContent = searching || state.section === "home" ? t("allGames") : STR[state.lang].sec[state.section];
   $("#gridCnt").textContent = list.length;
   renderPlatChips();
   $("#gridSub").textContent = state.query
