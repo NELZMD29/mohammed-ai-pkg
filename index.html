@@ -186,6 +186,9 @@
   .host-btn{display:inline-flex; align-items:center; gap:7px; background:linear-gradient(140deg,var(--acc),var(--acc2));
     color:#171106; font-weight:900; font-size:13.5px; padding:10px 15px; border-radius:11px; box-shadow:0 6px 20px rgba(212,175,55,.35)}
   .host-btn:active{transform:scale(.97)}
+  .direct-badge{display:inline-flex; align-items:center; background:linear-gradient(140deg,var(--acc),var(--acc2));
+    color:#171106; font-weight:900; font-size:11px; letter-spacing:.6px; padding:3px 9px; border-radius:999px;
+    box-shadow:0 4px 14px rgba(212,175,55,.4); vertical-align:middle}
   .host-badge{display:inline-flex; align-items:center; gap:6px; border:1.5px dashed var(--line2); color:var(--muted);
     font-weight:800; font-size:13px; padding:9px 13px; border-radius:11px}
   .fnote{margin-top:10px; font-size:12.5px; color:var(--muted2); line-height:1.6}
@@ -685,6 +688,7 @@
     <section class="block" id="gridBlock">
       <h2><span id="gridTitle"></span><span class="cnt" id="gridCnt"></span></h2>
       <p class="sub" id="gridSub"></p>
+      <div class="sortrow" id="platChips"></div>
       <div class="grid" id="grid"></div>
       <div id="gridEmpty"></div>
       <div id="gridMore"></div>
@@ -711,6 +715,7 @@
     <div class="shelf-tools">
       <div class="pb-search"><input id="shelfSearch" type="search" autocomplete="off" spellcheck="false"><span class="mag">🔍</span></div>
       <div class="sortrow" id="shelfSorts"></div>
+      <div class="sortrow" id="shelfPlatChips"></div>
     </div>
     <div class="grid" id="shelfGrid"></div>
     <div id="shelfEmpty"></div>
@@ -1289,6 +1294,7 @@ function renderGrid(){
   const list = base.filter(g => fwVisible(g) && matches(g, state.query));
   $("#gridTitle").textContent = state.section === "home" && !state.query ? t("allGames") : STR[state.lang].sec[state.section];
   $("#gridCnt").textContent = list.length;
+  renderPlatChips();
   $("#gridSub").textContent = state.query
     ? list.length + " " + t("results") + " — “" + state.query + "”"
     : (STR[state.lang].gridSub[state.section] || "");
@@ -1331,7 +1337,7 @@ function hostHTML(h){
 }
 function fileHTML(f){
   const anyDirect = (f.hosts||[]).some(h => h.url);
-  return '<div class="file"><div class="fh"><span class="fk">' + esc(L(f,"kind_label")) + '</span>' +
+  return '<div class="file"><div class="fh"><span class="fk">' + esc(L(f,"kind_label")) + (f.kind === "direct" ? ' <span class="direct-badge">' + (state.lang === "ar" ? "مباشر" : "DIRECT") + '</span>' : "") + '</span>' +
     '<span class="fm">' + esc(t("ver")) + ' ' + esc(f.version) + ' · ' + esc(t("size")) + ' ' + esc(f.size) + '</span></div>' +
     '<div class="hosts">' + (f.hosts||[]).map(hostHTML).join("") + '</div>' +
     (anyDirect ? "" : '<div class="fnote">' + esc(t("hostsLabel")) + ': ' + (f.hosts||[]).map(h => esc(h.name)).join(" · ") + '<br>' + esc(t("directSoon")) + '</div>') +
@@ -1443,6 +1449,7 @@ const PB_ICONS = {
   pc:'<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="#64748b" d="M3.2 4.6h17.6c.6 0 1 .4 1 1v9.8c0 .6-.4 1-1 1H3.2c-.6 0-1-.4-1-1V5.6c0-.6.4-1 1-1z"/><rect x="4.4" y="6.6" width="15.2" height="7.8" style="fill:var(--knock)"/><path fill="#64748b" d="M10.6 17.6h2.8l.7 2.6H9.9z"/></svg>',
   more:'<svg viewBox="0 0 24 24" aria-hidden="true"><g style="fill:var(--acc)"><rect x="4" y="4" width="7" height="7" rx="2"/><rect x="13" y="4" width="7" height="7" rx="2"/><rect x="4" y="13" width="7" height="7" rx="2"/><rect x="13" y="13" width="7" height="7" rx="2"/></g></svg>'
 };
+PB_ICONS.ps5 = PB_ICONS.ps;
 const PB_T = {
   en:{ more:"More", platforms:"Platforms", sections:"Sections", results:"titles",
     shelfSub:"The {name} shelf — every verified title, growing with each new drop.",
@@ -1461,16 +1468,18 @@ const PB_T = {
     soonTag:"قريباً", soonBody:"هذا الرف يُجهّز الآن — مكتبة بلايستيشن متاحة حالياً.",
     backPs:"عودة إلى بلايستيشن", whatsapp:"راسلنا واتساب" }
 };
-const PB_LABEL = { vita:"PSVita", psp:"PSP", ps:"PlayStation", switch:"Switch", pc:"PC", android:"Android", xbox:"Xbox" };
+const PB_LABEL = { vita:"PSVita", psp:"PSP", ps:"PlayStation", ps5:"PS5", switch:"Switch", pc:"PC", android:"Android", xbox:"Xbox" };
 const PB_ORDER = ["vita","psp","ps","switch","pc","android","xbox","more"];
+const SHEET_PLATS = ["vita","psp","ps","ps5","switch","pc","android","xbox"];
 const PB_PLATS = {
+  ps5:{ name:"PS5", match:["ps5"] },
   psp:{ name:"PSP", match:["psp"] },
   vita:{ name:"PS Vita", match:["psvita"] },
   switch:{ name:"Switch", match:["switch"] },
   pc:{ name:"PC", match:["pc"] },
   xbox:{ name:"Xbox", match:["xbox","xbox360"] }
 };
-const PB_ACC = { ps:"#0070D1", psp:"#a08c5a", vita:"#a08c5a", switch:"#E60012", pc:"#64748b", xbox:"#107C10", android:"#3DDC84" };
+const PB_ACC = { ps:"#0070D1", ps5:"#0070D1", psp:"#a08c5a", vita:"#a08c5a", switch:"#E60012", pc:"#64748b", xbox:"#107C10", android:"#3DDC84" };
 /* ================= the 10-dock gallery (reel 71) ================= */
 const DOCKS = [
   ["01","Liquid Floating","السائل العائم"],
@@ -1574,6 +1583,25 @@ function pbGo(k){
   if (k === "more"){ openSheet(); return; }
   pbHash(k === "ps" ? "#/" : k === "android" ? "#/soon/android" : "#/p/" + k);
 }
+function platChipsHTML(cur){
+  return [["ps5","PS5"],["ps","PS4"],["ps3","PS3"]].map(c =>
+    '<button type="button" class="sort' + (cur === c[0] ? " on" : "") + '" data-pchip="' + c[0] + '">' + c[1] + "</button>").join("");
+}
+function bindPlatChips(root){
+  if (!root) return;
+  root.querySelectorAll("[data-pchip]").forEach(b => b.addEventListener("click", () => {
+    const k = b.getAttribute("data-pchip");
+    if (k === "ps5") pbGo("ps5");
+    else if (k === "ps3") goSection("ps3");
+    else goSection("games");
+  }));
+}
+function renderPlatChips(){
+  const shelfOpen = !$("#view-shelf").classList.contains("hidden");
+  const cur = shelfOpen && state.platform === "ps5" ? "ps5" : state.section === "ps3" && !shelfOpen ? "ps3" : "ps";
+  const a = $("#platChips"); if (a){ a.innerHTML = platChipsHTML(cur); bindPlatChips(a); }
+  const b = $("#shelfPlatChips"); if (b){ b.innerHTML = state.platform === "ps5" ? platChipsHTML(cur) : ""; bindPlatChips(b); }
+}
 function shelfItems(key){
   const want = PB_PLATS[key].match;
   return state.data.games.filter(g => want.indexOf(normPlat(g.platform)) >= 0);
@@ -1614,7 +1642,7 @@ function renderShelf(key){
   $("#shelfCnt").textContent = shelfItems(key).length + " " + pbT("results");
   $("#shelfSearch").placeholder = pbT("searchShelf");
   if ($("#shelfSearch").value !== (state.shelfQuery || "")) $("#shelfSearch").value = state.shelfQuery || "";
-  renderShelfSorts(); renderShelfGrid();
+  renderShelfSorts(); renderPlatChips(); renderShelfGrid();
 }
 function renderSoon(){
   document.body.style.setProperty("--pacc", PB_ACC.android);
@@ -1645,7 +1673,7 @@ function renderSheet(){
   $("#sheetPlatH").textContent = pbT("platforms").toUpperCase();
   $("#sheetAccH").textContent = t("accH").toUpperCase();
   const cur = state.platform || "ps";
-  $("#sheetPlats").innerHTML = PB_ORDER.filter(k => k !== "more").map(k =>
+  $("#sheetPlats").innerHTML = SHEET_PLATS.map(k =>
     '<button type="button" class="spchip' + (k === cur ? " on" : "") + '" data-sp="' + k + '">' +
     PB_ICONS[k] + "<span>" + PB_LABEL[k] + "</span></button>").join("");
   document.querySelectorAll("[data-sp]").forEach(b =>
@@ -1668,7 +1696,7 @@ function renderSheet(){
       secRow(ar ? "كل النسخ المعربة" : "All Arabic editions", "arabic") +
       secRow("PS4 " + (ar ? "معربة" : "Arabic"), "arabic")],
     ["🕹 " + (ar ? "منصات أخرى" : "More platforms"), false,
-      [["psp","PSP"],["vita","PS Vita"],["switch","Switch"],["pc","PC"],["xbox","Xbox"]].map(p =>
+      [["ps5","PS5"],["psp","PSP"],["vita","PS Vita"],["switch","Switch"],["pc","PC"],["xbox","Xbox"]].map(p =>
         '<button type="button" class="arow" data-acc-plat="' + p[0] + '"><span>' + p[1] + '</span><span class="chev">›</span></button>').join("") +
       '<button type="button" class="arow" data-acc-soon="android"><span>Android</span><span class="cnt">' + esc(pbT("soonTag")) + '</span><span class="chev">›</span></button>']
   ];
@@ -1752,11 +1780,11 @@ function route(){
   if (gm && state.data){ state.section = "games"; state.platform = "ps"; show("game"); renderNav(); renderGame(gm[1]); renderDock(); return; }
   const lm = h.match(/^#\/legal\/([a-z]+)/);
   if (lm && state.data){ show("legal"); renderLegal(lm[1]); renderDock(); return; }
-  const pm = h.match(/^#\/p\/([a-z]+)/);
+  const pm = h.match(/^#\/p\/([a-z0-9]+)/);
   if (pm && state.data && PB_PLATS[pm[1]]){ if (state.platform !== pm[1]) state.shelfQuery = ""; state.platform = pm[1]; show("shelf"); renderShelf(pm[1]); renderDock(); window.scrollTo(0, 0); return; }
   const am = h.match(/^#\/soon\/([a-z]+)/);
   if (am && state.data){ state.platform = "android"; show("soon"); renderSoon(); renderDock(); window.scrollTo(0, 0); return; }
-  const sm = h.match(/^#\/s\/([a-z]+)/);
+  const sm = h.match(/^#\/s\/([a-z0-9]+)/);
   state.platform = "ps";
   state.section = sm && SECTIONS.includes(sm[1]) ? sm[1] : "home";
   show("home");
