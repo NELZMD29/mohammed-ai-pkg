@@ -35,5 +35,5 @@ window.SITE_CONFIG = {
      token and routes a valid one through the monetised interstitial to the
      destination. {token} and {url} are substituted (URL-encoded) at click
      time. If Clk.sh ever changes the format, this is the only line to fix. */
-  hopTemplate: "https://ouo.io/qs/{token}?s={url}"
+  hopTemplate: "https://ouo.press/qs/{token}?s={url}"
 };
