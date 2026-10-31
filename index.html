@@ -825,8 +825,8 @@ const STR = {
     servicesTitle:"Shop Services", servicesSub:"The local side of MOHAMMED AI — Basra, Khor Al-Zubair",
     footNote:"A directory of links. Files stay with their original hosts; we verify, organise and keep them alive.",
     footAddr:"MOHAMMED AI Store — Basra · Khor Al-Zubair · Souq Al-Asmida · Bird Street — +964 770 708 9760",
-    sec:{home:"Home", games:"PS4 Games", updates:"Updates", dlc:"DLC", classics:"Classics", themes:"Themes", tools:"Tools", ps3:"PS3", psp:"PSP & Vita", arabic:"Arabic Games", services:"Shop Services"},
-    gridSub:{games:"Full verified PS4 library", updates:"Games with a verified update file", dlc:"Games with verified DLC", classics:"PS1 · PS2 · PSP classics repacked for PS4", themes:"PS4 themes, ready to install", tools:"Trusted homebrew & jailbreak tools only", ps3:"PS3 games library", psp:"PSP & PS Vita library", arabic:"PS4 games with a full Arabic translation edition"},
+    sec:{home:"Home", games:"PS4 Games", updates:"Updates", dlc:"DLC", classics:"Classics", themes:"Themes", tools:"Tools", homebrew:"Homebrew", ps3:"PS3", psp:"PSP & Vita", arabic:"Arabic Games", services:"Shop Services"},
+    gridSub:{games:"Full verified PS4 library", updates:"Games with a verified update file", dlc:"Games with verified DLC", classics:"PS1 · PS2 · PSP classics repacked for PS4", themes:"PS4 themes, ready to install", tools:"Trusted homebrew & jailbreak tools only", homebrew:"Fan ports, homebrew apps & community builds for jailbroken consoles", ps3:"PS3 games library", psp:"PSP & PS Vita library", arabic:"PS4 games with a full Arabic translation edition"},
     svc:[["🎮","PS4 jailbreak & setup","Firmware 9.00–13.52 modding, GoldHEN setup and full configuration — done while you wait."],
          ["⬇️","Game installs","Any game from this directory installed at the shop, with its update and DLC — no home download needed."],
          ["📱","Phones: sales & repair","Phones, accessories and repairs, plus SIM activation (Atheer · Asiacell) and e-services."],
@@ -884,8 +884,8 @@ const STR = {
     servicesTitle:"خدمات المحل", servicesSub:"الجانب المحلي لمتجر محمد AI — البصرة، خور الزبير",
     footNote:"دليل روابط. الملفات تبقى عند مستضيفيها الأصليين؛ نحن نوثّق وننظّم ونبقيها حية.",
     footAddr:"متجر محمد AI — البصرة · خور الزبير · سوق الأسمدة · شارع الطيور — ‎+964 770 708 9760",
-    sec:{home:"الرئيسية", games:"ألعاب PS4", updates:"التحديثات", dlc:"الإضافات", classics:"كلاسيك", themes:"الثيمات", tools:"الأدوات", ps3:"PS3", psp:"PSP وVita", arabic:"الألعاب المعربة", services:"خدمات المحل"},
-    gridSub:{games:"مكتبة PS4 الموثقة كاملة", updates:"ألعاب لها ملف تحديث موثق", dlc:"ألعاب لها إضافات موثقة", classics:"كلاسيك PS1 وPS2 وPSP معادة التغليف للـPS4", themes:"ثيمات PS4 جاهزة للتثبيت", tools:"أدوات هومبرو وتهكير موثوقة فقط", ps3:"مكتبة ألعاب PS3", psp:"مكتبة PSP وPS Vita", arabic:"ألعاب PS4 بنسخة معربة كاملة"},
+    sec:{home:"الرئيسية", games:"ألعاب PS4", updates:"التحديثات", dlc:"الإضافات", classics:"كلاسيك", themes:"الثيمات", tools:"الأدوات", homebrew:"هومبرو", ps3:"PS3", psp:"PSP وVita", arabic:"الألعاب المعربة", services:"خدمات المحل"},
+    gridSub:{games:"مكتبة PS4 الموثقة كاملة", updates:"ألعاب لها ملف تحديث موثق", dlc:"ألعاب لها إضافات موثقة", classics:"كلاسيك PS1 وPS2 وPSP معادة التغليف للـPS4", themes:"ثيمات PS4 جاهزة للتثبيت", tools:"أدوات هومبرو وتهكير موثوقة فقط", homebrew:"تحويلات جماهيرية وتطبيقات هومبرو وبناءات المجتمع للأجهزة المهكرة", ps3:"مكتبة ألعاب PS3", psp:"مكتبة PSP وPS Vita", arabic:"ألعاب PS4 بنسخة معربة كاملة"},
     svc:[["🎮","تهكير وإعداد PS4","تعديل فيرموير 9.00–13.52 وإعداد GoldHEN وضبط كامل — يُنجز وأنت تنتظر."],
          ["⬇️","تثبيت الألعاب","أي لعبة من هذا الدليل تُثبّت في المحل مع تحديثها وإضافاتها — بلا تحميل منزلي."],
          ["📱","هواتف: بيع وصيانة","هواتف وإكسسوارات وصيانة، مع تفعيل خطوط (أثير · آسياسيل) وخدمات إلكترونية."],
@@ -895,7 +895,7 @@ const STR = {
             contact:["اتصل بنا","الأسرع: واتساب ‎+964 770 708 9760. شخصياً: متجر محمد AI — البصرة، خور الزبير، سوق الأسمدة، شارع الطيور."]}}
 };
 const FWS = [5.05, 6.72, 7.02, 7.55, 9.00, 11.00, 12.02, 13.52];
-const SECTIONS = ["home","games","updates","dlc","classics","themes","tools","ps3","psp","arabic","services"];
+const SECTIONS = ["home","games","updates","dlc","classics","themes","tools","homebrew","ps3","psp","arabic","services"];
 const COVERS = [
   ["#3b1d6e","#150a30"],["#4a145a","#1c0726"],["#1d2a6e","#0a1030"],["#5a1440","#26071c"],
   ["#241456","#0d0726"],["#3d1163","#170a2e"],["#14245e","#080f2a"],["#51185e","#200a2a"]
@@ -978,6 +978,7 @@ const SHEET_SECS = [
   ["Arabic Games","الألعاب المعربة","arabic","arabic"],
   ["Themes","الثيمات","themes",null],
   ["Tools","الأدوات","tools",null],
+  ["Homebrew","هومبرو","homebrew","homebrew"],
   ["Save files","ملفات الحفظ","games",null],
   ["Tutorials","الشروحات","tools",null],
   ["Errors & fixes","الأخطاء والحلول","tools",null],
@@ -1688,7 +1689,7 @@ function renderSheet(){
   const accs = [
     ["🎮 PlayStation", true,
       secRow(lbl("games"), "games") + secRow(lbl("updates"), "updates") + secRow(lbl("dlc"), "dlc") +
-      secRow(lbl("classics"), "classics") + secRow(lbl("themes"), "themes") + secRow(lbl("tools"), "tools") +
+      secRow(lbl("classics"), "classics") + secRow(lbl("themes"), "themes") + secRow(lbl("tools"), "tools") + secRow(lbl("homebrew"), "homebrew") +
       secRow(ar ? "ملفات الحفظ" : "Save files", "games") +
       secRow(ar ? "الشروحات" : "Tutorials", "tools") +
       secRow(ar ? "الأخطاء والحلول" : "Errors & fixes", "tools") +
@@ -1734,7 +1735,7 @@ function renderSheet(){
 /* ================= chrome / routing / init ================= */
 function libStats(){
   const fmtN = n => n.toLocaleString("en-US");
-  if (!state.data) return [["4,968","statGames"],["440","statArabic"],["256","statPlat"],["9","statSec"]];
+  if (!state.data) return [["4,968","statGames"],["440","statArabic"],["256","statPlat"],["10","statSec"]];
   const gs = state.data.games;
   return [[fmtN(gs.filter(g => g.platform === "PS4").length), "statGames"],
           [fmtN(gs.filter(isArabicEd).length), "statArabic"],
