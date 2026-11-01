@@ -306585,6 +306585,62 @@
      "url": "https://pspkg.com/arabic-games/the-walking-dead-14107.html"
     }
    ]
+  },
+  {
+   "id": "star-wars-galactic-racer-ps5-28416",
+   "title_en": "Star Wars: Galactic Racer",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA28416_c5dceb540dd00725eb4c6669649b61609d89a045787c24c48104a1b3aeece23c/icon0.webp",
+   "added": "",
+   "cusa": "—",
+   "region": "—",
+   "version": "01.003",
+   "size": "34.5 GB",
+   "size_gb": 34.5,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Driving/Racing",
+   "genre_ar": "",
+   "publisher": "Secret Mode Limited",
+   "desc_en": "Enter the Galactic League as Shade, a racer seeking glory and revenge in the Star Wars universe. Pilot different repulsorcraft, customise your machine and use aggressive racing tactics across dangerous courses.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA28416",
+     "region": "—",
+     "version": "01.003"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (PKG)",
+     "kind_label_ar": "اللعبة",
+     "version": "01.003",
+     "size": "34.5 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/ecd0iq7rbO"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vikingfile.com/f/ecd0iq7rbO"
+    }
+   ],
+   "format": "PKG"
   }
  ],
  "site": {
