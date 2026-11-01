@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nelzmd29.github.io/mohammed-ai-pkg/sitemap.xml
