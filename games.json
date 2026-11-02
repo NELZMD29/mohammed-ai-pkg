@@ -306865,6 +306865,342 @@
     }
    ],
    "format": "PKG"
+  },
+  {
+   "id": "jet-kave-adventure-ps5-17373",
+   "title_en": "Jet Kave Adventure",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA17373_20662176579ca59b019d2a02b4e6d1e9b9055e0f7eca887f6fd273eb3964ef3e/icon0.webp",
+   "added": "",
+   "cusa": "—",
+   "region": "—",
+   "version": "01.002",
+   "size": "2.2 GB",
+   "size_gb": 2.2,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Action / Adventure / Platformer",
+   "genre_ar": "",
+   "publisher": "7LEVELS S.A.",
+   "desc_en": "Cross a prehistoric world in an action platformer that mixes cave-dwelling life with alien technology. Fly over hazards, break through obstacles and tackle bosses while trying to stop an extraterrestrial threat.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA17373",
+     "region": "—",
+     "version": "01.002"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (PKG)",
+     "kind_label_ar": "اللعبة",
+     "version": "01.002",
+     "size": "2.2 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/cQVEdpOHIN"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vikingfile.com/f/cQVEdpOHIN"
+    }
+   ],
+   "format": "PKG"
+  },
+  {
+   "id": "another-crab-s-treasure-ps5-20423",
+   "title_en": "Another Crab’s Treasure",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA20423_9ca8638755d3c96f849ad22a7264c297c078a5a66b329440089802d7bae6a65b/icon0.webp",
+   "added": "",
+   "cusa": "—",
+   "region": "—",
+   "version": "—",
+   "size": "3.2 GB",
+   "size_gb": 3.2,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Action",
+   "genre_ar": "",
+   "publisher": "Aggro Crab Games LLC",
+   "desc_en": "Play as Kril, a hermit crab searching a polluted ocean to recover his repossessed shell. Wear discarded objects as protection, discover new combat techniques and face imposing sea creatures in a soulslike adventure.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA20423",
+     "region": "—",
+     "version": "—"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (PKG)",
+     "kind_label_ar": "اللعبة",
+     "version": "—",
+     "size": "3.2 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/2V0KphNpWj"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vikingfile.com/f/2V0KphNpWj"
+    }
+   ],
+   "format": "PKG"
+  },
+  {
+   "id": "black-myth-wukong-ps5-23226",
+   "title_en": "Black Myth: Wukong",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA23226_2abf3aa1290f28440396a473e68bd0b3c94f9046bf50f7f9bcc4ff76a30901b9/icon0.webp",
+   "added": "",
+   "cusa": "—",
+   "region": "—",
+   "version": "01.021",
+   "size": "107.7 GB",
+   "size_gb": 107.7,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Role Playing Games / Adventure / Action",
+   "genre_ar": "",
+   "publisher": "",
+   "desc_en": "An action RPG rooted in Journey to the West, battling legendary beasts and gods across mythic Chinese landscapes.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA23226",
+     "region": "—",
+     "version": "01.021"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (PKG)",
+     "kind_label_ar": "اللعبة",
+     "version": "01.021",
+     "size": "107.7 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/F9EVVNPlL5"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vikingfile.com/f/F9EVVNPlL5"
+    }
+   ],
+   "format": "PKG"
+  },
+  {
+   "id": "dragon-ball-sparking-zero-ps5-15211",
+   "title_en": "Dragon Ball: Sparking! Zero",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA15211_d3289700dc7d3ba17ba86db80ad614c914cd150e5e05ecfa68fac328fc9b8fd2/icon0.webp",
+   "added": "",
+   "cusa": "—",
+   "region": "—",
+   "version": "2.017",
+   "size": "30.3 GB",
+   "size_gb": 30.3,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Action",
+   "genre_ar": "",
+   "publisher": "",
+   "desc_en": "A 3D arena fighter in the style of Budokai Tenkaichi, with a huge Dragon Ball roster and destructible battlefields.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA15211",
+     "region": "—",
+     "version": "2.017"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (PKG)",
+     "kind_label_ar": "اللعبة",
+     "version": "2.017",
+     "size": "30.3 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/2Pyuqdi9P7"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vikingfile.com/f/2Pyuqdi9P7"
+    }
+   ],
+   "format": "PKG"
+  },
+  {
+   "id": "doom-the-dark-ages-ps5-20560",
+   "title_en": "DOOM: The Dark Ages",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA20560_fa8ac880a132895b495094946ab5ab7404d724ce652dc69281072d72a526fc37/icon0.webp",
+   "added": "",
+   "cusa": "—",
+   "region": "—",
+   "version": "1.011",
+   "size": "96.7 GB",
+   "size_gb": 96.7,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Shooter",
+   "genre_ar": "",
+   "publisher": "",
+   "desc_en": "The DOOM Slayer fights a medieval war against Hell’s legions with a shield saw, mechs and a cyber-dragon.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA20560",
+     "region": "—",
+     "version": "1.011"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (PKG)",
+     "kind_label_ar": "اللعبة",
+     "version": "1.011",
+     "size": "96.7 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/R7bQTmGtOD"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vikingfile.com/f/R7bQTmGtOD"
+    }
+   ],
+   "format": "PKG"
+  },
+  {
+   "id": "dynasty-warriors-origins-ps5-15973",
+   "title_en": "Dynasty Warriors: Origins",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA15973_ffc01d87969d5b605396fc6dcda4a20623ce77a553c67d959ac35d87c447fd2a/icon0.webp",
+   "added": "",
+   "cusa": "—",
+   "region": "—",
+   "version": "01.005.000",
+   "size": "43.7 GB",
+   "size_gb": 43.7,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Action",
+   "genre_ar": "",
+   "publisher": "KOEI TECMO GAMES CO., LTD.",
+   "desc_en": "Enter a land divided by war and follow a nameless fighter whose choices bring him into contact with its rising leaders. Master weapons, coordinate with allies, and break through large enemy armies in battles that mix personal combat with battlefield tactics.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA15973",
+     "region": "—",
+     "version": "01.005.000"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (PKG)",
+     "kind_label_ar": "اللعبة",
+     "version": "01.005.000",
+     "size": "43.7 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/khsdqLVP1g"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vikingfile.com/f/khsdqLVP1g"
+    }
+   ],
+   "format": "PKG"
   }
  ],
  "site": {
