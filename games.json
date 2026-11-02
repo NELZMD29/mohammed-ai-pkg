@@ -306641,6 +306641,230 @@
     }
    ],
    "format": "PKG"
+  },
+  {
+   "id": "battlefield-6-ps5-19534",
+   "title_en": "Battlefield 6",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA19534_9e86581f8849f1b29f6471259ba9fc9960ef07f99d6b53f40bac18380b2531fe/icon0.webp",
+   "added": "",
+   "cusa": "—",
+   "region": "—",
+   "version": "01.000.016",
+   "size": "118.4 GB",
+   "size_gb": 118.4,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "",
+   "genre_ar": "",
+   "publisher": "",
+   "desc_en": "Large-scale battles on land, sea and air, where tactical destruction reshapes the map, plus a single-player campaign.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA19534",
+     "region": "—",
+     "version": "01.000.016"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (PKG)",
+     "kind_label_ar": "اللعبة",
+     "version": "01.000.016",
+     "size": "118.4 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/mGapyMrSpB"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vikingfile.com/f/mGapyMrSpB"
+    }
+   ],
+   "format": "PKG"
+  },
+  {
+   "id": "ghost-of-yotei-ps5-26344",
+   "title_en": "Ghost of Yōtei",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA26344_64b41e265a7c7f2ed67c0f7fe285ebbc7674c657a18fdfa46fac9c81073c4e37/icon0.webp",
+   "added": "",
+   "cusa": "—",
+   "region": "—",
+   "version": "01.512",
+   "size": "118.5 GB",
+   "size_gb": 118.5,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "",
+   "genre_ar": "",
+   "publisher": "",
+   "desc_en": "Atsu, a lone mercenary, hunts the gang that killed her family in the wilds around Mount Yōtei in 1603.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA26344",
+     "region": "—",
+     "version": "01.512"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (PKG)",
+     "kind_label_ar": "اللعبة",
+     "version": "01.512",
+     "size": "118.5 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/80bVO3VDEn"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vikingfile.com/f/80bVO3VDEn"
+    }
+   ],
+   "format": "PKG"
+  },
+  {
+   "id": "shinobi-art-of-vengeance-ps5-19461",
+   "title_en": "SHINOBI: Art of Vengeance",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA19461_20869539fada16c3f5f3ce21aa63435977fcbc87d30afb906e0299157efe29c0/icon0.webp",
+   "added": "",
+   "cusa": "—",
+   "region": "—",
+   "version": "01.200.000",
+   "size": "9.6 GB",
+   "size_gb": 9.6,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Action",
+   "genre_ar": "",
+   "publisher": "SEGA of America, Inc.",
+   "desc_en": "Joe Musashi cuts through a corrupt corporation’s forces in a hand-drawn 2D action game reviving the Shinobi series.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA19461",
+     "region": "—",
+     "version": "01.200.000"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (PKG)",
+     "kind_label_ar": "اللعبة",
+     "version": "01.200.000",
+     "size": "9.6 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/RHwUpyrJM6"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vikingfile.com/f/RHwUpyrJM6"
+    }
+   ],
+   "format": "PKG"
+  },
+  {
+   "id": "super-robot-wars-y-ps5-25217",
+   "title_en": "Super Robot Wars Y",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA25217_f78b28fb23cb0b12e68dcba21f120bba42c93f25653128e28eb4c5a7ff268d4d/icon0.webp",
+   "added": "",
+   "cusa": "—",
+   "region": "—",
+   "version": "01.000.000",
+   "size": "15.6 GB",
+   "size_gb": 15.6,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Role Playing Games / Strategy / Simulation",
+   "genre_ar": "",
+   "publisher": "Bandai Namco Entertainment",
+   "desc_en": "Position your units on a grid and command a crossover squad against shared enemies. Upgrade machines, develop pilots and use the Assist Link system to bring supporting characters into each mission.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA25217",
+     "region": "—",
+     "version": "01.000.000"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (PKG)",
+     "kind_label_ar": "اللعبة",
+     "version": "01.000.000",
+     "size": "15.6 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/e2APJLiD8S"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vikingfile.com/f/e2APJLiD8S"
+    }
+   ],
+   "format": "PKG"
   }
  ],
  "site": {
