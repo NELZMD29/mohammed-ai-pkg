@@ -310113,6 +310113,619 @@
     }
    ],
    "format": "PKG"
+  },
+  {
+   "id": "bendy-and-the-ink-machine-ps4-13637",
+   "title_en": "Bendy and the Ink Machine",
+   "title_ar": "",
+   "platform": "PS4",
+   "section": "games",
+   "cover": "https://dn710101.ca.archive.org/0/items/ps4-fpkg-collection-english-icons/CUSA13637.png",
+   "added": "2026-11-03",
+   "cusa": "—",
+   "region": "—",
+   "version": "—",
+   "size": "1.8 GB",
+   "size_gb": 1.8,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Action / Horror / Puzzle",
+   "genre_ar": "",
+   "publisher": "JOEY DREW STUDIOS INC",
+   "desc_en": "Return to Joey Drew Studios as Henry and investigate the unsettling remains of your old workplace. Solve environmental puzzles and survive disturbing encounters in a first-person horror adventure inspired by vintage cartoons.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "CUSA13637",
+     "region": "—",
+     "version": "—"
+    }
+   ],
+   "files": [
+    {
+     "kind": "direct",
+     "kind_label_en": "Direct download",
+     "kind_label_ar": "تحميل مباشر",
+     "version": "—",
+     "size": "1.8 GB",
+     "hosts": [
+      {
+       "name": "Archive.org · CUSA13637",
+       "url": "https://archive.org/download/bendy-and-the-ink-machine----us---en---1.03-/Bendy_and_the_Ink_Machine_-_US_EN_1.03.pkg"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://archive.org/details/bendy-and-the-ink-machine----us---en---1.03-"
+    }
+   ]
+  },
+  {
+   "id": "lego-dimensions-ps4-00935",
+   "title_en": "LEGO Dimensions",
+   "title_ar": "",
+   "platform": "PS4",
+   "section": "games",
+   "cover": "https://cdn.orbispatches.com/titles/CUSA01176_78b5975d1885656791462d06c660e36d69ca28606da91e0b73a63bba82e82b7f/icon0.webp",
+   "added": "2026-11-03",
+   "cusa": "—",
+   "region": "—",
+   "version": "—",
+   "size": "15.6 GB",
+   "size_gb": 15.6,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Action / Adventure",
+   "genre_ar": "",
+   "publisher": "Warner Bros. Interactive Entertainment",
+   "desc_en": "Join Batman, Gandalf and Wyldstyle in an adventure connecting familiar LEGO universes. Explore themed worlds, solve puzzles and use character and vehicle abilities. A compatible physical LEGO Toy Pad and toy tags are required; this download contains no accessories.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "CUSA00935",
+     "region": "—",
+     "version": "—"
+    }
+   ],
+   "files": [
+    {
+     "kind": "direct",
+     "kind_label_en": "Direct download",
+     "kind_label_ar": "تحميل مباشر",
+     "version": "—",
+     "size": "15.6 GB",
+     "hosts": [
+      {
+       "name": "Archive.org · CUSA00935",
+       "url": "https://archive.org/download/lego-dimensions-ps4-usa/LEGO%20Dimensions/UP1018-CUSA00935_00-LEGODIMENSIONS01-A0100-V0100.pkg"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://archive.org/details/lego-dimensions-ps4-usa"
+    }
+   ]
+  },
+  {
+   "id": "wwe-2k18-ps4-08357",
+   "title_en": "WWE 2K18",
+   "title_ar": "",
+   "platform": "PS4",
+   "section": "games",
+   "cover": "https://image.api.playstation.com/gs2-sec/appkgo/prod/CUSA08385_00/8/i_b58d03f645740d1d9151d3662759eb4e9276a2bddccce1f5f01bc690667345e2/i/icon0.png",
+   "added": "2026-11-03",
+   "cusa": "—",
+   "region": "—",
+   "version": "—",
+   "size": "43.7 GB",
+   "size_gb": 43.7,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Action / Sport",
+   "genre_ar": "",
+   "publisher": "2K",
+   "desc_en": "Choose your wrestler and take part in WWE matches with grappling, carrying and weight-based interactions. Explore the game’s match types and creation features as you build your own wrestling showdowns.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "CUSA08357",
+     "region": "—",
+     "version": "—"
+    }
+   ],
+   "files": [
+    {
+     "kind": "direct",
+     "kind_label_en": "Direct download",
+     "kind_label_ar": "تحميل مباشر",
+     "version": "—",
+     "size": "43.7 GB",
+     "hosts": [
+      {
+       "name": "Archive.org · CUSA08357",
+       "url": "https://archive.org/download/UP1001CUSA0835700WWE2K18MAINSKU01A0100V0100/WWE%202K18/WWE%202K18%20USA%20GAMESMEGA/UP1001-CUSA08357_00-WWE2K18MAINSKU01-A0100-V0100.pkg"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://archive.org/details/UP1001CUSA0835700WWE2K18MAINSKU01A0100V0100"
+    }
+   ]
+  },
+  {
+   "id": "life-is-strange-double-exposure-ps5-16106",
+   "title_en": "Life is Strange: Double Exposure",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA16106_94dadca641d1de7b9b1e093cd0214933c12e7602cc0a276b53378513dccb8eab/icon0.webp",
+   "added": "2026-11-03",
+   "cusa": "—",
+   "region": "—",
+   "version": "—",
+   "size": "23.6 GB",
+   "size_gb": 23.6,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Adventure",
+   "genre_ar": "",
+   "publisher": "Square Enix LTD",
+   "desc_en": "Return as Max Caulfield after the death of her friend Safi reveals a path to a parallel reality where Safi is still alive. Gather clues across both timelines, question suspects and make decisions that shape the people and mysteries of Caledon University.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA16106",
+     "region": "—",
+     "version": "—"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (PKG)",
+     "kind_label_ar": "اللعبة",
+     "version": "—",
+     "size": "23.6 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/YT1hAZSG4k"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vikingfile.com/f/YT1hAZSG4k"
+    }
+   ],
+   "format": "PKG"
+  },
+  {
+   "id": "the-elder-scrolls-iv-oblivion-remastered-ps5-21203",
+   "title_en": "The Elder Scrolls IV: Oblivion Remastered",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA21203_a777086e955f7c6c34a7a1e9e39cc8b9dad08bde4c15ef58770a6349a5d5df40/icon0.webp",
+   "added": "2026-11-03",
+   "cusa": "—",
+   "region": "—",
+   "version": "—",
+   "size": "119.9 GB",
+   "size_gb": 119.9,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Role Playing Games",
+   "genre_ar": "",
+   "publisher": "Bethesda Softworks",
+   "desc_en": "Explore Cyrodiil in a remastered open-world role-playing adventure. Create a character, join guilds and develop combat, magic or stealth skills while investigating the Daedric invasion threatening the empire.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA21203",
+     "region": "—",
+     "version": "—"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (PKG)",
+     "kind_label_ar": "اللعبة",
+     "version": "—",
+     "size": "119.9 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/wjC3Fg9C58"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vikingfile.com/f/wjC3Fg9C58"
+    }
+   ],
+   "format": "PKG"
+  },
+  {
+   "id": "halo-campaign-evolved-ps5-28038",
+   "title_en": "Halo: Campaign Evolved",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA28038_038d3b0e3b4c3b7958d3ba1902cef1c313f4cc174619c31916525dcfd7fd42c8/icon0.webp",
+   "added": "2026-11-03",
+   "cusa": "—",
+   "region": "—",
+   "version": "—",
+   "size": "67.7 GB",
+   "size_gb": 67.7,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Action",
+   "genre_ar": "",
+   "publisher": "Microsoft Corporation",
+   "desc_en": "Fight the Covenant in a remake of the original Halo campaign with updated visuals, controls and cinematics. Expanded weapons, vehicles and optional combat modifiers join a new three-mission adventure, with solo, split-screen and online co-op play.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA28038",
+     "region": "—",
+     "version": "—"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (PKG)",
+     "kind_label_ar": "اللعبة",
+     "version": "—",
+     "size": "67.7 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/opPGOFjsC0"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vikingfile.com/f/opPGOFjsC0"
+    }
+   ],
+   "format": "PKG"
+  },
+  {
+   "id": "lego-star-wars-ii-the-original-trilogy-ps5-14300",
+   "title_en": "LEGO Star Wars II: The Original Trilogy",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202405/1516/e511784f7e7ecd26d2c350ed03809a8ef15ab56071cbf7b0.png",
+   "added": "2026-11-03",
+   "cusa": "—",
+   "region": "—",
+   "version": "—",
+   "size": "1.8 GB",
+   "size_gb": 1.8,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Action",
+   "genre_ar": "",
+   "publisher": "Disney Interactive Studios",
+   "desc_en": "Play through the stories of Star Wars Episodes IV–VI in this PS5 conversion of the PSP game. Solve puzzles, assemble vehicles and customize characters in a single-player adventure.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA14300",
+     "region": "—",
+     "version": "—"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (PKG)",
+     "kind_label_ar": "اللعبة",
+     "version": "—",
+     "size": "1.8 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/pw7EifmJq3"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vikingfile.com/f/pw7EifmJq3"
+    }
+   ],
+   "format": "PKG"
+  },
+  {
+   "id": "syphon-filter-dark-mirror-ps5-06785",
+   "title_en": "Syphon Filter: Dark Mirror",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202302/1621/db79c533d923baa96874cfe66906abc62cd0989797a0bbe9.png",
+   "added": "2026-11-03",
+   "cusa": "—",
+   "region": "—",
+   "version": "—",
+   "size": "2.5 GB",
+   "size_gb": 2.5,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Action",
+   "genre_ar": "",
+   "publisher": "Sony Interactive Entertainment",
+   "desc_en": "Infiltrate hostile locations and investigate the organization known as Red Section. This PS5 conversion of the PSP game follows Gabe Logan through a single-player story of stealth and tactical action.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA06785",
+     "region": "—",
+     "version": "—"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (PKG)",
+     "kind_label_ar": "اللعبة",
+     "version": "—",
+     "size": "2.5 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/mmrSvKBqiA"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vikingfile.com/f/mmrSvKBqiA"
+    }
+   ],
+   "format": "PKG"
+  },
+  {
+   "id": "king-s-bounty-ii-ps5-05038",
+   "title_en": "King’s Bounty II",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202105/1214/A880X9EIZraNYMt4I9plj6vp.png",
+   "added": "2026-11-03",
+   "cusa": "—",
+   "region": "—",
+   "version": "—",
+   "size": "20.5 GB",
+   "size_gb": 20.5,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Role Playing Games",
+   "genre_ar": "",
+   "publisher": "Prime Matter",
+   "desc_en": "King’s Bounty II combines third-person exploration with turn-based tactical battles. Choose a hero, take on quests and recruit units with different strengths. Army composition, equipment and terrain influence how each encounter unfolds as you explore the kingdom of Nostria.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA05038",
+     "region": "—",
+     "version": "—"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (PKG)",
+     "kind_label_ar": "اللعبة",
+     "version": "—",
+     "size": "20.5 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/qy4jCGiS21"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vikingfile.com/f/qy4jCGiS21"
+    }
+   ],
+   "format": "PKG"
+  },
+  {
+   "id": "syphon-filter-logan-s-shadow-ps5-06782",
+   "title_en": "Syphon Filter: Logan’s Shadow",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202303/1000/c46ce07ebd23931aff68538d59d36d55fe7e0246a1b7493c.png",
+   "added": "2026-11-03",
+   "cusa": "—",
+   "region": "—",
+   "version": "—",
+   "size": "2.5 GB",
+   "size_gb": 2.5,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Action",
+   "genre_ar": "",
+   "publisher": "Sony Interactive Entertainment",
+   "desc_en": "Guide operative Gabe Logan through a mission involving a stolen weapon and suspicion surrounding his allies. This PS5 conversion of the PSP game combines stealth, reconnaissance and action.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA06782",
+     "region": "—",
+     "version": "—"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (PKG)",
+     "kind_label_ar": "اللعبة",
+     "version": "—",
+     "size": "2.5 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/rqm1IvdWQm"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vikingfile.com/f/rqm1IvdWQm"
+    }
+   ],
+   "format": "PKG"
+  },
+  {
+   "id": "hellblade-senua-s-sacrifice-ps5-27581",
+   "title_en": "Hellblade: Senua’s Sacrifice",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA27581_9be93597f23c54bd0523a880cf09ab442018292275da51ce137b51a220d3c74f/icon0.webp",
+   "added": "2026-11-03",
+   "cusa": "—",
+   "region": "—",
+   "version": "—",
+   "size": "12.4 GB",
+   "size_gb": 12.4,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Adventure",
+   "genre_ar": "",
+   "publisher": "Microsoft Corporation",
+   "desc_en": "Travel with Celtic warrior Senua on a quest through the Viking underworld to reach her lost lover. Explore haunting landscapes, solve environmental puzzles and face close combat in a story that portrays her experiences of psychosis.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA27581",
+     "region": "—",
+     "version": "—"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (PKG)",
+     "kind_label_ar": "اللعبة",
+     "version": "—",
+     "size": "12.4 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/4SEZKhMLcc"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vikingfile.com/f/4SEZKhMLcc"
+    }
+   ],
+   "format": "PKG"
   }
  ],
  "site": {
