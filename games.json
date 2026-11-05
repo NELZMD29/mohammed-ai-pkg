@@ -310726,6 +310726,678 @@
     }
    ],
    "format": "PKG"
+  },
+  {
+   "id": "the-caligula-effect-overdose-ps5-09384",
+   "title_en": "The Caligula Effect: Overdose",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA09384_99471c46a80efae56bfed29e85d5c240d6691abd0c651d92d9d52d496f230669/icon0.webp",
+   "added": "2026-11-05",
+   "cusa": "—",
+   "region": "—",
+   "version": "—",
+   "size": "22.0 GB",
+   "size_gb": 22.0,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Action / Role Playing Games",
+   "genre_ar": "",
+   "publisher": "NIS America Inc.",
+   "desc_en": "Students trapped in a virtual high school created by an idol program fight to wake up, in this expanded turn-based RPG.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA09384",
+     "region": "—",
+     "version": "—"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (exFAT)",
+     "kind_label_ar": "اللعبة (exFAT)",
+     "version": "—",
+     "size": "22.0 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/EAfoODJqvP"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vikingfile.com/f/EAfoODJqvP"
+    }
+   ],
+   "format": "exFAT"
+  },
+  {
+   "id": "final-fantasy-xvi-ps5-10665",
+   "title_en": "Final Fantasy XVI",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA10665_b9fbc0e37ca60e56c7fb66c4007b27938478e64025b467407ef879d149dcae15/icon0.webp",
+   "added": "2026-11-05",
+   "cusa": "—",
+   "region": "—",
+   "version": "—",
+   "size": "110.8 GB",
+   "size_gb": 110.8,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Action / Role Playing Games",
+   "genre_ar": "",
+   "publisher": "",
+   "desc_en": "Clive Rosfield seeks revenge in a dark fantasy world ruled by Eikons, with real-time action and colossal summon battles.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA10665",
+     "region": "—",
+     "version": "—"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (exFAT)",
+     "kind_label_ar": "اللعبة (exFAT)",
+     "version": "—",
+     "size": "110.8 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vik1ngfile.site/f/AHoMQl0h4T"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vik1ngfile.site/f/AHoMQl0h4T"
+    }
+   ],
+   "format": "exFAT"
+  },
+  {
+   "id": "demon-s-souls-ps5-01341",
+   "title_en": "Demon’s Souls",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA01342_d444846b079d8b81dad513ece3a2b1148f46fc6139622a7900e3984cbd7918c0/icon0.webp",
+   "added": "2026-11-05",
+   "cusa": "—",
+   "region": "—",
+   "version": "01.005",
+   "size": "53.5 GB",
+   "size_gb": 53.5,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Action",
+   "genre_ar": "",
+   "publisher": "",
+   "desc_en": "A ground-up remake of the PlayStation classic, fighting through a fog-shrouded kingdom ruled by demons.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA01341",
+     "region": "—",
+     "version": "01.005"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (PKG)",
+     "kind_label_ar": "اللعبة",
+     "version": "01.005",
+     "size": "53.5 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/jOhQ1eQL2p"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vikingfile.com/f/jOhQ1eQL2p"
+    }
+   ],
+   "format": "PKG"
+  },
+  {
+   "id": "returnal-ps5-01285",
+   "title_en": "Returnal",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA01285_3d92e95c5c4a15b97ce94d3f7383582c41099b14653361e96512726bfaf97bdf/icon0.webp",
+   "added": "2026-11-05",
+   "cusa": "—",
+   "region": "—",
+   "version": "3.005",
+   "size": "65.5 GB",
+   "size_gb": 65.5,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Action / Roguelike",
+   "genre_ar": "",
+   "publisher": "",
+   "desc_en": "Selene crash-lands on a shifting alien planet and relives each death, in a fast roguelike third-person shooter.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA01285",
+     "region": "—",
+     "version": "3.005"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (PKG)",
+     "kind_label_ar": "اللعبة",
+     "version": "3.005",
+     "size": "65.5 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/DveB4sSg1F"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vikingfile.com/f/DveB4sSg1F"
+    }
+   ],
+   "format": "PKG"
+  },
+  {
+   "id": "crusader-kings-iii-ps5-02308",
+   "title_en": "Crusader Kings III",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA02308_eec2d74eb08cfce9dc7a5f235aad5c0b20b4002e94746c216aecd4cd3705a059/icon0.webp",
+   "added": "2026-11-05",
+   "cusa": "—",
+   "region": "—",
+   "version": "—",
+   "size": "7.0 GB",
+   "size_gb": 7.0,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Strategy / Simulation",
+   "genre_ar": "",
+   "publisher": "PARADOX INTERACTIVE AB",
+   "desc_en": "Lead a medieval noble family through generations of rulers with different personalities and ambitions. Manage your realm, arrange alliances and use diplomacy, warfare or secret plots to shape its future.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA02308",
+     "region": "—",
+     "version": "—"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (PKG)",
+     "kind_label_ar": "اللعبة",
+     "version": "—",
+     "size": "7.0 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/gPriJ4fCho"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vikingfile.com/f/gPriJ4fCho"
+    }
+   ],
+   "format": "PKG"
+  },
+  {
+   "id": "death-stranding-2-on-the-beach-ps5-02015",
+   "title_en": "Death Stranding 2: On the Beach",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA02015_d9bbc0973ca57b68f21b837e4773bca1c9845b51ad50d77607be2e487cd9f69f/icon0.webp",
+   "added": "2026-11-05",
+   "cusa": "—",
+   "region": "—",
+   "version": "01.013",
+   "size": "99.3 GB",
+   "size_gb": 99.3,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Action",
+   "genre_ar": "",
+   "publisher": "",
+   "desc_en": "Sam Porter Bridges sets out again with a new crew to connect regions beyond the UCA, in Kojima Productions’ sequel.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA02015",
+     "region": "—",
+     "version": "01.013"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (PKG)",
+     "kind_label_ar": "اللعبة",
+     "version": "01.013",
+     "size": "99.3 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/peCnh4yKZp"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vikingfile.com/f/peCnh4yKZp"
+    }
+   ],
+   "format": "PKG"
+  },
+  {
+   "id": "forza-horizon-5-ps5-22327",
+   "title_en": "Forza Horizon 5",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA22327_332d734000ebc69c9865c225d9b2c056e0525ce029686815b8904d049d27fa26/icon0.webp",
+   "added": "2026-11-05",
+   "cusa": "—",
+   "region": "—",
+   "version": "1.685.672",
+   "size": "157.2 GB",
+   "size_gb": 157.2,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Driving/Racing",
+   "genre_ar": "",
+   "publisher": "",
+   "desc_en": "Drive hundreds of cars across a vast open-world Mexico, from jungles to volcanoes, in the festival racer.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA22327",
+     "region": "—",
+     "version": "1.685.672"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (PKG)",
+     "kind_label_ar": "اللعبة",
+     "version": "1.685.672",
+     "size": "157.2 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/KnH9iuRoVR"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vikingfile.com/f/KnH9iuRoVR"
+    }
+   ],
+   "format": "PKG"
+  },
+  {
+   "id": "tekken-8-ps5-10595",
+   "title_en": "TEKKEN 8",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA10595_c226743e1e04c3218a06306c7092cd2374ffe2bce016b4da878aa7eb41f05701/icon0.webp",
+   "added": "2026-11-05",
+   "cusa": "—",
+   "region": "—",
+   "version": "3.01",
+   "size": "107.5 GB",
+   "size_gb": 107.5,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Action / Fighting",
+   "genre_ar": "",
+   "publisher": "",
+   "desc_en": "The Mishima feud reaches its next chapter in a fighting game focused on aggression, with over 30 characters.",
+   "desc_ar": "",
+   "edition_en": "Ultimate Edition",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA10595",
+     "region": "—",
+     "version": "3.01"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (PKG)",
+     "kind_label_ar": "اللعبة",
+     "version": "3.01",
+     "size": "107.5 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vik1ngfile.site/f/MVYfEp4KpC"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vik1ngfile.site/f/MVYfEp4KpC"
+    }
+   ],
+   "format": "PKG"
+  },
+  {
+   "id": "the-outer-worlds-spacer-s-choice-edition-ps5-07148",
+   "title_en": "The Outer Worlds: Spacer’s Choice Edition",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA07148_7ac89a5bf63ca8a87f2d167afbd981807af804ce415f36f663a34ec6766f6350/icon0.webp",
+   "added": "2026-11-05",
+   "cusa": "—",
+   "region": "—",
+   "version": "01.006.000",
+   "size": "53.5 GB",
+   "size_gb": 53.5,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Role Playing Games / Action",
+   "genre_ar": "",
+   "publisher": "Microsoft Corporation",
+   "desc_en": "Wake from a long voyage to find the Halcyon colony caught in a struggle for power. Recruit companions, explore settlements and space stations, and use dialogue, combat and character skills to decide how each conflict unfolds in this remastered role-playing adventure.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA07148",
+     "region": "—",
+     "version": "01.006.000"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (PKG)",
+     "kind_label_ar": "اللعبة",
+     "version": "01.006.000",
+     "size": "53.5 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/Vta8fG3Ppn"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vikingfile.com/f/Vta8fG3Ppn"
+    }
+   ],
+   "format": "PKG"
+  },
+  {
+   "id": "dragon-s-dogma-2-ps5-09664",
+   "title_en": "Dragon’s Dogma 2",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA09664_8551ee8c50698e045422a47d9fb475eba1d992c1aa9597b830de38e075d19c63/icon0.webp",
+   "added": "2026-11-05",
+   "cusa": "—",
+   "region": "—",
+   "version": "—",
+   "size": "59.8 GB",
+   "size_gb": 59.8,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Role Playing Games / Action",
+   "genre_ar": "",
+   "publisher": "Capcom U.S.A., Inc.",
+   "desc_en": "Create your Arisen and a loyal pawn, then roam a dangerous open world to reclaim your stolen heart from the Dragon.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA09664",
+     "region": "—",
+     "version": "—"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (exFAT)",
+     "kind_label_ar": "اللعبة (exFAT)",
+     "version": "—",
+     "size": "59.8 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/BKnCImqWit"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vikingfile.com/f/BKnCImqWit"
+    }
+   ],
+   "format": "exFAT"
+  },
+  {
+   "id": "baldur-s-gate-3-ps5-14002",
+   "title_en": "Baldur’s Gate 3",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA14002_7eafd801e69a9de4b76b9e282b0e4fd8c3eb2221cc31d566a50e076b20ccb43e/icon0.webp",
+   "added": "2026-11-05",
+   "cusa": "—",
+   "region": "—",
+   "version": "—",
+   "size": "109.8 GB",
+   "size_gb": 109.8,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Role Playing Games",
+   "genre_ar": "",
+   "publisher": "",
+   "desc_en": "Gather a party and resist the mind flayer parasite inside you, in a deep, choice-driven RPG set in Dungeons & Dragons’ world.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA14002",
+     "region": "—",
+     "version": "—"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (exFAT)",
+     "kind_label_ar": "اللعبة (exFAT)",
+     "version": "—",
+     "size": "109.8 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/b5KSPDA5wR"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vikingfile.com/f/b5KSPDA5wR"
+    }
+   ],
+   "format": "exFAT"
+  },
+  {
+   "id": "warhammer-40-000-space-marine-2-ps5-04452",
+   "title_en": "Warhammer 40,000: Space Marine 2",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA04452_1787bec1c49853c5eba4e1c6b15f69f04bb35f84a1a5c34ddfb9e3985b5c890c/icon0.webp",
+   "added": "2026-11-05",
+   "cusa": "—",
+   "region": "—",
+   "version": "—",
+   "size": "63.4 GB",
+   "size_gb": 63.4,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Action",
+   "genre_ar": "",
+   "publisher": "Focus Entertainment",
+   "desc_en": "Fight as a Space Marine in large-scale third-person battles across threatened Imperial worlds. Play the campaign alone or in three-player co-op, then develop your own warrior in additional co-operative and competitive modes.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA04452",
+     "region": "—",
+     "version": "—"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (exFAT)",
+     "kind_label_ar": "اللعبة (exFAT)",
+     "version": "—",
+     "size": "63.4 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/uj2QGXkEyK"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vikingfile.com/f/uj2QGXkEyK"
+    }
+   ],
+   "format": "exFAT"
   }
  ],
  "site": {
