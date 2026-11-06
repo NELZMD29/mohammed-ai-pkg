@@ -315430,6 +315430,1462 @@
     }
    ],
    "format": "PKG"
+  },
+  {
+   "id": "evergate-ps5-01886",
+   "title_en": "Evergate",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA01886_ec73a73e8ea0059eae680ea6c0461e55544bd9dcc92bbea52cba2b85c1b51285/icon0.webp",
+   "added": "2026-11-06",
+   "cusa": "—",
+   "region": "—",
+   "version": "—",
+   "size": "3.4 GB",
+   "size_gb": 3.4,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Puzzle / Platformer",
+   "genre_ar": "",
+   "publisher": "PQUBE LTD",
+   "desc_en": "A puzzle platformer through the afterlife, using the Soulflame to bend each level’s rules.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA01886",
+     "region": "—",
+     "version": "—"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (exFAT)",
+     "kind_label_ar": "اللعبة (exFAT)",
+     "version": "—",
+     "size": "3.4 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/ki62ozmjmx"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vikingfile.com/f/ki62ozmjmx"
+    }
+   ],
+   "format": "exFAT"
+  },
+  {
+   "id": "metal-gear-solid-master-collection-vol-1-ps5-14363",
+   "title_en": "Metal Gear Solid Master Collection Vol 1",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA14363_bd0a83406158036b57d5acdf77f23c91d2215824f443c19bd767c644b8982d32/icon0.webp",
+   "added": "2026-11-06",
+   "cusa": "—",
+   "region": "—",
+   "version": "—",
+   "size": "6.3 GB",
+   "size_gb": 6.3,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Action",
+   "genre_ar": "",
+   "publisher": "KONAMI",
+   "desc_en": "Metal Gear Solid 1, 2 and 3 with the original MSX Metal Gear games, plus digital script and art books.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA14363",
+     "region": "—",
+     "version": "—"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (exFAT)",
+     "kind_label_ar": "اللعبة (exFAT)",
+     "version": "—",
+     "size": "6.3 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/tkL9zAvL5l"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vikingfile.com/f/tkL9zAvL5l"
+    }
+   ],
+   "format": "exFAT"
+  },
+  {
+   "id": "metal-gear-solid-delta-snake-eater-ps5-15304",
+   "title_en": "Metal Gear Solid Δ: Snake Eater",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA15304_01ba1d67b32a802f97ebc570e2c00d8efb6f4c1abe3f96cc9896ee092744da03/icon0.webp",
+   "added": "2026-11-06",
+   "cusa": "—",
+   "region": "—",
+   "version": "01.001.004",
+   "size": "113.8 GB",
+   "size_gb": 113.8,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Action",
+   "genre_ar": "",
+   "publisher": "",
+   "desc_en": "A full remake of Metal Gear Solid 3, as Naked Snake goes behind Soviet lines in 1964 on a mission that defines the series.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA15304",
+     "region": "—",
+     "version": "01.001.004"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (PKG)",
+     "kind_label_ar": "اللعبة",
+     "version": "01.001.004",
+     "size": "113.8 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/wzZGG6QuRQ"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vikingfile.com/f/wzZGG6QuRQ"
+    }
+   ],
+   "format": "PKG"
+  },
+  {
+   "id": "directive-8020-deluxe-edition-ps5-16384",
+   "title_en": "Directive 8020 Deluxe Edition",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA16384_4ed6c675da878935da9ff2195dc614bffe5229c85c79b45dbdae0c6563083cdd/icon0.webp",
+   "added": "2026-11-06",
+   "cusa": "—",
+   "region": "—",
+   "version": "—",
+   "size": "59.2 GB",
+   "size_gb": 59.2,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Horror",
+   "genre_ar": "",
+   "publisher": "Supermassive Games Ltd",
+   "desc_en": "A cinematic sci-fi horror from the makers of Until Dawn, where a crashed colony crew faces a shapeshifting threat and every choice counts.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA16384",
+     "region": "—",
+     "version": "—"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (exFAT)",
+     "kind_label_ar": "اللعبة (exFAT)",
+     "version": "—",
+     "size": "59.2 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/AfjfOFUqVo"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vikingfile.com/f/AfjfOFUqVo"
+    }
+   ],
+   "format": "exFAT"
+  },
+  {
+   "id": "monopoly-2024-ps5-17419",
+   "title_en": "Monopoly (2024)",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA17419_74ea4407860a8fab8d8b9c4b09e191c5cc1bfc52cc4a92f3396abc3f6a433324/icon0.webp",
+   "added": "2026-11-06",
+   "cusa": "—",
+   "region": "—",
+   "version": "—",
+   "size": "2.4 GB",
+   "size_gb": 2.4,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Party / Casual",
+   "genre_ar": "",
+   "publisher": "Ubisoft",
+   "desc_en": "Buy, sell and negotiate your way around an animated 3D Monopoly board. Play locally or online with up to six players, with custom rules and interactive pieces adding to the familiar property contest.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA17419",
+     "region": "—",
+     "version": "—"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (PKG)",
+     "kind_label_ar": "اللعبة",
+     "version": "—",
+     "size": "2.4 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/FLSIJupkby"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vikingfile.com/f/FLSIJupkby"
+    }
+   ],
+   "format": "PKG"
+  },
+  {
+   "id": "assassin-s-creed-shadows-ps5-20397",
+   "title_en": "Assassin’s Creed Shadows",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA20397_ab966e5f7d833e56a3490f2143f4355870270405c5d816879d251f06d4dd6eb6/icon0.webp",
+   "added": "2026-11-06",
+   "cusa": "—",
+   "region": "—",
+   "version": "1.019.076",
+   "size": "153.3 GB",
+   "size_gb": 153.3,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Role Playing Games",
+   "genre_ar": "",
+   "publisher": "Ubisoft",
+   "desc_en": "Play as Naoe and Yasuke, approaching an open world through stealth, exploration, and close combat.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA20397",
+     "region": "—",
+     "version": "1.019.076"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (PKG)",
+     "kind_label_ar": "اللعبة",
+     "version": "1.019.076",
+     "size": "153.3 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/ZUINz9Mt4M"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vikingfile.com/f/ZUINz9Mt4M"
+    }
+   ],
+   "format": "PKG"
+  },
+  {
+   "id": "the-smurfs-dreams-ps5-21607",
+   "title_en": "The Smurfs – Dreams",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA21607_ca43bc0b87faa34775347ec7ec6a03711433c0badbf74bed2447447b855fc7a5/icon0.webp",
+   "added": "2026-11-06",
+   "cusa": "—",
+   "region": "—",
+   "version": "01.002",
+   "size": "3.2 GB",
+   "size_gb": 3.2,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Family / Platformer",
+   "genre_ar": "",
+   "publisher": "",
+   "desc_en": "",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA21607",
+     "region": "—",
+     "version": "01.002"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (PKG)",
+     "kind_label_ar": "اللعبة",
+     "version": "01.002",
+     "size": "3.2 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/DOTPLbLibD"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vikingfile.com/f/DOTPLbLibD"
+    }
+   ],
+   "format": "PKG"
+  },
+  {
+   "id": "indiana-jones-and-the-great-circle-ps5-26786",
+   "title_en": "Indiana Jones and the Great Circle",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA26786_6417d9d76542f6966578e8ed4889d91e23658821bfc2fc7a2fd88f4cbac266cd/icon0.webp",
+   "added": "2026-11-06",
+   "cusa": "—",
+   "region": "—",
+   "version": "1.009",
+   "size": "135.0 GB",
+   "size_gb": 135.0,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Adventure",
+   "genre_ar": "",
+   "publisher": "",
+   "desc_en": "Indiana Jones races rivals across the globe in 1937 to uncover an ancient mystery, in a first-person adventure.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA26786",
+     "region": "—",
+     "version": "1.009"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (PKG)",
+     "kind_label_ar": "اللعبة",
+     "version": "1.009",
+     "size": "135.0 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/v9zClxfxMX"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vikingfile.com/f/v9zClxfxMX"
+    }
+   ],
+   "format": "PKG"
+  },
+  {
+   "id": "finding-frankie-ps5-28058",
+   "title_en": "Finding Frankie",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA28058_0a4a40478baca6aaece882d8455e4d166f26d086214a17c1b88feee148d76d8d/icon0.webp",
+   "added": "2026-11-06",
+   "cusa": "—",
+   "region": "—",
+   "version": "—",
+   "size": "4.3 GB",
+   "size_gb": 4.3,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Adventure",
+   "genre_ar": "",
+   "publisher": "PERPETUAL",
+   "desc_en": "An invitation hidden in a cereal box leads to a competition where cheerful mascots become dangerous pursuers. Run, swing and slide through obstacle courses while trying to outlast the other contestants.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA28058",
+     "region": "—",
+     "version": "—"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (PKG)",
+     "kind_label_ar": "اللعبة",
+     "version": "—",
+     "size": "4.3 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/BPEA2Gdlxy"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vikingfile.com/f/BPEA2Gdlxy"
+    }
+   ],
+   "format": "PKG"
+  },
+  {
+   "id": "super-meat-boy-3d-ps5-31162",
+   "title_en": "Super Meat Boy 3D",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA31162_81c2557d4827b8fcef999be6f972021bca025864a2262573c139224f6aca1d28/icon0.webp",
+   "added": "2026-11-06",
+   "cusa": "—",
+   "region": "—",
+   "version": "02.00",
+   "size": "2.9 GB",
+   "size_gb": 2.9,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Action / Platformer",
+   "genre_ar": "",
+   "publisher": "Headup Games GmbH & Co. KG",
+   "desc_en": "Guide Meat Boy through obstacle courses filled with saws, collapsing paths and hazardous machinery to rescue Bandage Girl. Master tightly timed jumps and wall movement, tackle bosses, and seek out secret routes and tougher challenges.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA31162",
+     "region": "—",
+     "version": "02.00"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (PKG)",
+     "kind_label_ar": "اللعبة",
+     "version": "02.00",
+     "size": "2.9 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/5zcjl6k8w5"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vikingfile.com/f/5zcjl6k8w5"
+    }
+   ],
+   "format": "PKG"
+  },
+  {
+   "id": "rayman-30th-anniversary-edition-ps5-33016",
+   "title_en": "Rayman: 30th Anniversary Edition",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA33016_152347f0e6c7bd79cf8b39a4f5dec34165434f418f48385dc302e636e8fe3d78/icon0.webp",
+   "added": "2026-11-06",
+   "cusa": "—",
+   "region": "—",
+   "version": "01.002",
+   "size": "3.1 GB",
+   "size_gb": 3.1,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Action / Platformer",
+   "genre_ar": "",
+   "publisher": "Ubisoft",
+   "desc_en": "Return to Rayman's 1995 platforming adventure with a collection of its original versions and additional levels. Travel through colorful worlds, rescue Electoons and explore historical material about the game's creation.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA33016",
+     "region": "—",
+     "version": "01.002"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (PKG)",
+     "kind_label_ar": "اللعبة",
+     "version": "01.002",
+     "size": "3.1 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/OM75q72A9Y"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vikingfile.com/f/OM75q72A9Y"
+    }
+   ],
+   "format": "PKG"
+  },
+  {
+   "id": "trackmania-ps5-02195",
+   "title_en": "Trackmania",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202303/2020/096cc3084128fe458078a76d70785a23026a416d583ae5bb.jpg",
+   "added": "2026-11-06",
+   "cusa": "—",
+   "region": "—",
+   "version": "1.026",
+   "size": "3.2 GB",
+   "size_gb": 3.2,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Driving / Racing",
+   "genre_ar": "",
+   "publisher": "Ubisoft",
+   "desc_en": "Race against the clock on tracks filled with jumps, loops and changing surfaces. Refine your driving lines, chase medals and create courses with the track editor. Available campaigns and online features depend on the game’s access tier and services.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA02195",
+     "region": "—",
+     "version": "1.026"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (folder)",
+     "kind_label_ar": "اللعبة (مجلد)",
+     "version": "1.026",
+     "size": "3.2 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vik1ngfile.site/f/gIYX1W0sBz"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vik1ngfile.site/f/gIYX1W0sBz"
+    }
+   ],
+   "format": "Game folder"
+  },
+  {
+   "id": "ship-of-fools-ps5-07582",
+   "title_en": "Ship of Fools",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA07582_ff1b05db590b9674b172d7515147bdeecbd51184f70c57d196066626f87420b0/icon0.webp",
+   "added": "2026-11-06",
+   "cusa": "—",
+   "region": "—",
+   "version": "01.006",
+   "size": "1.1 GB",
+   "size_gb": 1.1,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Strategy / Roguelike",
+   "genre_ar": "",
+   "publisher": "Team 17 Digital LTD",
+   "desc_en": "Sail a changing archipelago in a co-operative roguelite about defending a small ship. Load cannons, repel sea creatures and collect useful artefacts while choosing a route around an advancing storm.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA07582",
+     "region": "—",
+     "version": "01.006"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (folder)",
+     "kind_label_ar": "اللعبة (مجلد)",
+     "version": "01.006",
+     "size": "1.1 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/FaEtdEYifn"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vikingfile.com/f/FaEtdEYifn"
+    }
+   ],
+   "format": "Game folder"
+  },
+  {
+   "id": "peppa-pig-world-adventures-ps5-09806",
+   "title_en": "Peppa Pig: World Adventures",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202212/0809/Yxv5pQOIC5ouD1rcEZVXiF6E.png?w=600",
+   "added": "2026-11-06",
+   "cusa": "—",
+   "region": "—",
+   "version": "—",
+   "size": "2.0 GB",
+   "size_gb": 2.0,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Family / Adventure",
+   "genre_ar": "",
+   "publisher": "Outright Games LLC",
+   "desc_en": "Join Peppa on trips to cities and landmarks around the world. Create animal characters for your family, meet familiar faces, try activities and collect souvenirs to decorate your home in Peppa’s neighbourhood.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA09806",
+     "region": "—",
+     "version": "—"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (folder)",
+     "kind_label_ar": "اللعبة (مجلد)",
+     "version": "—",
+     "size": "2.0 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/kWkdPp1P7e"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vikingfile.com/f/kWkdPp1P7e"
+    }
+   ],
+   "format": "Game folder"
+  },
+  {
+   "id": "venba-ps5-13225",
+   "title_en": "Venba",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA13225_1e4356d5e16cf984fb6dee106c5200e717de8f4e68eebdd5f7c724b9ca996c9e/icon0.webp",
+   "added": "2026-11-06",
+   "cusa": "—",
+   "region": "—",
+   "version": "02.000",
+   "size": "0.7 GB",
+   "size_gb": 0.7,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Family",
+   "genre_ar": "",
+   "publisher": "Visai Games Inc.",
+   "desc_en": "Restore a damaged recipe book while preparing South Indian meals as Venba, a mother building a new life in Canada during the 1980s. Cooking puzzles and conversations explore how food connects her family across generations, alongside the changes and challenges of their lives.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA13225",
+     "region": "—",
+     "version": "02.000"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (folder)",
+     "kind_label_ar": "اللعبة (مجلد)",
+     "version": "02.000",
+     "size": "0.7 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/mAwqnbQpwJ"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vikingfile.com/f/mAwqnbQpwJ"
+    }
+   ],
+   "format": "Game folder"
+  },
+  {
+   "id": "spirit-of-the-island-ps5-13934",
+   "title_en": "Spirit of the Island",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA13934_1482abedb81e5b97473b803bc0929e32a147e922a2f9adb69042fc1a8e47b8e9/icon0.webp",
+   "added": "2026-11-06",
+   "cusa": "—",
+   "region": "—",
+   "version": "—",
+   "size": "1.2 GB",
+   "size_gb": 1.2,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Adventure / Simulation / Party",
+   "genre_ar": "",
+   "publisher": "Plug In Digital",
+   "desc_en": "Arrive in a once thriving archipelago to begin a coming-of-age journey. Explore its islands, help local residents and rebuild a neglected tourist destination while investigating the mysteries of your own history.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA13934",
+     "region": "—",
+     "version": "—"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (folder)",
+     "kind_label_ar": "اللعبة (مجلد)",
+     "version": "—",
+     "size": "1.2 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/4zzCih5Lsv"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vikingfile.com/f/4zzCih5Lsv"
+    }
+   ],
+   "format": "Game folder"
+  },
+  {
+   "id": "jak-and-daxter-the-lost-frontier-ps5-14325",
+   "title_en": "Jak and Daxter: The Lost Frontier",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA14325_9c351d0ff5c9cd5a75f3893f9af7c7947754156caabfe4ccd011be9aaa47e2e4/icon0.webp",
+   "added": "2026-11-06",
+   "cusa": "—",
+   "region": "—",
+   "version": "01.000.002",
+   "size": "3.2 GB",
+   "size_gb": 3.2,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Adventure",
+   "genre_ar": "",
+   "publisher": "Sony Interactive Entertainment",
+   "desc_en": "Join Jak and Daxter as they confront sky pirates and search for a solution to a growing eco shortage. Combine aircraft combat with action on the ground in this PSP adventure adapted for PS5 with rewind, quick saves and enhanced rendering.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA14325",
+     "region": "—",
+     "version": "01.000.002"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (folder)",
+     "kind_label_ar": "اللعبة (مجلد)",
+     "version": "01.000.002",
+     "size": "3.2 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/3J8vHME675"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vikingfile.com/f/3J8vHME675"
+    }
+   ],
+   "format": "Game folder"
+  },
+  {
+   "id": "steamworld-heist-ii-ps5-22013",
+   "title_en": "SteamWorld Heist II",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA21954_b31cd43060ec5f85e7fbe2b70b93d13b998726f002a5142172828fdd15074c08/icon0.webp",
+   "added": "2026-11-06",
+   "cusa": "—",
+   "region": "—",
+   "version": "01.005.008",
+   "size": "1.8 GB",
+   "size_gb": 1.8,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Strategy / Action",
+   "genre_ar": "",
+   "publisher": "Thunderful Publishing AB",
+   "desc_en": "Captain Leeway and his crew investigate a crisis threatening their metal world. Explore by submarine, fight naval battles and take on turn-based missions where you aim each shot, bounce bullets around cover and develop your crew through different jobs.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA22013",
+     "region": "—",
+     "version": "01.005.008"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (folder)",
+     "kind_label_ar": "اللعبة (مجلد)",
+     "version": "01.005.008",
+     "size": "1.8 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/tIPIvBTnyF"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vikingfile.com/f/tIPIvBTnyF"
+    }
+   ],
+   "format": "Game folder"
+  },
+  {
+   "id": "garten-of-banban-ps5-22369",
+   "title_en": "Garten of Banban",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA22369_b1950a30d0d24e3dc5e7c74c70c2f7ce78d6af93d86cfd42b87590c75726aeff/icon0.webp",
+   "added": "2026-11-06",
+   "cusa": "—",
+   "region": "—",
+   "version": "01.000.004",
+   "size": "0.3 GB",
+   "size_gb": 0.3,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Horror / Adventure / Puzzle",
+   "genre_ar": "",
+   "publisher": "Feardemic",
+   "desc_en": "Explore an abandoned learning centre after its children and staff disappear. Your drone helps you navigate and solve puzzles, but the institution's colourful mascots may be less friendly than they appear.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA22369",
+     "region": "—",
+     "version": "01.000.004"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (folder)",
+     "kind_label_ar": "اللعبة (مجلد)",
+     "version": "01.000.004",
+     "size": "0.3 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/s6kHmyMAoj"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vikingfile.com/f/s6kHmyMAoj"
+    }
+   ],
+   "format": "Game folder"
+  },
+  {
+   "id": "garten-of-banban-2-ps5-22373",
+   "title_en": "Garten of Banban 2",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA22373_d379d04cc37f468ed7e7b61b77b60ab7fff0729e29f36ab9881e05754aef03c7/icon0.webp",
+   "added": "2026-11-06",
+   "cusa": "—",
+   "region": "—",
+   "version": "01.000.004",
+   "size": "1.0 GB",
+   "size_gb": 1.0,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Horror / Adventure / Puzzle",
+   "genre_ar": "",
+   "publisher": "Feardemic",
+   "desc_en": "After an elevator crash, search a hidden underground facility for another way out. Use your drone to solve obstacles and uncover the truth while avoiding its unsettling inhabitants.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA22373",
+     "region": "—",
+     "version": "01.000.004"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (folder)",
+     "kind_label_ar": "اللعبة (مجلد)",
+     "version": "01.000.004",
+     "size": "1.0 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/hkAk8IrQMt"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vikingfile.com/f/hkAk8IrQMt"
+    }
+   ],
+   "format": "Game folder"
+  },
+  {
+   "id": "abiotic-factor-ps5-26012",
+   "title_en": "Abiotic Factor",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA26012_72e87d57fdc054f149227bff9513300c9f906ee17386bf7dca2a69958c75a44f/icon0.webp",
+   "added": "2026-11-06",
+   "cusa": "—",
+   "region": "—",
+   "version": "01.004.003",
+   "size": "2.0 GB",
+   "size_gb": 2.0,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Adventure / Survival",
+   "genre_ar": "",
+   "publisher": "Playstack Limited",
+   "desc_en": "Stranded inside an underground research facility after a containment breach, work alone or with other scientists to build a refuge. Scavenge supplies, craft improvised equipment and investigate strange environments while facing escaped anomalies and hostile forces.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA26012",
+     "region": "—",
+     "version": "01.004.003"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (folder)",
+     "kind_label_ar": "اللعبة (مجلد)",
+     "version": "01.004.003",
+     "size": "2.0 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/pvGr8HmKxg"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vikingfile.com/f/pvGr8HmKxg"
+    }
+   ],
+   "format": "Game folder"
+  },
+  {
+   "id": "the-rogue-prince-of-persia-ps5-28155",
+   "title_en": "The Rogue Prince of Persia",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA28155_90513d80d38c49eb92c791ef79e617c91b0cc685cde3ae2af4be84ffc76ef0c6/icon0.webp",
+   "added": "2026-11-06",
+   "cusa": "—",
+   "region": "—",
+   "version": "01.006",
+   "size": "0.9 GB",
+   "size_gb": 0.9,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Action / Roguelike",
+   "genre_ar": "",
+   "publisher": "Ubisoft",
+   "desc_en": "Fight to save Persia in a roguelite adventure combining acrobatic combat and demanding parkour. Experiment with weapons and medallions, meet new characters and use what you learn from each failed attempt to find a better path.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA28155",
+     "region": "—",
+     "version": "01.006"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (folder)",
+     "kind_label_ar": "اللعبة (مجلد)",
+     "version": "01.006",
+     "size": "0.9 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/4tQa74rtRI"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vikingfile.com/f/4tQa74rtRI"
+    }
+   ],
+   "format": "Game folder"
+  },
+  {
+   "id": "anger-foot-ps5-29043",
+   "title_en": "Anger Foot",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA29043_8243958c16b6e4bea8bc9e7dde976aa48162d16097d501dbc75d1686941780c1/icon0.webp",
+   "added": "2026-11-06",
+   "cusa": "—",
+   "region": "—",
+   "version": "v01.000",
+   "size": "3.5 GB",
+   "size_gb": 3.5,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Shooter / Action",
+   "genre_ar": "",
+   "publisher": "Devolver Digital",
+   "desc_en": "Burst through doors and battle gangs in a fast first-person action game driven by frantic music. Mix powerful kicks with gunfire, unlock unusual footwear and chase faster, more creative routes through each level.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA29043",
+     "region": "—",
+     "version": "v01.000"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (folder)",
+     "kind_label_ar": "اللعبة (مجلد)",
+     "version": "v01.000",
+     "size": "3.5 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/PoeRh6n6JU"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vikingfile.com/f/PoeRh6n6JU"
+    }
+   ],
+   "format": "Game folder"
+  },
+  {
+   "id": "wobbly-life-ps5-29413",
+   "title_en": "Wobbly Life",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA29413_260c36f28e0f0c954ad53c1118c18b10c6660ffa144de3cabfceefbaa76d3f2d/icon0.webp",
+   "added": "2026-11-06",
+   "cusa": "—",
+   "region": "—",
+   "version": "—",
+   "size": "1.8 GB",
+   "size_gb": 1.8,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Casual / Family / Adventure",
+   "genre_ar": "",
+   "publisher": "RUBBERBANDGAMES LTD",
+   "desc_en": "Explore an interactive island as a clumsy Wobbly, taking on jobs and missions to earn money and discover secrets. Experiment with objects and vehicles, solve puzzles and spend your earnings on clothes, pets or a place of your own.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA29413",
+     "region": "—",
+     "version": "—"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (folder)",
+     "kind_label_ar": "اللعبة (مجلد)",
+     "version": "—",
+     "size": "1.8 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/vipOYVfc8Z"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vikingfile.com/f/vipOYVfc8Z"
+    }
+   ],
+   "format": "Game folder"
+  },
+  {
+   "id": "ball-x-pit-ps5-31872",
+   "title_en": "BALL x PIT",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA31872_37a88644add11a42b75b48ebbb8e04e63010bfa46001649b688341caa81e7ced/icon0.webp",
+   "added": "2026-11-06",
+   "cusa": "—",
+   "region": "—",
+   "version": "01.301",
+   "size": "0.3 GB",
+   "size_gb": 0.3,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Arcade / Action / Roguelike",
+   "genre_ar": "",
+   "publisher": "Devolver Digital",
+   "desc_en": "Descend into the ruins of Ballbylon with an expanding arsenal of magical projectiles. Combine balls and abilities, recruit new heroes and use the resources from each run to develop your settlement.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA31872",
+     "region": "—",
+     "version": "01.301"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (folder)",
+     "kind_label_ar": "اللعبة (مجلد)",
+     "version": "01.301",
+     "size": "0.3 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/uqu690WIkn"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vikingfile.com/f/uqu690WIkn"
+    }
+   ],
+   "format": "Game folder"
+  },
+  {
+   "id": "my-little-puppy-ps5-33802",
+   "title_en": "My Little Puppy",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202509/3012/a0c112aab3aa09d8f36e34b2efd0eb17ac5490d76c9b8e19.png?w=600",
+   "added": "2026-11-06",
+   "cusa": "—",
+   "region": "—",
+   "version": "02.010",
+   "size": "6.8 GB",
+   "size_gb": 6.8,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Adventure",
+   "genre_ar": "",
+   "publisher": "Dreamotion Inc.",
+   "desc_en": "Join Bong-gu, a Welsh corgi who leaves dog heaven after catching his beloved owner’s scent. Travel through varied landscapes, use a dog’s senses and abilities, and help other dogs and people while seeking a reunion.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA33802",
+     "region": "—",
+     "version": "02.010"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (folder)",
+     "kind_label_ar": "اللعبة (مجلد)",
+     "version": "02.010",
+     "size": "6.8 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/jAFk2ykbqL"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vikingfile.com/f/jAFk2ykbqL"
+    }
+   ],
+   "format": "Game folder"
   }
  ],
  "site": {
