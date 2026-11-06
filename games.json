@@ -315374,6 +315374,62 @@
     }
    ],
    "format": "PKG"
+  },
+  {
+   "id": "dead-space-ps5-03845",
+   "title_en": "Dead Space",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA03845_e58e85def435c0aaeec43dadbdfe08cf59fbedca915c4824c1fd0459c5c93305/icon0.webp",
+   "added": "2026-11-06",
+   "cusa": "—",
+   "region": "—",
+   "version": "01.000.006",
+   "size": "31.1 GB",
+   "size_gb": 31.1,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Horror / Survival",
+   "genre_ar": "",
+   "publisher": "",
+   "desc_en": "Engineer Isaac Clarke boards a mining ship overrun by Necromorphs, in a rebuilt remake of the sci-fi horror classic.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA03845",
+     "region": "—",
+     "version": "01.000.006"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (PKG)",
+     "kind_label_ar": "اللعبة",
+     "version": "01.000.006",
+     "size": "31.1 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/UfXZxTx5EH"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vikingfile.com/f/UfXZxTx5EH"
+    }
+   ],
+   "format": "PKG"
   }
  ],
  "site": {
