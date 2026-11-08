@@ -316886,6 +316886,136 @@
     }
    ],
    "format": "Game folder"
+  },
+  {
+   "id": "watch-dogs-ps4-14113",
+   "title_en": "Watch Dogs",
+   "title_ar": "",
+   "platform": "PS4",
+   "section": "games",
+   "cover": "https://img.pspkg.com/arabic-games/image/6aeef33b21f6e.webp",
+   "added": "2026-11-08",
+   "cusa": "—",
+   "region": "—",
+   "version": "—",
+   "size": "—",
+   "size_gb": null,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "",
+   "genre_ar": "",
+   "publisher": "",
+   "desc_en": "",
+   "desc_ar": "",
+   "edition_en": "Arabic translation edition available",
+   "edition_ar": "تتوفر نسخة معرّبة",
+   "aliases": [
+    "واتش دوقز"
+   ],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "CUSA00021",
+     "region": "USA",
+     "version": "(v1.05)"
+    }
+   ],
+   "files": [
+    {
+     "kind": "direct",
+     "kind_label_en": "Direct download",
+     "kind_label_ar": "تحميل مباشر",
+     "version": "1.05",
+     "size": "17.8 GB",
+     "hosts": [
+      {
+       "name": "Archive.org · CUSA00021",
+       "url": "https://archive.org/download/ps4-fpkg-collection-english-w/WATCH_DOGS%20-%20%5BUS%5D%20%5BEN%5D%20%5B1.05%5D.pkg"
+      },
+      {
+       "name": "Archive.org · CUSA00021",
+       "url": "https://archive.org/download/ps4-fpkg-collection-english-w/WATCH_DOGS - [US] [EN] [1.05].pkg"
+      }
+     ]
+    },
+    {
+     "kind": "game_ar",
+     "kind_label_en": "Game (Arabic edition)",
+     "kind_label_ar": "اللعبة (نسخة معرّبة)",
+     "version": "—",
+     "size": "—",
+     "hosts": [
+      {
+       "name": "PSPKG — Arabic edition page",
+       "url": "https://pspkg.com/arabic-games/watch-dogs-14113.html"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page (Arabic edition)",
+     "label_ar": "صفحة المصدر (النسخة المعربة)",
+     "url": "https://pspkg.com/arabic-games/watch-dogs-14113.html"
+    }
+   ]
+  },
+  {
+   "id": "resident-evil-4-remake-ps5-07411",
+   "title_en": "Resident Evil 4 (Remake)",
+   "title_ar": "",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA07411_d171f759dbbcca39bc73f7abffa0d3d9ee6672b0a6f381d62526903da21e2786/icon0.webp",
+   "added": "2026-11-08",
+   "cusa": "—",
+   "region": "—",
+   "version": "01.590",
+   "size": "79.8 GB",
+   "size_gb": 79.8,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Horror / Adventure / Action / Survival",
+   "genre_ar": "",
+   "publisher": "",
+   "desc_en": "Leon Kennedy searches a rural European village gripped by a cult for the kidnapped Ashley Graham, in Capcom’s remake. PSVR2 is optional for VR Mode, which requires the free VR Mode add-on.",
+   "desc_ar": "",
+   "edition_en": "",
+   "edition_ar": "",
+   "aliases": [],
+   "trailer": "",
+   "editions": [
+    {
+     "cusa": "PPSA07411",
+     "region": "—",
+     "version": "01.590"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (PKG)",
+     "kind_label_ar": "اللعبة",
+     "version": "01.590",
+     "size": "79.8 GB",
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vik1ngfile.site/f/ArZnRwmZr0"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page",
+     "label_ar": "صفحة المصدر",
+     "url": "https://vik1ngfile.site/f/ArZnRwmZr0"
+    }
+   ],
+   "format": "PKG"
   }
  ],
  "site": {
