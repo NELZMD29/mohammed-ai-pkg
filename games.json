@@ -317016,6 +317016,186 @@
     }
    ],
    "format": "PKG"
+  },
+  {
+   "id": "god-of-war-sons-of-sparta-ps5-28997",
+   "title_en": "God of War: Sons of Sparta",
+   "title_ar": "إله الحرب: أبناء سبارتا",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA28997_9539aad6d1efa1a2808d7766b6759d24497ab9cd94f5269f5f6070fa7e5eb9ec/icon0.webp",
+   "added": "2026-11-09",
+   "cusa": "PPSA28997",
+   "region": "USA",
+   "version": "01.08",
+   "size": "7.8 GB",
+   "size_gb": 7.8,
+   "min_fw": null,
+   "fw_label_en": null,
+   "fw_label_ar": null,
+   "genre_en": "Action",
+   "genre_ar": "أكشن",
+   "publisher": "Sony Interactive Entertainment",
+   "desc_en": "The brothers leave their training behind to find a missing cadet in this 2D action adventure. Fight mythological enemies, solve environmental puzzles and explore the experiences that shaped Kratos before his later journeys.",
+   "desc_ar": "يترك الأخوان تدريبهما خلفهما للبحث عن تلميذ مفقود في مغامرة أكشن ثنائية الأبعاد. قاتل أعداء أسطوريين، وحلّ ألغازاً بيئية، واستكشف التجارب التي شكّلت كريتوس قبل رحلاته اللاحقة.",
+   "edition_en": null,
+   "edition_ar": null,
+   "aliases": [
+    "sons of sparta",
+    "ابناء سبارتا"
+   ],
+   "trailer": null,
+   "editions": [
+    {
+     "cusa": "PPSA28997",
+     "region": "USA",
+     "version": "01.08"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (PKG)",
+     "kind_label_ar": "اللعبة (PKG)",
+     "cusa": "PPSA28997",
+     "version": "01.08",
+     "size": "7.8 GB",
+     "size_bytes": 7762206580,
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vik1ngfile.site/f/B9n4QfFdy9"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "name": "PSPKG game page",
+     "url": "https://pspkg.com/ps5/god-of-war-sons-of-sparta-14000.html"
+    }
+   ],
+   "format": "PKG"
+  },
+  {
+   "id": "onimusha-way-of-the-sword-ps5-27836",
+   "title_en": "Onimusha: Way of the Sword",
+   "title_ar": "أونيموشا: طريق السيف",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA27836_9fe408eba29a243b9d2d71e8979ff7fbbf29a3356d822dc8f7e5d1ba503b46da/icon0.webp",
+   "added": "2026-11-09",
+   "cusa": "PPSA27836",
+   "region": "USA",
+   "version": "01.000.001",
+   "size": "41.3 GB",
+   "size_gb": 41.3,
+   "min_fw": null,
+   "fw_label_en": null,
+   "fw_label_ar": null,
+   "genre_en": "Action",
+   "genre_ar": "أكشن",
+   "publisher": "Capcom U.S.A., Inc.",
+   "desc_en": "Miyamoto Musashi wields the Oni Gauntlet against demons in a dark, Malice-shrouded Kyoto of the Edo period.",
+   "desc_ar": "يُمسك مياموتو موساشي بقفاز الأوني ويقاتل الشياطين في كيوتو مظلمة يغمرها الشرّ في حقبة إيدو.",
+   "edition_en": null,
+   "edition_ar": null,
+   "aliases": [
+    "onimusha",
+    "اونيموشا"
+   ],
+   "trailer": null,
+   "editions": [
+    {
+     "cusa": "PPSA27836",
+     "region": "USA",
+     "version": "01.000.001"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (PKG)",
+     "kind_label_ar": "اللعبة (PKG)",
+     "cusa": "PPSA27836",
+     "version": "01.000.001",
+     "size": "41.3 GB",
+     "size_bytes": 41295450004,
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/CdFD5gyWAt"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "name": "PSPKG game page",
+     "url": "https://pspkg.com/ps5/onimusha-way-of-the-sword-14010.html"
+    }
+   ],
+   "format": "PKG"
+  },
+  {
+   "id": "lego-batman-legacy-of-the-dark-knight-ps5-16833",
+   "title_en": "LEGO Batman: Legacy of the Dark Knight",
+   "title_ar": "ليغو باتمان: إرث فارس الظلام",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA16833_1010611e5083bf9c0738ba6f1cbf56a3622368a0a6211b94c6a7fbd50f6a3b6e/icon0.webp",
+   "added": "2026-11-09",
+   "cusa": "PPSA16833",
+   "region": "USA",
+   "version": "01.10",
+   "size": "34.1 GB",
+   "size_gb": 34.1,
+   "min_fw": null,
+   "fw_label_en": null,
+   "fw_label_ar": null,
+   "genre_en": "Action",
+   "genre_ar": "أكشن",
+   "publisher": "Warner Bros. Interactive",
+   "desc_en": "Follow Bruce Wayne’s journey into becoming Gotham’s protector and assemble a team of familiar heroes. Explore the city, use character-specific gadgets to solve challenges, and confront Batman’s rogues through LEGO action and adventure.",
+   "desc_ar": "تابع رحلة بروس واين نحو أن يصبح حامي غوثام، وكوّن فريقاً من الأبطال المألوفين. استكشف المدينة، واستخدم أدوات كل شخصية لحل التحديات، وواجه أشرار باتمان في أكشن ومغامرة على طراز ليغو.",
+   "edition_en": null,
+   "edition_ar": null,
+   "aliases": [
+    "lego batman",
+    "ليغو باتمان"
+   ],
+   "trailer": null,
+   "editions": [
+    {
+     "cusa": "PPSA16833",
+     "region": "USA",
+     "version": "01.10"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (PKG)",
+     "kind_label_ar": "اللعبة (PKG)",
+     "cusa": "PPSA16833",
+     "version": "01.10",
+     "size": "34.1 GB",
+     "size_bytes": 34134908953,
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/e71jqpGavl"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "name": "PSPKG game page",
+     "url": "https://pspkg.com/ps5/lego-batman-legacy-of-the-dark-knight-14011.html"
+    }
+   ],
+   "format": "PKG"
   }
  ],
  "site": {
