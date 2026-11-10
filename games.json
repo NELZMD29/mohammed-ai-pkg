@@ -317196,6 +317196,1086 @@
     }
    ],
    "format": "PKG"
+  },
+  {
+   "id": "the-adventures-of-elliot-the-millennium-tales-ps5-32310",
+   "title_en": "The Adventures of Elliot: The Millennium Tales",
+   "title_ar": "مغامرات إليوت: حكايات الألفية",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3483510/0d5cbb1d81642a256b5a690d5c27b57cdd7891d4/capsule_616x353.jpg?t=1789463096",
+   "added": "2026-11-09",
+   "cusa": "PPSA32310",
+   "region": "ASIA",
+   "version": "01.100",
+   "size": "14.5 GB",
+   "size_gb": 14.5,
+   "min_fw": null,
+   "fw_label_en": null,
+   "fw_label_ar": null,
+   "genre_en": "Action",
+   "genre_ar": "أكشن",
+   "publisher": "SQUARE ENIX CO., LTD.",
+   "desc_en": "Join Elliot and Faie as they venture beyond a protected kingdom to investigate ancient ruins. Explore an HD-2D world, uncover its history and combine action combat with the fairy's support abilities.",
+   "desc_ar": "انضم إلى إليوت وفاي وغامر خارج مملكة محمية للتحقيق في أطلال قديمة. استكشف عالماً بطراز HD-2D، واكشف تاريخه، واجمع بين قتال الأكشن وقدرات الدعم لدى الجنية.",
+   "edition_en": null,
+   "edition_ar": null,
+   "aliases": [
+    "elliot",
+    "millennium tales"
+   ],
+   "trailer": null,
+   "editions": [
+    {
+     "cusa": "PPSA32310",
+     "region": "ASIA",
+     "version": "01.100"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (PKG)",
+     "kind_label_ar": "اللعبة (PKG)",
+     "cusa": "PPSA32310",
+     "version": "01.100",
+     "size": "14.5 GB",
+     "size_bytes": 14546488270,
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/lpOvu5iw1v"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "name": "PSXHAX October 2026 compilation",
+     "url": "https://www.psxhax.com/threads/ps5-game-dump-backports-and-ps4-fpkg-game-updates-in-october-2026.20636/"
+    }
+   ],
+   "format": "PKG"
+  },
+  {
+   "id": "toy-story-retro-roundup-ps5-33627",
+   "title_en": "Toy Story: Retro Roundup!",
+   "title_ar": "قصة لعبة: التجميعة الكلاسيكية",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202605/2922/eaae208fc85bd70cd2281b2638e2f4d70917146c719a7075.png",
+   "added": "2026-11-09",
+   "cusa": "PPSA33627",
+   "region": "—",
+   "version": "01.000",
+   "size": "10.8 GB",
+   "size_gb": 10.8,
+   "min_fw": null,
+   "fw_label_en": null,
+   "fw_label_ar": null,
+   "genre_en": "Family / Action / Driving/Racing",
+   "genre_ar": "عائلي / أكشن / سباقات",
+   "publisher": "Atari Inc.",
+   "desc_en": "Return to Andy’s room in a collection spanning early Toy Story games. Revisit familiar characters and varied platforming adventures, with collection features designed to help players explore and revisit the classics.",
+   "desc_ar": "عُد إلى غرفة آندي في مجموعة تضم ألعاب قصة لعبة المبكرة. التقِ بالشخصيات المألوفة من جديد عبر مغامرات منصّات متنوعة.",
+   "edition_en": null,
+   "edition_ar": null,
+   "aliases": [
+    "toy story retro roundup",
+    "disney pixar toy story"
+   ],
+   "trailer": null,
+   "editions": [
+    {
+     "cusa": "PPSA33627",
+     "region": "—",
+     "version": "01.000"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (folder)",
+     "kind_label_ar": "اللعبة (مجلد)",
+     "cusa": "PPSA33627",
+     "version": "01.000",
+     "size": "10.8 GB",
+     "size_bytes": 10756496856,
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/zUdlS8qMqK"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "name": "PSXHAX November 2026 compilation",
+     "url": "https://www.psxhax.com/threads/ps4-game-update-fpkgs-and-ps5-games-dumped-in-november-2026.20704/"
+    }
+   ],
+   "format": "Game folder"
+  },
+  {
+   "id": "doki-doki-literature-club-plus-ps5-03733",
+   "title_en": "Doki Doki Literature Club Plus!",
+   "title_ar": "نادي أدب دوكي دوكي بلس!",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA03733_411baf1be07561e744292f71a9e6ed28bd4923751b5e71a2e9fffc7c5694885d/icon0.webp",
+   "added": "2026-11-10",
+   "cusa": "PPSA03733",
+   "region": "EUR",
+   "version": "—",
+   "size": "1.2 GB",
+   "size_gb": 1.2,
+   "min_fw": null,
+   "fw_label_en": null,
+   "fw_label_ar": null,
+   "genre_en": "Adventure / Horror",
+   "genre_ar": "رواية مرئية",
+   "publisher": "Serenity Forge",
+   "desc_en": "Join a literature club, write poems and get to know its four members in a visual novel that turns everyday school life into psychological horror. This edition includes side stories and additional artwork and music.",
+   "desc_ar": "رواية مرئية تبدأ كنادٍ أدبي مدرسي وديع ثم تنحرف إلى رعب نفسي. اكتب القصائد وتعرّف على العضوات واكتشف ما يختبئ خلف الواجهة البريئة.",
+   "edition_en": null,
+   "edition_ar": null,
+   "aliases": [
+    "doki doki",
+    "ddlc",
+    "literature club"
+   ],
+   "trailer": null,
+   "editions": [
+    {
+     "cusa": "PPSA03733",
+     "region": "EUR",
+     "version": "—"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (folder)",
+     "kind_label_ar": "اللعبة (مجلد)",
+     "cusa": "PPSA03733",
+     "version": "—",
+     "size": "1.2 GB",
+     "size_bytes": 1234261427,
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/QknO55nAHR"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "name": "Orbit Store feed (rev 96)",
+     "url": "https://github.com/saawant12/orbit-store-ps5"
+    }
+   ],
+   "format": "Game folder"
+  },
+  {
+   "id": "gothic-1-remake-ps5-09826",
+   "title_en": "Gothic 1 Remake",
+   "title_ar": "غوثيك 1 ريميك",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA09826_b477ed052c954b7edf42c93213251d6ef991ca16fc5c85f1b9e9fdea8b741dba/icon0.webp",
+   "added": "2026-11-10",
+   "cusa": "PPSA09826",
+   "region": "USA",
+   "version": "—",
+   "size": "30.8 GB",
+   "size_gb": 30.8,
+   "min_fw": null,
+   "fw_label_en": null,
+   "fw_label_ar": null,
+   "genre_en": "Role Playing Games",
+   "genre_ar": "تقمّص أدوار",
+   "publisher": "THQ Nordic",
+   "desc_en": "Enter the Valley of Mines, where a magical barrier traps prisoners and competing camps struggle for control. Explore the colony, develop your skills and make alliances in a rebuilt version of the original Gothic adventure.",
+   "desc_ar": "نسخة معاد بناؤها للعبة تقمّص الأدوار الكلاسيكية: سجين داخل مستعمرة تعدين يحميها حاجز سحري. انضم إلى أحد المعسكرات، وتعلّم القتال والسحر، واصنع مصيرك في عالم قاسٍ مترابط.",
+   "edition_en": null,
+   "edition_ar": null,
+   "aliases": [
+    "gothic remake",
+    "gothic 1"
+   ],
+   "trailer": null,
+   "editions": [
+    {
+     "cusa": "PPSA09826",
+     "region": "USA",
+     "version": "—"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (folder)",
+     "kind_label_ar": "اللعبة (مجلد)",
+     "cusa": "PPSA09826",
+     "version": "—",
+     "size": "30.8 GB",
+     "size_bytes": 30808661946,
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/wyNhrLERLZ"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "name": "Orbit Store feed (rev 96)",
+     "url": "https://github.com/saawant12/orbit-store-ps5"
+    }
+   ],
+   "format": "Game folder"
+  },
+  {
+   "id": "koumajou-remilia-scarlet-symphony-ps5-17203",
+   "title_en": "Koumajou Remilia: Scarlet Symphony",
+   "title_ar": "كوماجو ريميليا: السيمفونية القرمزية",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202406/2607/7dbaf32ff3d053cbfdc321d4b0b7bb973c50fe66664a92b2.png?w=600",
+   "added": "2026-11-10",
+   "cusa": "PPSA17203",
+   "region": "USA",
+   "version": "—",
+   "size": "1.0 GB",
+   "size_gb": 1.0,
+   "min_fw": null,
+   "fw_label_en": null,
+   "fw_label_ar": null,
+   "genre_en": "Arcade / Action / Shooter",
+   "genre_ar": "أكشن",
+   "publisher": "CFK Co., Ltd.",
+   "desc_en": "Take Reimu through a gothic castle filled with familiar Touhou characters and challenging enemies. Combine close combat with aerial movement as you investigate the scarlet mist spreading across Gensokyo.",
+   "desc_ar": "لعبة أكشن ثنائية الأبعاد بروح كلاسيكية داخل قصر قرمزي مليء بالأعداء والزعماء، مستوحاة من عالم توهو.",
+   "edition_en": null,
+   "edition_ar": null,
+   "aliases": [
+    "koumajou remilia",
+    "scarlet symphony",
+    "touhou"
+   ],
+   "trailer": null,
+   "editions": [
+    {
+     "cusa": "PPSA17203",
+     "region": "USA",
+     "version": "—"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (folder)",
+     "kind_label_ar": "اللعبة (مجلد)",
+     "cusa": "PPSA17203",
+     "version": "—",
+     "size": "1.0 GB",
+     "size_bytes": 965886689,
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/VONfZb2ozC"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "name": "Orbit Store feed (rev 96)",
+     "url": "https://github.com/saawant12/orbit-store-ps5"
+    }
+   ],
+   "format": "Game folder"
+  },
+  {
+   "id": "the-legend-of-heroes-trails-of-cold-steel-iii-ps5-17672",
+   "title_en": "The Legend of Heroes: Trails of Cold Steel III",
+   "title_ar": "أسطورة الأبطال: دروب الفولاذ البارد 3",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202312/0422/72dbea29ef97872189c09a2f5e62ca1b706f9b2a3ca609c8.png?w=600",
+   "added": "2026-11-10",
+   "cusa": "PPSA17672",
+   "region": "USA",
+   "version": "1.001",
+   "size": "17.1 GB",
+   "size_gb": 17.1,
+   "min_fw": null,
+   "fw_label_en": null,
+   "fw_label_ar": null,
+   "genre_en": "Role Playing Games",
+   "genre_ar": "تقمّص أدوار",
+   "publisher": "NIS America Inc.",
+   "desc_en": "Rean Schwarzer becomes an instructor at a new Thors campus, guiding a fresh class through field exercises and political turmoil. Explore Erebonia, strengthen party bonds and command tactical turn-based battles.",
+   "desc_ar": "الجزء الثالث من سلسلة دروب الفولاذ البارد: ريان شوارزر مدرّباً لفصل عسكري جديد. تقمّص أدوار بقتال تناوبي وروابط شخصيات عميقة داخل إمبراطورية على حافة الحرب.",
+   "edition_en": null,
+   "edition_ar": null,
+   "aliases": [
+    "trails of cold steel 3",
+    "legend of heroes",
+    "sen no kiseki"
+   ],
+   "trailer": null,
+   "editions": [
+    {
+     "cusa": "PPSA17672",
+     "region": "USA",
+     "version": "1.001"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (folder)",
+     "kind_label_ar": "اللعبة (مجلد)",
+     "cusa": "PPSA17672",
+     "version": "1.001",
+     "size": "17.1 GB",
+     "size_bytes": 17099937349,
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/PW4sfnym8S"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "name": "Orbit Store feed (rev 96)",
+     "url": "https://github.com/saawant12/orbit-store-ps5"
+    }
+   ],
+   "format": "Game folder"
+  },
+  {
+   "id": "iron-lung-ps5-21755",
+   "title_en": "Iron Lung",
+   "title_ar": "الرئة الحديدية",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202509/2320/3c6c6e8610b16ebd2541cd2a273e87c3e128d3479b71ad64.png?w=600",
+   "added": "2026-11-10",
+   "cusa": "PPSA21755",
+   "region": "USA",
+   "version": "—",
+   "size": "0.1 GB",
+   "size_gb": 0.1,
+   "min_fw": null,
+   "fw_label_en": null,
+   "fw_label_ar": null,
+   "genre_en": "Horror",
+   "genre_ar": "رعب",
+   "publisher": "Ducky Dev Games, LLC",
+   "desc_en": "Pilot a cramped submarine through an alien ocean using instruments, sound and a limited camera. Chart your course and document the depths while the vessel’s fragile systems and unseen dangers test your nerve.",
+   "desc_ar": "رعب بقاء داخل غواصة صغيرة تعبر محيطاً من الدم على قمر مهجور بلا نوافذ: ملاحة بصور ثابتة وأصوات لا تُفسَّر وموارد شحيحة.",
+   "edition_en": null,
+   "edition_ar": null,
+   "aliases": [
+    "iron lung"
+   ],
+   "trailer": null,
+   "editions": [
+    {
+     "cusa": "PPSA21755",
+     "region": "USA",
+     "version": "—"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (folder)",
+     "kind_label_ar": "اللعبة (مجلد)",
+     "cusa": "PPSA21755",
+     "version": "—",
+     "size": "0.1 GB",
+     "size_bytes": 145485839,
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/q8wyvTBmAR"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "name": "Orbit Store feed (rev 96)",
+     "url": "https://github.com/saawant12/orbit-store-ps5"
+    }
+   ],
+   "format": "Game folder"
+  },
+  {
+   "id": "hyperspace-neptunia-unlimited-ps5-22606",
+   "title_en": "Hyperspace Neptunia Unlimited",
+   "title_ar": "هايبرسبيس نيبتونيا أنليميتد",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA22606_d6f922452a446ebf9066eba64eec27895c2a4256c782ba9c689ddc14566a3f2b/icon0.webp",
+   "added": "2026-11-10",
+   "cusa": "PPSA22606",
+   "region": "JPN",
+   "version": "—",
+   "size": "19.3 GB",
+   "size_gb": 19.3,
+   "min_fw": null,
+   "fw_label_en": null,
+   "fw_label_ar": null,
+   "genre_en": "Role Playing Games",
+   "genre_ar": "أكشن",
+   "publisher": "IDEA FACTORY Co.,LTD.",
+   "desc_en": "Return to Gamindustri with Neptune and her fellow goddesses in an adventure built around flight and aerial combat. Develop character abilities, face enormous enemies and uncover the mystery behind a disaster that keeps returning.",
+   "desc_ar": "جزء جديد من سلسلة نيبتونيا بأكشن سريع وبطلات السلسلة في مغامرة عبر عوالم رقمية موازية.",
+   "edition_en": null,
+   "edition_ar": null,
+   "aliases": [
+    "neptunia",
+    "hyperspace neptunia"
+   ],
+   "trailer": null,
+   "editions": [
+    {
+     "cusa": "PPSA22606",
+     "region": "JPN",
+     "version": "—"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (folder)",
+     "kind_label_ar": "اللعبة (مجلد)",
+     "cusa": "PPSA22606",
+     "version": "—",
+     "size": "19.3 GB",
+     "size_bytes": 19281288591,
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/mUka9zyNTg"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "name": "Orbit Store feed (rev 96)",
+     "url": "https://github.com/saawant12/orbit-store-ps5"
+    }
+   ],
+   "format": "Game folder"
+  },
+  {
+   "id": "bionic-bay-ps5-23767",
+   "title_en": "Bionic Bay",
+   "title_ar": "بايونيك باي",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA23767_a07448bed1dd7afc8f71ce21f368a1dcd3eef5cecc509b68f17a2b46dfc138af/icon0.webp",
+   "added": "2026-11-10",
+   "cusa": "PPSA23767",
+   "region": "EUR",
+   "version": "—",
+   "size": "0.4 GB",
+   "size_gb": 0.4,
+   "min_fw": null,
+   "fw_label_en": null,
+   "fw_label_ar": null,
+   "genre_en": "Puzzle / Adventure",
+   "genre_ar": "منصّات",
+   "publisher": "Kepler Interactive Limited",
+   "desc_en": "Guide a scientist through an ancient world of hazardous machinery and intricate environments. Use a teleportation device to exchange positions with objects, solve physics puzzles and find a path through deadly obstacles.",
+   "desc_ar": "لعبة منصّات دقيقة بفيزياء واقعية: تبادل المواقع مع الأجسام والأدوات للهروب من منشأة بيوميكانيكية قديمة شديدة الخطورة.",
+   "edition_en": null,
+   "edition_ar": null,
+   "aliases": [
+    "bionic bay"
+   ],
+   "trailer": null,
+   "editions": [
+    {
+     "cusa": "PPSA23767",
+     "region": "EUR",
+     "version": "—"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (folder)",
+     "kind_label_ar": "اللعبة (مجلد)",
+     "cusa": "PPSA23767",
+     "version": "—",
+     "size": "0.4 GB",
+     "size_bytes": 372285030,
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/ig9koQvYYk"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "name": "Orbit Store feed (rev 96)",
+     "url": "https://github.com/saawant12/orbit-store-ps5"
+    }
+   ],
+   "format": "Game folder"
+  },
+  {
+   "id": "golfing-over-it-with-alva-majo-ps5-27950",
+   "title_en": "Golfing Over It with Alva Majo",
+   "title_ar": "غولفينغ أوفر إت مع ألفا ماجو",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202512/1614/b4b41c21870a3952fb91e76cadbd93a5501e20d2b933e8a5.png?w=600",
+   "added": "2026-11-10",
+   "cusa": "PPSA27950",
+   "region": "EUR",
+   "version": "—",
+   "size": "0.1 GB",
+   "size_gb": 0.1,
+   "min_fw": null,
+   "fw_label_en": null,
+   "fw_label_ar": null,
+   "genre_en": "Arcade / Sport",
+   "genre_ar": "رياضة",
+   "publisher": "Mameshiba Games SL",
+   "desc_en": "Launch a golf ball across an enormous obstacle course where a mistake can undo hard-won progress. Learn the terrain, judge each shot and keep trying as the route climbs through increasingly precarious surroundings.",
+   "desc_ar": "لعبة غولف تسلّق ساخرة: اضرب الكرة صعوداً عبر جبل من الأجسام العبثية، وكل خطأ قد يعيدك إلى نقطة البداية.",
+   "edition_en": null,
+   "edition_ar": null,
+   "aliases": [
+    "golfing over it",
+    "alva majo"
+   ],
+   "trailer": null,
+   "editions": [
+    {
+     "cusa": "PPSA27950",
+     "region": "EUR",
+     "version": "—"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (folder)",
+     "kind_label_ar": "اللعبة (مجلد)",
+     "cusa": "PPSA27950",
+     "version": "—",
+     "size": "0.1 GB",
+     "size_bytes": 133343017,
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/UxQjm7NuXO"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "name": "Orbit Store feed (rev 96)",
+     "url": "https://github.com/saawant12/orbit-store-ps5"
+    }
+   ],
+   "format": "Game folder"
+  },
+  {
+   "id": "pure-pool-pro-ps5-28502",
+   "title_en": "Pure Pool Pro",
+   "title_ar": "بيور بول برو",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202503/2414/3d3d9e602e86d684475330b5594f17059422671f7f793f91.png?w=600",
+   "added": "2026-11-10",
+   "cusa": "PPSA28502",
+   "region": "EUR",
+   "version": "—",
+   "size": "15.2 GB",
+   "size_gb": 15.2,
+   "min_fw": null,
+   "fw_label_en": null,
+   "fw_label_ar": null,
+   "genre_en": "Sport / Casual",
+   "genre_ar": "رياضة",
+   "publisher": "RIPSTONE LTD",
+   "desc_en": "Line up shots, control spin and build your pool career through a range of events. Practise against computer opponents or challenge other players in a cue-sports simulation focused on precise ball control.",
+   "desc_ar": "محاكاة بلياردو واقعية بفيزياء كرات دقيقة وأطوار فردية وتنافسية على طاولات احترافية.",
+   "edition_en": null,
+   "edition_ar": null,
+   "aliases": [
+    "pure pool pro",
+    "billiards"
+   ],
+   "trailer": null,
+   "editions": [
+    {
+     "cusa": "PPSA28502",
+     "region": "EUR",
+     "version": "—"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (folder)",
+     "kind_label_ar": "اللعبة (مجلد)",
+     "cusa": "PPSA28502",
+     "version": "—",
+     "size": "15.2 GB",
+     "size_bytes": 15197061065,
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/hfe1bktQaq"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "name": "Orbit Store feed (rev 96)",
+     "url": "https://github.com/saawant12/orbit-store-ps5"
+    }
+   ],
+   "format": "Game folder"
+  },
+  {
+   "id": "denshattack-ps5-29952",
+   "title_en": "Denshattack!",
+   "title_ar": "دينشاتاك!",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA29952_8aa7ba526466df471c88eb6adf7ee0d621c35839205c7bcaf82d4d5bc2201c2b/icon0.webp",
+   "added": "2026-11-10",
+   "cusa": "PPSA29952",
+   "region": "USA",
+   "version": "—",
+   "size": "8.1 GB",
+   "size_gb": 8.1,
+   "min_fw": null,
+   "fw_label_en": null,
+   "fw_label_ar": null,
+   "genre_en": "Action / Driving/Racing",
+   "genre_ar": "أكشن",
+   "publisher": "Fireshine Games",
+   "desc_en": "Drive, jump and grind a train through a colourful dystopian Japan. Chain together daring manoeuvres, outpace rival crews and take on the corporation controlling the railways.",
+   "desc_ar": "أكشن قطارات سريع: اقفز واندفع بقطارك عبر مسارات مستقبلية في سباقات وحركات هوائية متتالية.",
+   "edition_en": null,
+   "edition_ar": null,
+   "aliases": [
+    "denshattack",
+    "densha attack"
+   ],
+   "trailer": null,
+   "editions": [
+    {
+     "cusa": "PPSA29952",
+     "region": "USA",
+     "version": "—"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (folder)",
+     "kind_label_ar": "اللعبة (مجلد)",
+     "cusa": "PPSA29952",
+     "version": "—",
+     "size": "8.1 GB",
+     "size_bytes": 8059634018,
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/RmlLyZhSrr"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "name": "Orbit Store feed (rev 96)",
+     "url": "https://github.com/saawant12/orbit-store-ps5"
+    }
+   ],
+   "format": "Game folder"
+  },
+  {
+   "id": "a-game-about-digging-a-hole-ps5-30552",
+   "title_en": "A Game About Digging A Hole",
+   "title_ar": "لعبة عن حفر حفرة",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202509/1212/e77b5f337e2d89e928199ab04f4803a3d016a3dab2c57ea3.png?w=600",
+   "added": "2026-11-10",
+   "cusa": "PPSA30552",
+   "region": "EUR",
+   "version": "—",
+   "size": "0.3 GB",
+   "size_gb": 0.3,
+   "min_fw": null,
+   "fw_label_en": null,
+   "fw_label_ar": null,
+   "genre_en": "Simulation",
+   "genre_ar": "مغامرات",
+   "publisher": "rokaplay GmbH",
+   "desc_en": "Start with a shovel and dig into the ground behind your home. Sell the materials you uncover, improve your equipment and push deeper in search of the secrets buried below.",
+   "desc_ar": "احفر في حديقة منزلك بحثاً عن كنز غامض: اجمع الموارد وبِع ما تجده وطوّر معدّاتك واحفر أعمق فأعمق — اللعبة عن الحفر حرفياً.",
+   "edition_en": null,
+   "edition_ar": null,
+   "aliases": [
+    "digging a hole",
+    "a game about digging"
+   ],
+   "trailer": null,
+   "editions": [
+    {
+     "cusa": "PPSA30552",
+     "region": "EUR",
+     "version": "—"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (folder)",
+     "kind_label_ar": "اللعبة (مجلد)",
+     "cusa": "PPSA30552",
+     "version": "—",
+     "size": "0.3 GB",
+     "size_bytes": 330500004,
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/UP4Siv3Dr1"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "name": "Orbit Store feed (rev 96)",
+     "url": "https://github.com/saawant12/orbit-store-ps5"
+    }
+   ],
+   "format": "Game folder"
+  },
+  {
+   "id": "death-howl-ps5-30896",
+   "title_en": "Death Howl",
+   "title_ar": "عواء الموت",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202603/1715/264475cead5168484ca808f941d78dee2890bbd1adbffb67.png?w=600",
+   "added": "2026-11-10",
+   "cusa": "PPSA30896",
+   "region": "—",
+   "version": "—",
+   "size": "0.6 GB",
+   "size_gb": 0.6,
+   "min_fw": null,
+   "fw_label_en": null,
+   "fw_label_ar": null,
+   "genre_en": "Strategy",
+   "genre_ar": "إستراتيجية",
+   "publisher": "11 Bit Studios S.A.",
+   "desc_en": "Follow the hunter Ro into a realm of restless spirits after the death of her child. Craft cards, equip shamanic totems and use careful positioning to overcome tactical encounters across a dark mythical landscape.",
+   "desc_ar": "لعبة بناء مجموعات بطاقات بتكتيك شبكي وسرد مظلم: أمّ شامانية ترتحل في عالم الأرواح لإنقاذ ابنها.",
+   "edition_en": null,
+   "edition_ar": null,
+   "aliases": [
+    "death howl"
+   ],
+   "trailer": null,
+   "editions": [
+    {
+     "cusa": "PPSA30896",
+     "region": "—",
+     "version": "—"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (folder)",
+     "kind_label_ar": "اللعبة (مجلد)",
+     "cusa": "PPSA30896",
+     "version": "—",
+     "size": "0.6 GB",
+     "size_bytes": 620119317,
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/JEw2HUfSZe"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "name": "Orbit Store feed (rev 96)",
+     "url": "https://github.com/saawant12/orbit-store-ps5"
+    }
+   ],
+   "format": "Game folder"
+  },
+  {
+   "id": "godzilla-destroy-all-monsters-melee-remastered-ps5-35245",
+   "title_en": "Godzilla: Destroy All Monsters Melee Remastered",
+   "title_ar": "غودزيلا: تدمير كل الوحوش — نسخة محسّنة",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202610/1917/1a243d8becacaf764d466e3474f3d6b4d2f6b74ee8e1ce06.png?w=600",
+   "added": "2026-11-10",
+   "cusa": "PPSA35245",
+   "region": "USA",
+   "version": "—",
+   "size": "4.4 GB",
+   "size_gb": 4.4,
+   "min_fw": null,
+   "fw_label_en": null,
+   "fw_label_ar": null,
+   "genre_en": "Fighting / Action",
+   "genre_ar": "قتال",
+   "publisher": "Atari Inc.",
+   "desc_en": "Battle as Godzilla and other giant monsters across destructible urban arenas. Combine each creature’s attacks, use the surroundings to your advantage and face rival monsters in a remastered arena-fighting adventure.",
+   "desc_ar": "نسخة محسّنة من لعبة القتال الكلاسيكية: وحوش عملاقة تتواجه في مدن قابلة للتدمير بمواجهات حتى أربعة لاعبين.",
+   "edition_en": null,
+   "edition_ar": null,
+   "aliases": [
+    "godzilla",
+    "destroy all monsters"
+   ],
+   "trailer": null,
+   "editions": [
+    {
+     "cusa": "PPSA35245",
+     "region": "USA",
+     "version": "—"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (folder)",
+     "kind_label_ar": "اللعبة (مجلد)",
+     "cusa": "PPSA35245",
+     "version": "—",
+     "size": "4.4 GB",
+     "size_bytes": 4350186890,
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/88gj4sMkVH"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "name": "Orbit Store feed (rev 96)",
+     "url": "https://github.com/saawant12/orbit-store-ps5"
+    }
+   ],
+   "format": "Game folder"
+  },
+  {
+   "id": "is-this-seat-taken-ps5-37001",
+   "title_en": "Is This Seat Taken?",
+   "title_ar": "هل هذا المقعد محجوز؟",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202603/2712/cab44e3c3094dfeffdfcd62d733010dc47eafc9913f388e8.png?w=600",
+   "added": "2026-11-10",
+   "cusa": "PPSA37001",
+   "region": "—",
+   "version": "—",
+   "size": "0.1 GB",
+   "size_gb": 0.1,
+   "min_fw": null,
+   "fw_label_en": null,
+   "fw_label_ar": null,
+   "genre_en": "Puzzle / Casual",
+   "genre_ar": "ألغاز",
+   "publisher": "POTI POTI STUDIO SL",
+   "desc_en": "Arrange groups of people according to their preferences in relaxed logic puzzles. Learn what each character wants and find a comfortable place for everyone across buses, cinemas, celebrations and other everyday settings.",
+   "desc_ar": "ألغاز منطقية لطيفة عن ترتيب الجلوس: لكل شخص تفضيلات وطلبات، طبّق الشروط وضع كل واحد في مقعده الصحيح.",
+   "edition_en": null,
+   "edition_ar": null,
+   "aliases": [
+    "is this seat taken"
+   ],
+   "trailer": null,
+   "editions": [
+    {
+     "cusa": "PPSA37001",
+     "region": "—",
+     "version": "—"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (folder)",
+     "kind_label_ar": "اللعبة (مجلد)",
+     "cusa": "PPSA37001",
+     "version": "—",
+     "size": "0.1 GB",
+     "size_bytes": 135943961,
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/VAUU5MBqoX"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "name": "Orbit Store feed (rev 96)",
+     "url": "https://github.com/saawant12/orbit-store-ps5"
+    }
+   ],
+   "format": "Game folder"
+  },
+  {
+   "id": "suika-game-ps5-38010",
+   "title_en": "Suika Game",
+   "title_ar": "لعبة سويكا",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202607/0307/d3fc2a1e25305d3c8fdb6e1482dd9910aab38d92f5313cd0.png?w=600",
+   "added": "2026-11-10",
+   "cusa": "PPSA38010",
+   "region": "USA",
+   "version": "—",
+   "size": "1.2 GB",
+   "size_gb": 1.2,
+   "min_fw": null,
+   "fw_label_en": null,
+   "fw_label_ar": null,
+   "genre_en": "Family",
+   "genre_ar": "ألغاز",
+   "publisher": "Aladdin X Inc.",
+   "desc_en": "Drop fruit into a container and combine matching pieces to create larger ones. Plan around the shifting pile, chain together merges and aim for a high score before the fruit spills over the edge.",
+   "desc_ar": "لعبة ألغاز الفيزياء الشهيرة: أسقط الفواكه وادمج المتشابه منها لتكوين فواكه أكبر حتى البطيخة، دون أن تفيض العلبة.",
+   "edition_en": null,
+   "edition_ar": null,
+   "aliases": [
+    "suika",
+    "watermelon game"
+   ],
+   "trailer": null,
+   "editions": [
+    {
+     "cusa": "PPSA38010",
+     "region": "USA",
+     "version": "—"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (folder)",
+     "kind_label_ar": "اللعبة (مجلد)",
+     "cusa": "PPSA38010",
+     "version": "—",
+     "size": "1.2 GB",
+     "size_bytes": 1181779577,
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/YzGbuaIIC1"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "name": "Orbit Store feed (rev 96)",
+     "url": "https://github.com/saawant12/orbit-store-ps5"
+    }
+   ],
+   "format": "Game folder"
+  },
+  {
+   "id": "touhou-koumakyou-new-classic-the-embodiment-of-scarlet-devil-ps5-38353",
+   "title_en": "Touhou Koumakyou: New Classic - the Embodiment of Scarlet Devil",
+   "title_ar": "توهو كوماكيو: كلاسيك جديد — تجسيد الشيطان القرمزي",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202608/0405/a113313940a1792939185ee21538148aedc4a7d81157e7ab.png?w=600",
+   "added": "2026-11-10",
+   "cusa": "PPSA38353",
+   "region": "USA",
+   "version": "—",
+   "size": "1.0 GB",
+   "size_gb": 1.0,
+   "min_fw": null,
+   "fw_label_en": null,
+   "fw_label_ar": null,
+   "genre_en": "Action",
+   "genre_ar": "أكشن",
+   "publisher": "Alliance Arts Inc.",
+   "desc_en": "Guide Reimu or Marisa through dense projectile patterns and demanding boss fights. This updated presentation of the original Touhou adventure adds renewed visuals, arranged music and an additional way to approach its challenges.",
+   "desc_ar": "نسخة جديدة من كلاسيكية توهو «تجسيد الشيطان القرمزي»: إطلاق نار عمودي كثيف وزعماء بأنماط رصاص معقّدة.",
+   "edition_en": null,
+   "edition_ar": null,
+   "aliases": [
+    "touhou koumakyou",
+    "embodiment of scarlet devil",
+    "eosd"
+   ],
+   "trailer": null,
+   "editions": [
+    {
+     "cusa": "PPSA38353",
+     "region": "USA",
+     "version": "—"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (folder)",
+     "kind_label_ar": "اللعبة (مجلد)",
+     "cusa": "PPSA38353",
+     "version": "—",
+     "size": "1.0 GB",
+     "size_bytes": 973583167,
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/CKXDabYYOA"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "name": "Orbit Store feed (rev 96)",
+     "url": "https://github.com/saawant12/orbit-store-ps5"
+    }
+   ],
+   "format": "Game folder"
   }
  ],
  "site": {
