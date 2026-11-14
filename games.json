@@ -318276,6 +318276,546 @@
     }
    ],
    "format": "Game folder"
+  },
+  {
+   "id": "the-sinking-forest-ps5-27102",
+   "title_en": "The Sinking Forest",
+   "title_ar": "الغابة الغارقة",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA27102_e9e3b7317434c887b2ac9afcf88bbce9d81ee438cfdd5e1ada96da35ddbbbfdd/icon0.webp",
+   "added": "2026-11-14",
+   "cusa": "PPSA27102",
+   "region": "USA",
+   "version": "—",
+   "size": "5.6 GB",
+   "size_gb": 5.6,
+   "min_fw": null,
+   "fw_label_en": null,
+   "fw_label_ar": null,
+   "genre_en": "Horror",
+   "genre_ar": "رعب",
+   "publisher": "PdPartid@games",
+   "desc_en": "Follow the trail of your missing sister Sayuri through a Japanese forest and village. Explore an unsettling setting, uncover its story and defend yourself against dangerous encounters in this first-person psychological horror game.",
+   "desc_ar": "لعبة رعب استكشافية من منظور الشخص الأول داخل غابة غارقة بالضباب والأسرار: اجمع خيوط ما حدث واهرب من الحضور الذي يطاردك بين الأشجار.",
+   "edition_en": null,
+   "edition_ar": null,
+   "aliases": [
+    "sinking forest"
+   ],
+   "trailer": null,
+   "editions": [
+    {
+     "cusa": "PPSA27102",
+     "region": "USA",
+     "version": "—"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (folder)",
+     "kind_label_ar": "اللعبة (مجلد)",
+     "cusa": "PPSA27102",
+     "version": "—",
+     "size": "5.6 GB",
+     "size_bytes": 5617668885,
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/gLi4ROaZll"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "name": "Orbit Store feed (rev 97)",
+     "url": "https://github.com/saawant12/orbit-store-ps5"
+    }
+   ],
+   "format": "Game folder"
+  },
+  {
+   "id": "tales-of-eternia-remastered-ps5-29161",
+   "title_en": "Tales of Eternia Remastered",
+   "title_ar": "حكايات إتيرنيا — النسخة المحسّنة",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA29161_0aaa9cbc768f75f8952ffde6235dae5065b328534b8963119686cbedf1e4d589/icon0.webp",
+   "added": "2026-11-14",
+   "cusa": "PPSA29161",
+   "region": "JPN",
+   "version": "—",
+   "size": "7.2 GB",
+   "size_gb": 7.2,
+   "min_fw": null,
+   "fw_label_en": null,
+   "fw_label_ar": null,
+   "genre_en": "Role Playing Games / Action",
+   "genre_ar": "تقمّص أدوار / أكشن",
+   "publisher": "Bandai Namco Entertainment",
+   "desc_en": "Join Reid, Farah and their companions on a journey through Inferia and Celestia to prevent a collision between their worlds. This remastered adventure combines real-time 2D battles with updated presentation, navigation aids and other conveniences.",
+   "desc_ar": "نسخة محسّنة من كلاسيكية تقمّص الأدوار من سلسلة تايلز: ريد وأصدقاؤه بين عالمين على حافة التصادم، بقتال أكشن فوري ومهارات وطبخ.",
+   "edition_en": null,
+   "edition_ar": null,
+   "aliases": [
+    "tales of eternia",
+    "eternia remastered"
+   ],
+   "trailer": null,
+   "editions": [
+    {
+     "cusa": "PPSA29161",
+     "region": "JPN",
+     "version": "—"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (folder)",
+     "kind_label_ar": "اللعبة (مجلد)",
+     "cusa": "PPSA29161",
+     "version": "—",
+     "size": "7.2 GB",
+     "size_bytes": 7212552206,
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/yuSpcGuzC7"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "name": "Orbit Store feed (rev 97)",
+     "url": "https://github.com/saawant12/orbit-store-ps5"
+    }
+   ],
+   "format": "Game folder"
+  },
+  {
+   "id": "everybodys-golf-hot-shots-ps5-26145",
+   "title_en": "Everybody's Golf Hot Shots",
+   "title_ar": "إيفرِي بوديز غولف: هوت شوتس",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202505/1512/8c2d24cba8844eeaae68ba9654ddca392a25df2bd12642bd.png?w=600",
+   "added": "2026-11-14",
+   "cusa": "PPSA26145",
+   "region": "EUR",
+   "version": "—",
+   "size": "45.2 GB",
+   "size_gb": 45.2,
+   "min_fw": null,
+   "fw_label_en": null,
+   "fw_label_ar": null,
+   "genre_en": "Sport",
+   "genre_ar": "رياضة",
+   "publisher": "Bandai Namco Entertainment",
+   "desc_en": "Master a three-button swing across varied golf courses. Work through solo challenges, compete for better scores and share local rounds with up to four players, with Wacky Golf offering an extra twist on the sport.",
+   "desc_ar": "جزء جديد من سلسلة الغولف المحبوبة: ضربات بثلاث نقرات، وملاعب حول العالم، وأطوار فردية وجماعية بشخصيات كلاسيكية وجديدة.",
+   "edition_en": null,
+   "edition_ar": null,
+   "aliases": [
+    "everybodys golf",
+    "hot shots golf",
+    "minna no golf"
+   ],
+   "trailer": null,
+   "editions": [
+    {
+     "cusa": "PPSA26145",
+     "region": "EUR",
+     "version": "—"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (folder)",
+     "kind_label_ar": "اللعبة (مجلد)",
+     "cusa": "PPSA26145",
+     "version": "—",
+     "size": "45.2 GB",
+     "size_bytes": 45197544100,
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/JiYtvGtrfH"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "name": "Orbit Store feed (rev 97)",
+     "url": "https://github.com/saawant12/orbit-store-ps5"
+    }
+   ],
+   "format": "Game folder"
+  },
+  {
+   "id": "lost-ember-rekindled-edition-ps5-33829",
+   "title_en": "Lost Ember: Rekindled Edition",
+   "title_ar": "الجمرة الضائعة: النسخة المتجددة",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202511/0711/914de82c059c7bd9e78ce5d5e9c0c2145a5444694133a5fe.png?w=600",
+   "added": "2026-11-14",
+   "cusa": "PPSA33829",
+   "region": "EUR",
+   "version": "—",
+   "size": "13.1 GB",
+   "size_gb": 13.1,
+   "min_fw": null,
+   "fw_label_en": null,
+   "fw_label_ar": null,
+   "genre_en": "Adventure",
+   "genre_ar": "مغامرات",
+   "publisher": "Mooneye Studios",
+   "desc_en": "Travel with a wolf and its companion through a world reclaimed by nature. Possess creatures on land, in the air and underwater to discover new perspectives and uncover the history of the vanished Yanrana culture.",
+   "desc_ar": "مغامرة استكشافية تجسّد فيها روح ذئب يتنقّل بين أجساد الحيوانات المختلفة ليكشف مصير حضارة ساقطة في عالم طبيعي خلّاب — نسخة متجددة محسّنة.",
+   "edition_en": null,
+   "edition_ar": null,
+   "aliases": [
+    "lost ember",
+    "rekindled"
+   ],
+   "trailer": null,
+   "editions": [
+    {
+     "cusa": "PPSA33829",
+     "region": "EUR",
+     "version": "—"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (folder)",
+     "kind_label_ar": "اللعبة (مجلد)",
+     "cusa": "PPSA33829",
+     "version": "—",
+     "size": "13.1 GB",
+     "size_bytes": 13113722831,
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/cupjJKcJgB"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "name": "Orbit Store feed (rev 97)",
+     "url": "https://github.com/saawant12/orbit-store-ps5"
+    }
+   ],
+   "format": "Game folder"
+  },
+  {
+   "id": "planet-zoo-2-ps5-29934",
+   "title_en": "Planet Zoo 2",
+   "title_ar": "بلانيت زو 2",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202605/0110/5feefa4c7809beb8bc4fafba1f31cdb45ce8ab3b366252f6.png?w=600",
+   "added": "2026-11-14",
+   "cusa": "PPSA29934",
+   "region": "EUR",
+   "version": "—",
+   "size": "25.9 GB",
+   "size_gb": 25.9,
+   "min_fw": null,
+   "fw_label_en": null,
+   "fw_label_ar": null,
+   "genre_en": "Simulation / Family / Educational",
+   "genre_ar": "محاكاة",
+   "publisher": "Frontier Developments",
+   "desc_en": "Design and manage zoos with habitats for land animals, aquatic species and flying wildlife. Balance each species' needs with your creative plans, develop aquariums and support conservation through customizable wildlife reserves.",
+   "desc_ar": "ابنِ حديقة حيوان أحلامك وأدرها بالكامل: بيئات طبيعية مصممة لكل حيوان، وبرامج رعاية وتربية، وزوّار يقيّمون كل تفصيلة — الجزء الثاني من محاكاة Frontier الشهيرة.",
+   "edition_en": null,
+   "edition_ar": null,
+   "aliases": [
+    "planet zoo 2",
+    "planet zoo"
+   ],
+   "trailer": null,
+   "editions": [
+    {
+     "cusa": "PPSA29934",
+     "region": "EUR",
+     "version": "—"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (folder)",
+     "kind_label_ar": "اللعبة (مجلد)",
+     "cusa": "PPSA29934",
+     "version": "—",
+     "size": "25.9 GB",
+     "size_bytes": 25948973962,
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/BEfP2qkoON"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "name": "Orbit Store feed (rev 97)",
+     "url": "https://github.com/saawant12/orbit-store-ps5"
+    }
+   ],
+   "format": "Game folder"
+  },
+  {
+   "id": "the-legend-of-heroes-trails-from-zero-ps5-36136",
+   "title_en": "The Legend of Heroes: Trails from Zero",
+   "title_ar": "أسطورة الأبطال: مسارات من الصفر",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA36136_491295a224a19cc39dacc47ede030a2557bd751fb33ec8b6d0938b714622a95d/icon0.webp",
+   "added": "2026-11-14",
+   "cusa": "PPSA36136",
+   "region": "USA",
+   "version": "—",
+   "size": "4.2 GB",
+   "size_gb": 4.2,
+   "min_fw": null,
+   "fw_label_en": null,
+   "fw_label_ar": null,
+   "genre_en": "RPG",
+   "genre_ar": "تقمّص أدوار",
+   "publisher": "NIS America",
+   "desc_en": "Lloyd Bannings returns to Crossbell to follow his brother into the police force. Assigned to the Special Support Section, he and his new colleagues help residents while investigating the criminal networks and secrets beneath the city. This is the native PS5 edition of the first Crossbell adventure.",
+   "desc_ar": "بداية قوس كروسبيل من سلسلة ترايلز: لويد بانينغز وقسم الدعم الخاص في مدينة تتقاطع فيها السياسة والجريمة، بقتال تناوبي وتحقيقات متشابكة.",
+   "edition_en": null,
+   "edition_ar": null,
+   "aliases": [
+    "trails from zero",
+    "zero no kiseki"
+   ],
+   "trailer": null,
+   "editions": [
+    {
+     "cusa": "PPSA36136",
+     "region": "USA",
+     "version": "—"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (folder)",
+     "kind_label_ar": "اللعبة (مجلد)",
+     "cusa": "PPSA36136",
+     "version": "—",
+     "size": "4.2 GB",
+     "size_bytes": 4207026405,
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vik1ngfile.site/f/A0k07pFVWy"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "name": "Orbit Store feed (rev 97)",
+     "url": "https://github.com/saawant12/orbit-store-ps5"
+    }
+   ],
+   "format": "Game folder"
+  },
+  {
+   "id": "the-legend-of-heroes-trails-through-daybreak-ii-ps5-24326",
+   "title_en": "The Legend of Heroes: Trails through Daybreak II",
+   "title_ar": "أسطورة الأبطال: مسارات عبر الفجر 2",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA24326_539826824bf54bbfb8cba747ca46f561589a38fb662d5a251d415defd64d9373/icon0.webp",
+   "added": "2026-11-14",
+   "cusa": "PPSA24326",
+   "region": "USA",
+   "version": "—",
+   "size": "20.3 GB",
+   "size_gb": 20.3,
+   "min_fw": null,
+   "fw_label_en": null,
+   "fw_label_ar": null,
+   "genre_en": "RPG",
+   "genre_ar": "تقمّص أدوار",
+   "publisher": "NIS America",
+   "desc_en": "Van Arkride returns to investigate the crimson beast and a disturbing series of murders in the Calvard Republic. An unexpected visitor draws him and his allies into another mystery as competing interests threaten the region. Follow the sequel's investigations and battles as the truth comes into view.",
+   "desc_ar": "الجزء الثاني من قوس كالفارد: فان أركريد يعود للتحقيق في حادثة تعيد فتح جروح الماضي، بنظام قتال يمزج الأكشن الفوري والتناوب.",
+   "edition_en": null,
+   "edition_ar": null,
+   "aliases": [
+    "trails through daybreak 2",
+    "kuro no kiseki 2"
+   ],
+   "trailer": null,
+   "editions": [
+    {
+     "cusa": "PPSA24326",
+     "region": "USA",
+     "version": "—"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (folder)",
+     "kind_label_ar": "اللعبة (مجلد)",
+     "cusa": "PPSA24326",
+     "version": "—",
+     "size": "20.3 GB",
+     "size_bytes": 20342962975,
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vik1ngfile.site/f/lCohN5iDjw"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "name": "Orbit Store feed (rev 97)",
+     "url": "https://github.com/saawant12/orbit-store-ps5"
+    }
+   ],
+   "format": "Game folder"
+  },
+  {
+   "id": "ea-sports-ufc-6-ps5-23566",
+   "title_en": "EA Sports UFC 6",
+   "title_ar": "إي أيه سبورتس يو إف سي 6",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202604/2216/83baec5746075ec3e379c096dfe68111095c91cb7139a633.png?w=600",
+   "added": "2026-11-14",
+   "cusa": "PPSA23566",
+   "region": "EUR",
+   "version": "—",
+   "size": "71.5 GB",
+   "size_gb": 71.5,
+   "min_fw": null,
+   "fw_label_en": null,
+   "fw_label_ar": null,
+   "genre_en": "Sport, Fighting",
+   "genre_ar": "رياضة / قتال",
+   "publisher": "EA Swiss Sarl",
+   "desc_en": "Compete in mixed martial arts bouts with UFC athletes, updated striking and movement, and reactive contact physics. Career and story modes follow rising contenders and established champions as they pursue their next fight.",
+   "desc_ar": "لعبة فنون القتال المختلطة الرسمية من EA Sports: مقاتلون وحلبات مرخّصة من UFC وأطوار مسيرة ومنافسات في أحدث أجزاء السلسلة.",
+   "edition_en": null,
+   "edition_ar": null,
+   "aliases": [
+    "ufc 6",
+    "ea sports ufc"
+   ],
+   "trailer": null,
+   "editions": [
+    {
+     "cusa": "PPSA23566",
+     "region": "EUR",
+     "version": "—"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (folder)",
+     "kind_label_ar": "اللعبة (مجلد)",
+     "cusa": "PPSA23566",
+     "version": "—",
+     "size": "71.5 GB",
+     "size_bytes": 71462489237,
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/6QIDSRI6uh"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "name": "Orbit Store feed (rev 97)",
+     "url": "https://github.com/saawant12/orbit-store-ps5"
+    }
+   ],
+   "format": "Game folder"
+  },
+  {
+   "id": "the-legend-of-heroes-trails-of-cold-steel-iv-ps5-17675",
+   "title_en": "The Legend of Heroes: Trails of Cold Steel IV",
+   "title_ar": "أسطورة الأبطال: مسارات الفولاذ البارد 4",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA17675_273b93fbee3a722fe70dffe2769a86f6c7883fe083f14909a80c4baf7b40e2c2/icon0.webp",
+   "added": "2026-11-14",
+   "cusa": "PPSA17675",
+   "region": "USA",
+   "version": "—",
+   "size": "17.0 GB",
+   "size_gb": 17.0,
+   "min_fw": null,
+   "fw_label_en": null,
+   "fw_label_ar": null,
+   "genre_en": "RPG",
+   "genre_ar": "تقمّص أدوار",
+   "publisher": "NIS America Inc.",
+   "desc_en": "The final chapter of the Trails of Cold Steel saga brings together former and current members of Class VII. With the Erebonian Empire preparing for war, the group must confront the conflict threatening the continent.",
+   "desc_ar": "الجزء الختامي من قوس إيريبونيا: طلاب الفصل السابع يبحثون عن ريان المفقود وسط حرب شاملة، بقتال تناوبي وروابط تختم ملحمة ترايلز الطويلة.",
+   "edition_en": null,
+   "edition_ar": null,
+   "aliases": [
+    "trails of cold steel 4",
+    "sen no kiseki 4"
+   ],
+   "trailer": null,
+   "editions": [
+    {
+     "cusa": "PPSA17675",
+     "region": "USA",
+     "version": "—"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (folder)",
+     "kind_label_ar": "اللعبة (مجلد)",
+     "cusa": "PPSA17675",
+     "version": "—",
+     "size": "17.0 GB",
+     "size_bytes": 17002953160,
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vik1ngfile.site/f/diKquCA1Bk"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "name": "Orbit Store feed (rev 97)",
+     "url": "https://github.com/saawant12/orbit-store-ps5"
+    }
+   ],
+   "format": "Game folder"
   }
  ],
  "site": {
