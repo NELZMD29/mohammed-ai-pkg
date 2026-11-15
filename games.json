@@ -318816,6 +318816,425 @@
     }
    ],
    "format": "Game folder"
+  },
+  {
+   "id": "laika-aged-through-blood-ps5-17775",
+   "title_en": "Laika: Aged Through Blood",
+   "title_ar": "لايكا: عُتِّقَت بالدماء",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA17775_4ce1e3f83e6e73667fe743dba4ba4a4bba43992eff3ffc1f37cd2e0e95838f3f/icon0.webp",
+   "added": "2026-11-15",
+   "cusa": "PPSA17775",
+   "region": "EUR",
+   "version": "—",
+   "size": "0.9 GB",
+   "size_gb": 0.9,
+   "min_fw": null,
+   "fw_label_en": null,
+   "fw_label_ar": null,
+   "genre_en": "Action, Adventure",
+   "genre_ar": "أكشن / مغامرات",
+   "publisher": "Thunderful Publishing AB",
+   "desc_en": "A coyote warrior explores a hand-drawn western wasteland on a motorcycle. Combine riding, aerial turns and gunplay while uncovering a story of loss, resistance and a mother's struggle to protect her people.",
+   "desc_ar": "لعبة أكشن ومغامرات ثنائية الأبعاد بأسلوب موتورفانيا: الذئبة لايكا تقود دراجتها النارية عبر أراضٍ قاحلة ملعونة، وتقاتل بالمسدسات والمناورات البهلوانية لحماية ابنتها.",
+   "edition_en": null,
+   "edition_ar": null,
+   "aliases": [
+    "laika",
+    "aged through blood"
+   ],
+   "trailer": null,
+   "editions": [
+    {
+     "cusa": "PPSA17775",
+     "region": "EUR",
+     "version": "—"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (folder)",
+     "kind_label_ar": "اللعبة (مجلد)",
+     "cusa": "PPSA17775",
+     "version": "—",
+     "size": "0.9 GB",
+     "size_bytes": 883975193,
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/6uISleAFm0"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "name": "Orbit Store feed (rev 103)",
+     "url": "https://github.com/saawant12/orbit-store-ps5"
+    }
+   ],
+   "format": "Game folder"
+  },
+  {
+   "id": "mighty-goose-ps5-03463",
+   "title_en": "Mighty Goose",
+   "title_ar": "الإوزة الجبارة",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA03463_842327ff7c12cc90ccb44cc083d6adca3e700ae9388c1b2ee7457d004bba3e83/icon0.webp",
+   "added": "2026-11-15",
+   "cusa": "PPSA03463",
+   "region": "EUR",
+   "version": "—",
+   "size": "0.2 GB",
+   "size_gb": 0.2,
+   "min_fw": null,
+   "fw_label_en": null,
+   "fw_label_ar": null,
+   "genre_en": "Action, Shooter",
+   "genre_ar": "أكشن / إطلاق نار",
+   "publisher": "PLAYISM",
+   "desc_en": "Play as a bounty-hunting goose in a pixel-art run-and-gun adventure. Equip different weapons and upgrades, team up with companions and pilot combat vehicles while battling the Void King's forces.",
+   "desc_ar": "لعبة إطلاق نار وجرٍ كلاسيكية الإيقاع: إوزة مرتزقة مسلّحة حتى المنقار تجوب المجرة وتسحق الأعداء والزعماء بترسانة ثقيلة وحركة لا تهدأ.",
+   "edition_en": null,
+   "edition_ar": null,
+   "aliases": [
+    "mighty goose"
+   ],
+   "trailer": null,
+   "editions": [
+    {
+     "cusa": "PPSA03463",
+     "region": "EUR",
+     "version": "—"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (folder)",
+     "kind_label_ar": "اللعبة (مجلد)",
+     "cusa": "PPSA03463",
+     "version": "—",
+     "size": "0.2 GB",
+     "size_bytes": 150443423,
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/CnSv0yFUOR"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "name": "Orbit Store feed (rev 103)",
+     "url": "https://github.com/saawant12/orbit-store-ps5"
+    }
+   ],
+   "format": "Game folder"
+  },
+  {
+   "id": "touhou-koumakyou-classic-the-embodiment-of-scarlet-devil-ps5-38505",
+   "title_en": "Touhou Koumakyou: Classic - the Embodiment of Scarlet Devil",
+   "title_ar": "توهو: تجسيد الشيطانة القرمزية — النسخة الكلاسيكية",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://image.api.playstation.com/vulcan/ap/rnd/202608/0405/a113313940a1792939185ee21538148aedc4a7d81157e7ab.png?w=600",
+   "added": "2026-11-15",
+   "cusa": "PPSA38505",
+   "region": "—",
+   "version": "01.003.001",
+   "size": "0.4 GB",
+   "size_gb": 0.4,
+   "min_fw": null,
+   "fw_label_en": null,
+   "fw_label_ar": null,
+   "genre_en": "Action, Shooter",
+   "genre_ar": "أكشن / إطلاق نار",
+   "publisher": "Alliance Arts Inc.",
+   "desc_en": "Guide Reimu or Marisa through dense bullet patterns to investigate the scarlet mist over Gensokyo. This is the Classic application that preserves the original 2002 gameplay, included in the official PS5 New Classic bundle. Its in-game text is Japanese; this download does not include the separate New Classic application or soundtrack player.",
+   "desc_ar": "النسخة الكلاسيكية من لعبة إطلاق النار العمودية (دانماكو) الشهيرة في سلسلة توهو: ريمو وماريسا تحققان في الضباب القرمزي الذي غطّى أرض جينسوكيو.",
+   "edition_en": null,
+   "edition_ar": null,
+   "aliases": [
+    "touhou classic",
+    "embodiment of scarlet devil",
+    "touhou koumakyou classic"
+   ],
+   "trailer": null,
+   "editions": [
+    {
+     "cusa": "PPSA38505",
+     "region": "—",
+     "version": "01.003.001"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (folder)",
+     "kind_label_ar": "اللعبة (مجلد)",
+     "cusa": "PPSA38505",
+     "version": "01.003.001",
+     "size": "0.4 GB",
+     "size_bytes": 356306337,
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/KsJlYTStXr"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "name": "Orbit Store feed (rev 103)",
+     "url": "https://github.com/saawant12/orbit-store-ps5"
+    }
+   ],
+   "format": "Game folder"
+  },
+  {
+   "id": "stellar-blade-ps5-13197",
+   "title_en": "Stellar Blade",
+   "title_ar": "النصل النجمي",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA13195_f13c7d8067d7eaa6ed9b91dbf63f8aa2f7d9526a16da7603d5bac9e843751d2e/icon0.webp",
+   "added": "2026-11-15",
+   "cusa": "PPSA13197",
+   "region": "—",
+   "version": "—",
+   "size": "40.2 GB",
+   "size_gb": 40.2,
+   "min_fw": null,
+   "fw_label_en": null,
+   "fw_label_ar": null,
+   "genre_en": "Adventure / Action",
+   "genre_ar": "أكشن / مغامرات",
+   "publisher": "Sony Interactive Entertainment",
+   "desc_en": "EVE, a soldier from the space Colony, returns to a ruined Earth to fight the Naytiba with fast, precise blade combat.",
+   "desc_ar": "لعبة أكشن ومغامرات من استوديو Shift Up: المحاربة إيف تهبط إلى أرض مدمّرة لإنقاذ ما تبقى من البشرية من مخلوقات النايتيبا، بقتال سريع بالسيف ومهارات قابلة للترقية.",
+   "edition_en": null,
+   "edition_ar": null,
+   "aliases": [
+    "stellar blade",
+    "project eve"
+   ],
+   "trailer": null,
+   "editions": [
+    {
+     "cusa": "PPSA13197",
+     "region": "—",
+     "version": "—"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (folder)",
+     "kind_label_ar": "اللعبة (مجلد)",
+     "cusa": "PPSA13197",
+     "version": "—",
+     "size": "40.2 GB",
+     "size_bytes": 40243832171,
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/BNgeKDXD1Q"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "name": "Orbit Store feed (rev 103)",
+     "url": "https://github.com/saawant12/orbit-store-ps5"
+    }
+   ],
+   "format": "Game folder"
+  },
+  {
+   "id": "gears-of-war-reloaded-ps5-17525",
+   "title_en": "Gears of War: Reloaded",
+   "title_ar": "تروس الحرب: إعادة التحميل",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA17525_d8ec6915bbdd859ce1a5203791b253fc62f965c78a93c068609a43f187d18687/icon0.webp",
+   "added": "2026-11-15",
+   "cusa": "PPSA17525",
+   "region": "USA",
+   "version": "01.008.001",
+   "size": "63.7 GB",
+   "size_gb": 63.7,
+   "min_fw": null,
+   "fw_label_en": null,
+   "fw_label_ar": null,
+   "genre_en": "Action",
+   "genre_ar": "أكشن / إطلاق نار",
+   "publisher": "",
+   "desc_en": "Marcus Fenix and Delta Squad fight the Locust Horde in a remastered first Gears of War, with campaign co-op and versus.",
+   "desc_ar": "نسخة محسّنة من الجزء الأول الأسطوري في السلسلة: ماركوس فينيكس وفرقة دلتا في حرب يائسة ضد الجراد تحت مدينة سيرا، بإطلاق نار من خلف الغطاء وطور تعاوني كامل.",
+   "edition_en": null,
+   "edition_ar": null,
+   "aliases": [
+    "gears of war reloaded",
+    "gow reloaded"
+   ],
+   "trailer": null,
+   "editions": [
+    {
+     "cusa": "PPSA17525",
+     "region": "USA",
+     "version": "01.008.001"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (PKG)",
+     "kind_label_ar": "اللعبة (PKG)",
+     "cusa": "PPSA17525",
+     "version": "01.008.001",
+     "size": "63.7 GB",
+     "size_bytes": 63726393754,
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vik1ngfile.site/f/AbEU5J7KtC"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "name": "Orbit Store feed (rev 103)",
+     "url": "https://github.com/saawant12/orbit-store-ps5"
+    }
+   ],
+   "format": "FPKG"
+  },
+  {
+   "id": "duskfade-ps5-29264",
+   "title_en": "Duskfade",
+   "title_ar": "غسق التلاشي",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA29264_bf23fb1b45f92f5bf9aa83450963760e1400f51c79a2142b1a475b963b8ad967/icon0.webp",
+   "added": "2026-11-15",
+   "cusa": "PPSA29264",
+   "region": "—",
+   "version": "—",
+   "size": "13.5 GB",
+   "size_gb": 13.5,
+   "min_fw": null,
+   "fw_label_en": null,
+   "fw_label_ar": null,
+   "genre_en": "Action / Platformer",
+   "genre_ar": "أكشن / منصات",
+   "publisher": "Fireshine Games",
+   "desc_en": "Join Zirian and his mechanical companion on a quest to rescue his sister. Jump, swing and fight through a colorful 3D action-platforming world shaped by a mysterious tower's influence over time.",
+   "desc_ar": "لعبة منصات وأكشن ثلاثية الأبعاد بروح كلاسيكيات عهد البلايستيشن الأول: اقفز واجمع واستكشف عوالم نابضة بالألوان في مغامرة عن الوقت والذاكرة.",
+   "edition_en": null,
+   "edition_ar": null,
+   "aliases": [
+    "duskfade"
+   ],
+   "trailer": null,
+   "editions": [
+    {
+     "cusa": "PPSA29264",
+     "region": "—",
+     "version": "—"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (folder)",
+     "kind_label_ar": "اللعبة (مجلد)",
+     "cusa": "PPSA29264",
+     "version": "—",
+     "size": "13.5 GB",
+     "size_bytes": 13466201292,
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/OHyDylaV1z"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "name": "Orbit Store feed (rev 103)",
+     "url": "https://github.com/saawant12/orbit-store-ps5"
+    }
+   ],
+   "format": "Game folder"
+  },
+  {
+   "id": "digimon-story-time-stranger-ps5-24701",
+   "title_en": "Digimon Story: Time Stranger",
+   "title_ar": "ديجيمون ستوري: غريب الزمن",
+   "platform": "PS5",
+   "section": "shelf",
+   "cover": "https://cdn.prosperopatches.com/titles/PPSA24701_be034add2e6b70776997c1b36ca9848ed3550a8793f4ca537e187e15eaffb647/icon0.webp",
+   "added": "2026-11-15",
+   "cusa": "PPSA24701",
+   "region": "—",
+   "version": "—",
+   "size": "21.7 GB",
+   "size_gb": 21.7,
+   "min_fw": null,
+   "fw_label_en": null,
+   "fw_label_ar": null,
+   "genre_en": "Role Playing Games",
+   "genre_ar": "تقمّص أدوار",
+   "publisher": "Bandai Namco Entertainment America Inc.",
+   "desc_en": "Collect, raise and battle Digimon in turn-based fights while unravelling a mystery spanning the human world and the Digital World.",
+   "desc_ar": "جزء جديد من سلسلة ديجيمون ستوري: رحلة عبر الزمن بين العالم البشري والعالم الرقمي؛ اجمع مئات الديجيمونات ودرّبها وطوّرها في قتال تناوبي وقصة متشابكة.",
+   "edition_en": null,
+   "edition_ar": null,
+   "aliases": [
+    "digimon story",
+    "time stranger"
+   ],
+   "trailer": null,
+   "editions": [
+    {
+     "cusa": "PPSA24701",
+     "region": "—",
+     "version": "—"
+    }
+   ],
+   "files": [
+    {
+     "kind": "game",
+     "kind_label_en": "Game (folder)",
+     "kind_label_ar": "اللعبة (مجلد)",
+     "cusa": "PPSA24701",
+     "version": "—",
+     "size": "21.7 GB",
+     "size_bytes": 21671530313,
+     "hosts": [
+      {
+       "name": "Vikingfile — file page",
+       "url": "https://vikingfile.com/f/83FnJhLpT9"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "name": "Orbit Store feed (rev 103)",
+     "url": "https://github.com/saawant12/orbit-store-ps5"
+    }
+   ],
+   "format": "Game folder"
   }
  ],
  "site": {
