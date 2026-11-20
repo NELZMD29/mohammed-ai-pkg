@@ -320282,6 +320282,58 @@
     }
    ],
    "format": "PKG"
+  },
+  {
+   "id": "outlast-ps4-325",
+   "title_en": "Outlast",
+   "title_ar": "أوت لاست",
+   "platform": "PS4",
+   "section": "games",
+   "cover": "https://img.pspkg.com/arabic-games/image/outlast.webp",
+   "added": "2026-11-20",
+   "cusa": "CUSA00325",
+   "region": "—",
+   "version": "01.03",
+   "size": "4.10 GB",
+   "size_gb": 4.1,
+   "min_fw": null,
+   "fw_label_en": "",
+   "fw_label_ar": "",
+   "genre_en": "Horror",
+   "genre_ar": "رعب",
+   "publisher": "Red Barrels",
+   "desc_en": "Survive the horrors of Mount Massive Asylum in this first-person survival horror classic — this edition carries a full Arabic translation of menus and dialogue, with the game, its update and the translation merged into a single PKG.",
+   "desc_ar": "انجُ من أهوال مصحّ ماونت ماسيف في لعبة الرعب والبقاء الكلاسيكية من منظور الشخص الأول — هذه النسخة تحمل تعريبًا كاملًا للقوائم والحوارات، مع دمج اللعبة وتحديثها والتعريب في ملف PKG واحد.",
+   "edition_en": "Arabic translation edition available",
+   "edition_ar": "تتوفر نسخة معرّبة",
+   "aliases": [
+    "Outlast Arabic",
+    "اوتلاست"
+   ],
+   "trailer": "",
+   "editions": [],
+   "files": [
+    {
+     "kind": "game_ar",
+     "kind_label_en": "Game (Arabic edition)",
+     "kind_label_ar": "اللعبة (نسخة معرّبة)",
+     "version": "01.03",
+     "size": "4.10 GB",
+     "hosts": [
+      {
+       "name": "PSPKG — Arabic edition page",
+       "url": "https://pspkg.com/ar/arabic-games/outlast-14123.html"
+      }
+     ]
+    }
+   ],
+   "source_pages": [
+    {
+     "label_en": "Source page (Arabic edition)",
+     "label_ar": "صفحة المصدر (النسخة المعربة)",
+     "url": "https://pspkg.com/ar/arabic-games/outlast-14123.html"
+    }
+   ]
   }
  ],
  "site": {
